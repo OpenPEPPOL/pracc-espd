@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeList xmlns="urn:fdc:difi.no:2017:vefa:structure:CodeList-1">
+
+    <Title>Activity Type Codes</Title>
+    <Identifier>ActivityTypeCode</Identifier>
+    <Version>1.0</Version>
+    <Agency>OJEU</Agency>
+
+    <Code>
+        <Id>A</Id>
+        <Name>Housing and community amenities</Name>
+    </Code>
+
+    <Code>
+        <Id>B</Id>
+        <Name>Social protection</Name>
+    </Code>
+
+    <Code>
+        <Id>C</Id>
+        <Name>Recreation, culture and religion</Name>
+    </Code>
+
+    <Code>
+        <Id>D</Id>
+        <Name>Defence</Name>
+    </Code>
+
+    <Code>
+        <Id>E</Id>
+        <Name>Environment</Name>
+    </Code>
+
+    <Code>
+        <Id>F</Id>
+        <Name>Economic and financial affairs</Name>
+    </Code>
+
+    <Code>
+        <Id>G</Id>
+        <Name>Production, transport and distribution of gas and heat</Name>
+    </Code>
+
+    <Code>
+        <Id>H</Id>
+        <Name>Health</Name>
+    </Code>
+
+    <Code>
+        <Id>I</Id>
+        <Name>Airport-related activities</Name>
+    </Code>
+
+    <Code>
+        <Id>J</Id>
+        <Name>Exploration and extraction of gas and oil</Name>
+    </Code>
+
+    <Code>
+        <Id>K</Id>
+        <Name>Port-related activities / Maritime or inland waterway</Name>
+    </Code>
+
+    <Code>
+        <Id>L</Id>
+        <Name>Education</Name>
+    </Code>
+
+    <Code>
+        <Id>M</Id>
+        <Name>Exploration and extraction of coal and other solid fuels</Name>
+    </Code>
+
+    <Code>
+        <Id>N</Id>
+        <Name>Electricity</Name>
+    </Code>
+
+    <Code>
+        <Id>P</Id>
+        <Name>Postal services</Name>
+    </Code>
+
+    <Code>
+        <Id>R</Id>
+        <Name>Railway services</Name>
+    </Code>
+
+    <Code>
+        <Id>S</Id>
+        <Name>General public services</Name>
+    </Code>
+
+    <Code>
+        <Id>T</Id>
+        <Name>Urban railway / light rail, metro, tramway, trolleybus or bus services</Name>
+    </Code>
+
+    <Code>
+        <Id>U</Id>
+        <Name>Public order and safety</Name>
+    </Code>
+
+    <Code>
+        <Id>W</Id>
+        <Name>Water</Name>
+    </Code>
+
+    <Code>
+        <Id>8</Id>
+        <Name>Other</Name>
+    </Code>
+
+    <Code>
+        <Id>9</Id>
+        <Name>Not applicable</Name>
+    </Code>
+
+    <Code>
+        <Id>Z</Id>
+        <Name>Not specified</Name>
+    </Code>
+
+</CodeList>

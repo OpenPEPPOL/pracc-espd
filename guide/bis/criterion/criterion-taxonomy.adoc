@@ -1,0 +1,58 @@
+
+= Criterion structure and the taxonomy
+
+This EHF ESPD is based on the ESDP datamodel from the EU commission, and its method of structuring the criterions.
+Each criterion has a defined set of requirement groups and requirements, all documented by the EU Commission in the {link-taxonomy}.
+
+****
+IMPORTANT: Please note that a file with all criteria and their corresponding Norwegian translation are provided, to enable the Norwegian text in user interfaces.
+****
+
+Please note that requirement groups can be nested within other requirement groups.
+
+The following "rules" has been established on how to build up a data structure:
+
+== Taxonomy
+
+Respect the structure for each criterion in the {link-taxonomy}
+
+== Indicator
+
+The first requirement of a requirement group is reserved to ask a question where the response is an *INDICATOR* (boolean true or false).
+
+.Example of indicator in first requirement
+[source, xml, indent=0]
+----
+include::../shared/files/snippet2-response.xml[tags=indicator]
+----
+<1> First requirement of the group has expected response type INDICATOR
+
+
+== Use of attribute `pi`
+
+The attribute `pi` of the requirement group element is used to determine if the requirements and nested requirement groups must be answered expicitly or not.
+
+The attribute has the following possible values:
+
+GROUP_FULFILLED.ON_TRUE:: If the INDICATOR is set to true, the group and nested sub-groups must be answered. This is the case for all the exclusion criteria.
+
+GROUP_FULFILLED.ON_FALSE:: If the INDICATOR is set to false, the group and nested sub-groups must be answered. Valid for some of the selection criteria.
+
+.Example of use of pi-attribute
+[source, xml, indent=0]
+----
+include::../shared/files/snippet2-response.xml[tags=pi]
+----
+<1> `ccv:RequirementGroup/@pi` set to GROUP_FULFILLED.ON_TRUE
+<2> The indicator is set to *false*, so explicit answer to this group must not be sent
+
+=== Attribute `pi` not used
+
+If the attribute `pi` is not used, the requirement group must be answered
+
+.Example of pi-attribute not used
+[source, xml, indent=0]
+----
+include::../shared/files/snippet2-response.xml[tags=pi-missing]
+----
+<1> `ccv:RequirementGroup/@pi` not present

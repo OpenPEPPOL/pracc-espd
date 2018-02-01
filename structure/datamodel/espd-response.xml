@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Structure xmlns="urn:fdc:difi.no:2017:vefa:structure-1">
+
+    <Term>response</Term>
+    <Name>PEPPOL BIS ESPD 1.0 Response</Name>
+    <Description>Document type used by potential contracting parties to document their answers questioned in an ESPD Response.</Description>
+
+    <Property key="sch:prefix">PEPPOLBIS-ESPD-RES</Property>
+    <Property key="sch:identifier">response-basic</Property>
+
+    <Namespace prefix="cac">urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</Namespace>
+    <Namespace prefix="cbc">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</Namespace>
+    <Namespace prefix="ccv-cbc">urn:isa:names:specification:ubl:schema:xsd:CCV-CommonBasicComponents-1</Namespace>
+    <Namespace prefix="cev-cbc">urn:isa:names:specification:ubl:schema:xsd:CEV-CommonBasicComponents-1</Namespace>
+    <Namespace prefix="cev">urn:isa:names:specification:ubl:schema:xsd:CEV-CommonAggregateComponents-1</Namespace>
+    <Namespace prefix="ext">urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2</Namespace>
+    <Namespace prefix="ccv">urn:isa:names:specification:ubl:schema:xsd:CCV-CommonAggregateComponents-1</Namespace>
+    <Namespace prefix="espd">urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1</Namespace>
+    <Namespace prefix="espd-cac">urn:grow:names:specification:ubl:schema:xsd:ESPD-CommonAggregateComponents-1</Namespace>
+    <Namespace prefix="espd-cbc">urn:grow:names:specification:ubl:schema:xsd:ESPD-CommonBasicComponents-1</Namespace>
+    <Namespace prefix="cev-cac">urn:isa:names:specification:ubl:schema:xsd:CEV-CommonAggregateComponents-1</Namespace>
+
+    <Document>
+        <Term>espd:ESPDResponse</Term>
+        <Name>PEPPOL BIS ESPD Response document</Name>
+
+        <!-- Element ext:UBLExtensions not in use. -->
+
+        <Element cardinality="0..1">
+            <Term>cbc:UBLVersionID</Term>
+            <Name>UBL Version identifier</Name>
+            <Description>Identifies the earliest version of the UBL 2 schema for this document type
+                that defines all of the elements that might be encountered in the current instance</Description>
+
+
+            <Attribute>
+                <Term>schemeAgencyID</Term>
+                <Value type="FIXED">OASIS-UBL-TC</Value>
+            </Attribute>
+
+            <Value type="FIXED">2.1</Value>
+        </Element>
+
+        <Element>
+            <Term>cbc:CustomizationID</Term>
+            <Name>Specification identification</Name>
+            <Description>An identification of the specification containing the total set of rules regarding semantic content,
+                cardinalities and business rules to which the data contained in the instance document conforms.
+                The identification may include the version of the specification as well as any customizations applied.</Description>
+
+            <Attribute>
+                <Term>schemeName</Term>
+                <Value type="FIXED">CustomizationID</Value>
+            </Attribute>
+
+            <Attribute>
+                <Term>schemeAgencyID</Term>
+                <Value type="FIXED">BII</Value>
+            </Attribute>
+
+            <Attribute>
+                <Term>schemeVersionID</Term>
+                <Value type="FIXED">3.0</Value>
+            </Attribute>
+
+            <Value type="FIXED">urn:www.cenbii.eu:transaction:biitrns092:ver3.0:extended:urn:fdc:peppol.eu:2017:pracc:spec:1.0</Value>
+        </Element>
+
+        <Element cardinality="0..1">
+            <Term>cbc:ProfileID</Term>
+            <Name>Profile identifier</Name>
+            <Description>Used when sending ESPD document as standalone document in PEPPOL.</Description>
+            <Reference type="CODE_LIST">ProfileID</Reference>
+        </Element>
+
+        <!-- Element cbc:ProfileExecutionID not in use. -->
+
+        <Element>
+            <Term>cbc:ID</Term>
+            <Name>Document identifier</Name>
+            <Description>An identifier for this document, assigned by the sender. Use UUID (universally unique identifier), version 4</Description>
+
+            <Attribute>
+                <Term>schemeID</Term>
+                <Value type="FIXED">ISO/IEC 9834-8:2008 - 4UUID</Value>
+            </Attribute>
+
+            <Attribute>
+                <Term>schemeAgencyID</Term>
+                <Value type="FIXED">EU-COM-GROW</Value>
+            </Attribute>
+
+            <Attribute>
+                <Term>schemeAgencyName</Term>
+                <Value type="FIXED">DG GROW (European Commission)</Value>
+            </Attribute>
+
+            <Attribute>
+                <Term>schemeVersionID</Term>
+                <Value type="FIXED">1.1</Value>
+            </Attribute>
+
+            <Value type="EXAMPLE">8a6e9c28-628d-4e64-8a1a-367c8973ff2a</Value>
+        </Element>
+
+        <Element cardinality="0..1">
+            <Term>cbc:CopyIndicator</Term>
+            <Name>Copy indicator</Name>
+            <Description>Indicates whether this document is a copy (true) or not (false)</Description>
+            <Value type="EXAMPLE">false</Value>
+        </Element>
+
+        <!-- Element UUID not in use, as ID must be a UUID. -->
+
+
+        <Element cardinality="0..1">
+            <Term>cbc:VersionID</Term>
+            <Name>ESPD version</Name>
+            <Description>The version of the document that has been identified with the document identifier.</Description>
+
+            <Attribute>
+                <Term>schemeAgencyID</Term>
+                <Value type="FIXED">EU-COM-GROW</Value>
+            </Attribute>
+
+            <Value type="FIXED">1.0.2</Value>
+        </Element>
+
+        <!-- Element cbc:PreviousVersionID not in use. -->
+
+        <Element>
+            <Term>cbc:IssueDate</Term>
+            <Name>Issue date</Name>
+            <Description>The date, assigned by the sender, on which this document was issued. Must not include timezone information. Format YYYY-MM-DD</Description>
+            <Value type="EXAMPLE">2017-12-26</Value>
+        </Element>
+
+        <Element cardinality="0..1">
+            <Term>cbc:IssueTime</Term>
+            <Name>Issue time</Name>
+            <Description>The time, assigned by the sender, at which this document was issued. Format "hh:mm:ss", no timezone information allowed</Description>
+            <Value type="EXAMPLE">08:16:09</Value>
+        </Element>
+
+        <Element>
+            <Term>cbc:ContractFolderID</Term>
+            <Name>Reference number</Name>
+            <Description>An identifier that is specified by the buyer and used as a reference number for all documents in the procurement process.
+                It is also known as procurement project identifier, procurement reference number or contract folder identifier.</Description>
+
+            <Attribute>
+                <Term>schemeAgencyID</Term>
+                <Value type="FIXED">TeD</Value>
+            </Attribute>
+        </Element>
+
+        <Element cardinality="0..1">
+            <Term>espd-cbc:EconomicOperatorGroupName</Term>
+            <Name>Consortium group name</Name>
+            <Description>The name of the Consortium or group to which the Economic Operator belongs for a specific procurement project</Description>
+            <Value type="EXAMPLE">ACME Global Consortium</Value>
+        </Element>
+
+        <Include>part/contracting-party.xml</Include>
+
+        <Include>part/economic-operator-party.xml</Include>
+
+        <Element>
+            <Term>cac:ProcurementProjectLot</Term>
+            <Name>Procurement Project Lot</Name>
+           
+            <Element>
+                <Term>cbc:ID</Term>
+                <Name>Lot reference</Name>
+                <Description>A reference to one or more lots the economic operator is applying for. The original lot definition is part of the call for tender document.
+                    The Qualification instance only references the corresponding IDs in order to establish the connection to the call for tender information.
+                    The value ´0 MUST be specified to indicate that this procurement project has no lots.</Description>
+
+                <Attribute>
+                    <Term>schemeAgencyID</Term>
+                    <Value type="FIXED">EU-COM-GROW</Value>
+                </Attribute>
+
+                <Value type="EXAMPLE">0</Value>
+            </Element>
+        </Element>
+
+        <Element cardinality="1..n">
+            <Term>ccv:Criterion</Term>
+            <Name>Criterion</Name>
+            <Description>A condition that the economic has to meet in order to not be excluded and be selected as a candidate for awarding in a procurement procedure.</Description>
+            
+            <Property key="doc">structure/docs/criterion.adoc</Property>
+            
+            <Attribute usage="Optional">
+                <Term>pi</Term>
+                <Name>Processing instruction</Name>
+                <Description>Reserved for non-standard processing of the class; e.g. for hiding or showing elements in a user interface</Description>
+            </Attribute>
+            
+            <Element>
+                <Term>cbc:ID</Term>
+                <Name>Criterion identifier</Name>
+                <Description>A language-independent token, e.g., a number, that allows to identify a criterion uniquely
+                    as well as allows to reference the criterion in other documents. Compulsory use of the UUIDs from the Criteria Taxonomy</Description>
+                
+                <Attribute>
+                    <Term>schemeID</Term>
+                    <Value type="FIXED">CriteriaID</Value>
+                </Attribute>
+                
+                <Attribute>
+                    <Term>schemeAgencyID</Term>
+                    <Value type="FIXED">EU-COM-GROW</Value>
+                </Attribute>
+                
+                <Attribute>
+                    <Term>schemeVersionID</Term>
+                    <Value type="FIXED">1.0</Value>
+                </Attribute>
+                
+                <Value type="EXAMPLE">005eb9ed-1347-4ca3-bb29-9bc0db64e1ab</Value>
+            </Element>
+            
+            <Element>
+                <Term>cbc:TypeCode</Term>
+                <Name>Criterion type code</Name>
+                <Description>Code specifying the type of criterion, from the Criteria Taxonomy</Description>
+                <Reference type="CODE_LIST">CriteriaTypeCode</Reference>
+                
+                <Attribute>
+                    <Term>listID</Term>
+                    <Value type="FIXED">CriteriaTypeCode</Value>
+                </Attribute>
+                
+                <Attribute>
+                    <Term>listAgencyID</Term>
+                    <Value type="FIXED">EU-COM-GROW</Value>
+                </Attribute>
+                
+                <Attribute>
+                    <Term>listVersionID</Term>
+                    <Value type="FIXED">1.0.2</Value>
+                </Attribute>
+                
+                <Value type="EXAMPLE">CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION</Value>
+            </Element>
+            
+            <Element>
+                <Term>cbc:Name</Term>
+                <Name>Criterion name</Name>
+                <Description>A short and descriptive name for a criterion. A criterion describes a fact that is used by the contracting body to evaluate and compare
+                    tenders by economic operators and which will be used in the award decision or to assess the eligibility of an economic operator.
+                    Compulsory use of the names from the Criteria Taxonomy</Description>
+                <Value type="EXAMPLE">Participation in a criminal organisation</Value>
+            </Element>
+            
+            <Element>
+                <Term>cbc:Description</Term>
+                <Name>Criterion description</Name>
+                <Description>An extended description of the criterion.Compulsory use of the descriptions from the Criteria Taxonomy</Description>
+                <Value type="EXAMPLE">Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for participation in a criminal organisation, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 2 of Council Framework Decision 2008/841/JHA of 24 October 2008 on the fight against organised crime (OJ L 300, 11.11.2008, p. 42).</Value>
+            </Element>
+            
+            <Element cardinality="0..n">
+                <Term>ccv:LegislationReference</Term>
+                <Name>Legislation reference</Name>
+                <Description>The specific piece(s) of Legislation(s) where the criterion is defined or mentioned</Description>
+                
+                <Attribute usage="Optional">
+                    <Term>langID</Term>
+                    <Description>Language of the textual data provided for this reference to a legislation, if not specified it defaults to EN (English)</Description>
+                    <Reference type="CODE_LIST">LanguageCodeEU</Reference>
+                    <Value type="DEFAULT">EN</Value>
+                </Attribute>
+                
+                <Element>
+                    <Term>ccv-cbc:Title</Term>
+                    <Name>Legislation title</Name>
+                    <Description>
+                        Title of the legislation as published in an official gazette or portal. The complete title of the legislation provided in the original legal text MUST be provided.</Description>
+                    <Value type="EXAMPLE">DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Value>
+                </Element>
+                
+                <Element cardinality="0..1">
+                    <Term>cbc:Description</Term>
+                    <Name>Legislation description</Name>
+                    <Description>Reminder label or short description of the Legislation</Description>
+                    <Value type="EXAMPLE">Directive 2014/24/EU</Value>
+                </Element>
+                
+                <Element>
+                    <Term>ccv-cbc:JurisdictionLevelCode</Term>
+                    <Name>Jurisdiction level</Name>
+                    <Description>Jurisdictional level of a particular Legislation</Description>
+                    <Reference type="CODE_LIST">CriterionJurisdictionLevel</Reference>
+                    
+                    <Attribute>
+                        <Term>listID</Term>
+                        <Value type="FIXED">CriterionJurisdictionLevel</Value>
+                    </Attribute>
+                    
+                    <Attribute>
+                        <Term>listAgencyID</Term>
+                        <Value type="FIXED">EU-COM-GROW</Value>
+                    </Attribute>
+                    
+                    <Attribute>
+                        <Term>listVersionID</Term>
+                        <Value type="FIXED">1.0.2</Value>
+                    </Attribute>
+                    
+                    <Value type="EXAMPLE">EU_DIRECTIVE</Value>
+                </Element>
+                
+                <Element>
+                    <Term>ccv-cbc:Article</Term>
+                    <Name>Legislation article</Name>
+                    <Description>Textual description of the article of the Legislation; e.g. ''Article 61''</Description>
+                    <Value type="EXAMPLE">57(1)</Value>
+                </Element>
+                
+                <Element>
+                    <Term>cbc:URI</Term>
+                    <Name>Legislation URI</Name>
+                    <Description>URI that points at the text of a particular Legislation. In the case of European legislation, the URI MUST point at the multilingual EUR-LEX web-page; e.g. Directive 2014/24/EU</Description>
+                    <Value type="EXAMPLE">http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</Value>
+                </Element>
+            </Element>
+            
+            <Element>
+                <Term>ccv:RequirementGroup</Term>
+                <Name>Criterion requirement group</Name>
+                <Description>A group of requirements with a specific structure relating to one Criterion</Description>
+                
+                <Property key="sch:context">AS_ROOT</Property>
+                
+                <Attribute usage="Dependent">
+                    <Term>pi</Term>
+                    <Name>Processing instruction</Name>
+                    <Description>In the case of the RequirementGroup element the ESPD Service uses this attribute to specify whether the elements within the group must be shown or not.</Description>
+                    <Value type="EXAMPLE">GROUP_FULFILLED.ON_TRUE</Value>
+                </Attribute>
+                
+                <Element>
+                    <Term>cbc:ID</Term>
+                    <Name>Criterion requirement group identifier</Name>
+                    <Description>A language-independent token, e.g., a number, that allows to identify a group of requirements uniquely. Compulsory use of the UUIDs from the Criteria Taxonomy.</Description>
+                    
+                    <Attribute>
+                        <Term>schemeAgencyID</Term>
+                        <Value type="FIXED">EU-COM-GROW</Value>
+                    </Attribute>
+                    
+                    <Attribute>
+                        <Term>schemeVersionID</Term>
+                        <Value type="FIXED">1.0</Value>
+                    </Attribute>
+                    
+                    <Value type="EXAMPLE">7c637c0c-7703-4389-ba52-02997a055bd7</Value>
+                </Element>
+                
+                <Element cardinality="0..n">
+                    <Term>ccv:Requirement</Term>
+                    <Name>Criterion requirement</Name>
+                    <Description>Requirement to fulfill an specific criterion.</Description>
+                    <Reference type="RULE">PEPPOLBIS-ESPD-R100</Reference>
+                    <Reference type="RULE">PEPPOLBIS-ESPD-R101</Reference>
+                    <Reference type="RULE">PEPPOLBIS-ESPD-R110</Reference>
+                    <Reference type="RULE">PEPPOLBIS-ESPD-R111</Reference>
+                    <Reference type="RULE">PEPPOLBIS-ESPD-R112</Reference>
+                    <Reference type="RULE">PEPPOLBIS-ESPD-R113</Reference>
+
+                    <Property key="sch:context">AS_ROOT</Property>
+                    
+                    <!-- <Attribute usage="Dependent">
+                        <Term>pi</Term>
+                        <Name>Processing instruction</Name>
+                        <Description>In the case of the RequirementGroup element the ESPD Service uses this attribute to specify whether the elements within the group must be shown or not.</Description>
+                        <Value type="EXAMPLE">GROUP_FULFILLED.ON_TRUE</Value>
+                    </Attribute> -->
+                    
+                    <Attribute>
+                        <Term>responseDataType</Term>
+                        <Name>Response data type</Name>
+                        <Description>Type of response expected for this requirement; e.g. Indicator, Date, Description, etc.</Description>
+                        <Reference type="CODE_LIST">ResponseDataType</Reference>
+                        <Value type="EXAMPLE">INDICATOR</Value>
+                    </Attribute>
+                    
+                    <Element>
+                        <Term>cbc:ID</Term>
+                        <Name>Criterion requirement identifier</Name>
+                        <Description>Identifier of the requirement that fulfills a specific criterion. Compulsory use of the UUIDs from the Criteria Taxonomy.</Description>
+                        
+                        
+                        <Attribute>
+                            <Term>schemeID</Term>
+                            <Value type="FIXED">CriterionRelatedIDs</Value>
+                        </Attribute>
+                        
+                        <Attribute>
+                            <Term>schemeAgencyID</Term>
+                            <Value type="FIXED">EU-COM-GROW</Value>
+                        </Attribute>
+                        
+                        <Attribute>
+                            <Term>schemeVersionID</Term>
+                            <Value type="FIXED">1.0</Value>
+                        </Attribute>
+                        
+                        <Value type="EXAMPLE">974c8196-9d1c-419c-9ca9-45bb9f5fd59a</Value>
+                    </Element>
+                    
+                    <Element>
+                        <Term>cbc:Description</Term>
+                        <Name>Criterion requirement description</Name>
+                        <Description>Description of the requirement that fulfills a specific criterion. Compulsory use of the requirement description from the Criteria Taxonomy.</Description>
+                        <Value type="EXAMPLE">Your answer?</Value>
+                    </Element>
+              
+                    <Include>part/response.xml</Include>
+                </Element>
+
+
+                <Element cardinality="0..n">
+                    <Term>ccv:RequirementGroup</Term>
+                    <Property key="recursive">../</Property>
+                </Element>
+            </Element>
+        </Element>
+
+        <!-- Element cac:ServiceProviderParty not in use. -->
+
+        <!-- Element cac:Signature not in use. -->
+
+        <Include>part/additional-document-ref.xml</Include>
+        
+    </Document>
+
+</Structure>

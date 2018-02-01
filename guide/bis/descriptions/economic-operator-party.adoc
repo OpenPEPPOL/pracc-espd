@@ -1,0 +1,22 @@
+
+= Economic Operator
+
+.Definition
+****
+*Economic operator* means any natural or legal person or public entity or group of such persons and/or entities, including any temporary association of undertakings, which offers the execution of works and/or a work, the supply of products or the provision of services on the market
+****
+
+
+The ESPDResponse was explicitly designed to hold data about one single Economic Operator.
+Thus, the ESPDResponse Exchange Data Model associates a class `EconomicOperatorParty` as
+a placeholder for the data related to only one Economic Operator (EO) that
+tenders solely to a procurement project, to one of the EOs that tender as part of a group (e.g. a Consortium), or to one possible sub-contractor of the EO.
+
+Consortia grouping more than one EO need to draft and submit as many ESPDResponses as Economic Operators and sub-contractors participate in the tender.
+
+
+.Example of economic operator
+[source, xml, indent=0]
+----
+include::../shared/files/snippet-response.xml[tags=eo]
+----

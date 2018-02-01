@@ -1,0 +1,20 @@
+
+
+
+
+= Core Evidence Data Models and Vocabularies
+
+The UML diagram below shows in detail the classes of the Core Evidence used in the ESPD Response XML document.
+
+.UML diagram
+image::images/response.png[align="center", width="600", height="400"]
+
+
+.Example of evidence
+[source, xml, indent=0]
+----
+include::../shared/files/snippet-response.xml[tags=evidence]
+----
+<1> Response fulfillment indicator
+<2> Evidence document identifier
+<3> Evidence document URI

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeList xmlns="urn:fdc:difi.no:2017:vefa:structure:CodeList-1">
+
+    <Title>Period Types</Title>
+    <Identifier>PeriodMeasureTypeCodes</Identifier>
+    <Version>1.0.2</Version>
+    <Agency>DG GROW (European Commission)</Agency>
+
+    <Code>
+        <Id>MONTH</Id>
+        <Name>Length of period expressed in months</Name>
+    </Code>
+
+    <Code>
+        <Id>YEAR</Id>
+        <Name>Length of period expressed in years</Name>
+    </Code>
+
+</CodeList>

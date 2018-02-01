@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testSet xmlns="http://difi.no/xsd/vefa/validator/1.0" configuration="ehf-espd-request-1.0">
+    <assert>
+        <scope>PEPPOLBIS-ESPD-R112</scope>
+        <description>Verify Response is not provided upon "GROUP_FULFILLED.ON_TRUE" is set to 'false' twice in a row.</description>
+    </assert>
+    <test>
+        <assert>
+            <success>PEPPOLBIS-ESPD-R112</success>
+        </assert>
+        <ESPDResponse xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                      xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                      xmlns:ccv="urn:isa:names:specification:ubl:schema:xsd:CCV-CommonAggregateComponents-1"
+                      xmlns:ccv-cbc="urn:isa:names:specification:ubl:schema:xsd:CCV-CommonBasicComponents-1"
+                      xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1">
+
+            <ccv:RequirementGroup>
+                <ccv:Requirement>
+                    <ccv:Response>
+                        <ccv-cbc:Indicator>false</ccv-cbc:Indicator>
+                    </ccv:Response>
+                </ccv:Requirement>
+                <ccv:RequirementGroup pi="GROUP_FULFILLED.ON_TRUE">
+                    <ccv:Requirement>
+                        <!-- No response -->
+                    </ccv:Requirement>
+                    <ccv:Requirement>
+                        <!-- No response -->
+                    </ccv:Requirement>
+
+                    <ccv:RequirementGroup>
+                        <ccv:Requirement>
+                            <ccv:Response>
+                                <ccv-cbc:Indicator>false</ccv-cbc:Indicator>
+                            </ccv:Response>
+                        </ccv:Requirement>
+                        <ccv:RequirementGroup pi="GROUP_FULFILLED.ON_TRUE">
+                            <ccv:Requirement> <!-- JACKPOT! -->
+                                <!-- No response -->
+                            </ccv:Requirement>
+                        </ccv:RequirementGroup>
+                    </ccv:RequirementGroup>
+                </ccv:RequirementGroup>
+            </ccv:RequirementGroup>
+
+        </ESPDResponse>
+    </test>
+    <test>
+        <assert>
+            <error>PEPPOLBIS-ESPD-R112</error>
+        </assert>
+        <ESPDResponse xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                      xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                      xmlns:ccv="urn:isa:names:specification:ubl:schema:xsd:CCV-CommonAggregateComponents-1"
+                      xmlns:ccv-cbc="urn:isa:names:specification:ubl:schema:xsd:CCV-CommonBasicComponents-1"
+                      xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1">
+
+            <ccv:RequirementGroup>
+                <ccv:Requirement>
+                    <ccv:Response>
+                        <ccv-cbc:Indicator>false</ccv-cbc:Indicator>
+                    </ccv:Response>
+                </ccv:Requirement>
+                <ccv:RequirementGroup pi="GROUP_FULFILLED.ON_TRUE">
+                    <ccv:Requirement>
+                        <ccv:Response/>
+                    </ccv:Requirement>
+                    <ccv:Requirement>
+                        <ccv:Response/>
+                    </ccv:Requirement>
+
+                    <ccv:RequirementGroup>
+                        <ccv:Requirement>
+                            <ccv:Response>
+                                <ccv-cbc:Indicator>false</ccv-cbc:Indicator>
+                            </ccv:Response>
+                        </ccv:Requirement>
+                        <ccv:RequirementGroup pi="GROUP_FULFILLED.ON_TRUE">
+                            <ccv:Requirement> <!-- JACKPOT! -->
+                                <ccv:Response/>
+                            </ccv:Requirement>
+                        </ccv:RequirementGroup>
+                    </ccv:RequirementGroup>
+                </ccv:RequirementGroup>
+            </ccv:RequirementGroup>
+
+        </ESPDResponse>
+    </test>
+</testSet>

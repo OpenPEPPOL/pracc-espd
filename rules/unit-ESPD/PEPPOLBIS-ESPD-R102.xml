@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testSet xmlns="http://difi.no/xsd/vefa/validator/1.0" configuration="ehf-espd-request-1.0">
+    <assert>
+        <scope>PEPPOLBIS-ESPD-R102</scope>
+        <description>Verify Response is not provided.</description>
+    </assert>
+    <test>
+        <assert>
+            <success>PEPPOLBIS-ESPD-R102</success>
+        </assert>
+        <ESPDRequest xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                      xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                      xmlns:ccv="urn:isa:names:specification:ubl:schema:xsd:CCV-CommonAggregateComponents-1"
+                      xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDRequest-1">
+
+            <ccv:Requirement>
+                <!-- <ccv:Response/> -->
+            </ccv:Requirement>
+
+        </ESPDRequest>
+    </test>
+    <test>
+        <assert>
+            <error>PEPPOLBIS-ESPD-R102</error>
+        </assert>
+        <ESPDRequest xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                      xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                      xmlns:ccv="urn:isa:names:specification:ubl:schema:xsd:CCV-CommonAggregateComponents-1"
+                      xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDRequest-1">
+
+            <ccv:Requirement>
+                <ccv:Response/>
+            </ccv:Requirement>
+
+        </ESPDRequest>
+    </test>
+</testSet>

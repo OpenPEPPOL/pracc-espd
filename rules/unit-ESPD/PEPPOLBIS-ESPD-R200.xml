@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testSet xmlns="http://difi.no/xsd/vefa/validator/1.0" configuration="ehf-espd-request-1.0">
+    <assert>
+        <scope>PEPPOLBIS-ESPD-R200</scope>
+        <description>Verify correct references are provided..</description>
+    </assert>
+    <test>
+        <assert>
+            <success>PEPPOLBIS-ESPD-R200</success>
+        </assert>
+        <ESPDRequest xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                           xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                           xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDRequest-1">
+
+            <cac:AdditionalDocumentReference>
+                <cbc:DocumentTypeCode>NGOJ</cbc:DocumentTypeCode>
+            </cac:AdditionalDocumentReference>
+
+        </ESPDRequest>
+    </test>
+    <test>
+        <assert>
+            <error number="5">PEPPOLBIS-ESPD-R200</error>
+        </assert>
+        <ESPDRequest xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                           xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                           xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDRequest-1">
+
+            <cac:AdditionalDocumentReference>
+                <cbc:DocumentTypeCode>TED_CN</cbc:DocumentTypeCode>
+            </cac:AdditionalDocumentReference>
+            <cac:AdditionalDocumentReference>
+                <cbc:DocumentTypeCode>ESPD_REQUEST</cbc:DocumentTypeCode>
+            </cac:AdditionalDocumentReference>
+            <cac:AdditionalDocumentReference>
+                <cbc:DocumentTypeCode>OTHER</cbc:DocumentTypeCode>
+            </cac:AdditionalDocumentReference>
+            <cac:AdditionalDocumentReference>
+                <cbc:DocumentTypeCode>TEST</cbc:DocumentTypeCode>
+            </cac:AdditionalDocumentReference>
+            <cac:AdditionalDocumentReference>
+                <cbc:DocumentTypeCode>TECC016</cbc:DocumentTypeCode>
+            </cac:AdditionalDocumentReference>
+
+        </ESPDRequest>
+    </test>
+</testSet>

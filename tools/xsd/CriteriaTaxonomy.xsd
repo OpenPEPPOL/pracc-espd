@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns="urn:fdc:difi.no:2017:vefa:espd:CriteriaTaxonomy-1"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="urn:fdc:difi.no:2017:vefa:espd:CriteriaTaxonomy-1"
+            elementFormDefault="qualified" version="1.0">
+
+    <xsd:element name="CriteriaTaxonomy" type="CriteriaTaxonomyType"/>
+
+    <xsd:element name="RequirementId" type="xsd:string"/>
+    <xsd:element name="RequirementGroupId" type="xsd:string"/>
+
+    <xsd:complexType name="CriteriaTaxonomyType">
+        <xsd:sequence>
+            <xsd:element name="Version" type="xsd:string"/>
+            <xsd:element name="Criterion" type="CriterionType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="RequirementGroup" type="RequirementGroupType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="Requirement" type="RequirementType" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="CriterionType">
+        <xsd:sequence>
+            <xsd:element name="Type" type="xsd:string"/>
+            <xsd:element name="Name" type="TranslatableType"/>
+            <xsd:element name="Description" type="TranslatableType"/>
+            <xsd:element name="LegislationTitle" type="TranslatableType" minOccurs="0"/>
+            <xsd:element name="LegislationDescription" type="TranslatableType" minOccurs="0"/>
+            <xsd:element name="JurisdictionLevel" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="Article" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="URI" type="xsd:string" minOccurs="0"/>
+            <xsd:element ref="RequirementGroupId" maxOccurs="unbounded"/>
+            <xsd:element name="Comment" type="xsd:string" minOccurs="0"/>
+        </xsd:sequence>
+        <xsd:attribute name="id" type="xsd:string" use="required"/>
+        <xsd:attribute name="required" type="xsd:string" use="required"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="RequirementGroupType">
+        <xsd:sequence>
+            <xsd:element name="ProsessingInstruction" type="xsd:string" minOccurs="0"/>
+            <xsd:element ref="RequirementId" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element ref="RequirementGroupId" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="Comment" type="xsd:string" minOccurs="0"/>
+        </xsd:sequence>
+        <xsd:attribute name="id" type="xsd:string" use="required"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="RequirementType">
+        <xsd:sequence>
+            <xsd:element name="Description" type="TranslatableType"/>
+            <xsd:element name="Response" type="xsd:string"/>
+            <xsd:element name="Comment" type="xsd:string" minOccurs="0"/>
+        </xsd:sequence>
+        <xsd:attribute name="id" type="xsd:string" use="required"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="TranslatableType">
+        <xsd:sequence>
+            <xsd:element name="Source" type="xsd:string"/>
+            <xsd:element name="Translation" type="TranslationType" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+        <xsd:attribute name="code" type="xsd:string"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="TranslationType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute name="lang" type="xsd:string" use="required"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+
+</xsd:schema>

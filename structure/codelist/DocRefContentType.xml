@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeList xmlns="urn:fdc:difi.no:2017:vefa:structure:CodeList-1">
+
+    <Title>Document Reference Content Types</Title>
+    <Identifier>DocRefContentType</Identifier>
+    <Version>1.0.2</Version>
+    <Agency>DG GROW (European Commission)</Agency>
+    <Subset>Norwegian subset defined by Difi</Subset>
+
+    <Code>
+        <Id>TED_CN</Id>
+        <Name>Contract Notice published in TeD (European Publications Office)</Name>
+    </Code>
+
+    <Code>
+        <Id>ESPD_REQUEST</Id>
+        <Name>European Single Procurement Document Request issued by a Contracting Authority</Name>
+    </Code>
+
+    <Code>
+        <Id>NGOJ</Id>
+        <Name>Identifier of procurement in Doffin.</Name>
+    </Code>
+
+</CodeList>

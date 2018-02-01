@@ -1,0 +1,20 @@
+
+= The ESPD Exchange Data Model
+
+The ESPD Exchange Data Model (ESPD EDM) re-uses three other models, that were defined in parallel to the ESPD, the Core Criterion Data Model, the Core Evidence Data Model, and the OASIS UBL-2.1 common information components.
+
+The figure below presents a high-level view of this data architecture for the entire ESPD-EDM. The blocks coloured in green represent libraries of components defined by the UBL-2.1 Technical Committee (TC), whilst the rest have been defined from scratch by the EU Commission (COM) ESPD development team. The blocks represented in the figure represents either a document (e.g. ESPDRequest and ESPDResponse) or a library (the rest of the blocks). Per each document or library one XSD Schema has been implemented. Each Schema has been assigned its own namespace and a specific prefix representing the namespace.
+
+.High-level view of the ESPD-EDM data architecture
+image::images/data_architecture.png[align="center", width="600", height="400"]
+
+
+:leveloffset: +1
+
+include::schemas.adoc[]
+include::namespaces.adoc[]
+include::datamodels.adoc[]
+include::model.adoc[]
+
+
+:leveloffset: -1

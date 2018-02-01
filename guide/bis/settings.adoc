@@ -1,0 +1,9 @@
+:lang: en
+
+include::../settings.adoc[]
+
+:doctitle: PEPPOL BIS ESPD (European Single Procurement document)
+
+:date-review: 15. November 2017
+:date-release: dd.mm.yyyy
+:date-mandatory: dd.mm.yyyy

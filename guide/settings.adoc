@@ -1,0 +1,31 @@
+//
+:revision: 0.7.0
+:release: 2017-11-14
+
+
+// Folders
+:rules-dir: /tmp/rules
+
+// Difi
+:link-github: https://github.com/difi/pracc-espd
+:link-issues: https://github.com/difi/pracc-espd/issues
+:link-portal: https://peppol.eu/
+
+:name-difi-en: Agency of Public Management and eGovernment
+:name-difi-no: Direktoratet for forvaltning og IKT
+
+// External
+:link-cen-bii: http://www.cenbii.eu/
+:link-oasis-ubl: http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ubl
+:link-oasis-ubl-21: http://docs.oasis-open.org/ubl/UBL-2.1.html
+:link-oasis-ubl-21-resources: http://docs.oasis-open.org/ubl/os-UBL-2.1/
+:link-oasis-ubl-21-xsd: http://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/maindoc/
+:link-peppol: http://www.peppol.eu/
+:link-forsyning: https://lovdata.no/dokument/SF/forskrift/2016-08-12-975/[forsyningsforskriften]
+:link-anskaffelse: https://lovdata.no/dokument/LTI/forskrift/2016-08-12-974/[anskaffelsesforskriften]
+:link-grow: https://ec.europa.eu/info/departments/internal-market-industry-entrepreneurship-and-smes_en[DG GROW]
+:policy8: https://joinup.ec.europa.eu/svn/peppol/TransportInfrastructure/PEPPOL_Policy%20for%20use%20of%20identifiers-300.pdf[PEPPOL Policy for identifiers, policy 8]
+
+// documentation
+:link-xsd: https://vefa.difi.no/ehf-pre/guide/espd/1.0/files/schema.zip[]
+:link-taxonomy: https://vefa.difi.no/ehf-pre/guide/espd/1.0/[Criteria Taxonomy]

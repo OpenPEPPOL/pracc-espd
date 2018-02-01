@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testSet xmlns="http://difi.no/xsd/vefa/validator/1.0" configuration="ehf-espd-request-1.0">
+    <assert>
+        <scope>PEPPOLBIS-ESPD-R213</scope>
+        <description>Verify pattern of TED reference.</description>
+    </assert>
+    <test>
+        <assert>
+            <success>PEPPOLBIS-ESPD-R213</success>
+        </assert>
+        <ESPDResponse xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                           xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                           xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1">
+
+            <cac:AdditionalDocumentReference>
+                <cbc:ID>0000/S 000-000000</cbc:ID>
+                <cbc:DocumentTypeCode>TED_CN</cbc:DocumentTypeCode>
+            </cac:AdditionalDocumentReference>
+
+        </ESPDResponse>
+    </test>
+    <test>
+        <assert>
+            <success>PEPPOLBIS-ESPD-R213</success>
+        </assert>
+        <ESPDResponse xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                           xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                           xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1">
+
+            <cac:AdditionalDocumentReference>
+                <cbc:ID>2015/S 252-461137</cbc:ID>
+                <cbc:DocumentTypeCode>TED_CN</cbc:DocumentTypeCode>
+            </cac:AdditionalDocumentReference>
+
+        </ESPDResponse>
+    </test>
+    <test>
+        <assert>
+            <error>PEPPOLBIS-ESPD-R213</error>
+        </assert>
+        <ESPDResponse xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                           xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                           xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1">
+
+            <cac:AdditionalDocumentReference>
+                <cbc:ID>2015/S 310-4729278</cbc:ID>
+                <cbc:DocumentTypeCode>TED_CN</cbc:DocumentTypeCode>
+            </cac:AdditionalDocumentReference>
+
+        </ESPDResponse>
+    </test>
+    <test>
+        <assert>
+            <error>PEPPOLBIS-ESPD-R213</error>
+        </assert>
+        <ESPDResponse xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                           xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                           xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1">
+
+            <cac:AdditionalDocumentReference>
+                <cbc:ID>2015/S310-472927</cbc:ID>
+                <cbc:DocumentTypeCode>TED_CN</cbc:DocumentTypeCode>
+            </cac:AdditionalDocumentReference>
+
+        </ESPDResponse>
+    </test>
+    <test>
+        <assert>
+            <error>PEPPOLBIS-ESPD-R213</error>
+        </assert>
+        <ESPDResponse xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                           xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                           xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1">
+
+            <cac:AdditionalDocumentReference>
+                <cbc:ID>2015/S 310-4A2927</cbc:ID>
+                <cbc:DocumentTypeCode>TED_CN</cbc:DocumentTypeCode>
+            </cac:AdditionalDocumentReference>
+
+        </ESPDResponse>
+    </test>
+</testSet>

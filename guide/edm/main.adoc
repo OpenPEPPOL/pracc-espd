@@ -1,0 +1,13 @@
+:imagesdir: ./images
+// :imagesdir: ../../espd-edm/docs/src/main/asciidoc/images
+:toc: left
+:icons: font
+:sectanchors: true
+:sectlinks: true
+:idprefix:
+:idseparator: -
+:docinfo1: true
+:source-highlighter: coderay
+:source-language: xml
+
+include::../../espd-edm/docs/src/main/asciidoc/index_response.adoc[]

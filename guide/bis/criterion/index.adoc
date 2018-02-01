@@ -1,0 +1,15 @@
+
+
+= Criterion
+
+Criteria are at the core of the ESPD and is used to describe a condition that the economic operator has to fulfil in order to not be excluded and be selected as a candidate for awarding in a procurement procedure.
+
+The two main groups of Criteria relevant for the ESPD are the ones required in the Directive, Exclusion and Selection criteria. This section gives a detailed view on how to specify each of those criteria. Its content is aligned to the https://www.regjeringen.no/contentassets/084e9a974e2d4290bdd1fcc3add2e9a0/espd-standardformular-versjon-1.1.pdf[Norwegian ESPD standard form] establishing the standard form for the European Single Procurement Document.
+
+:leveloffset: +1
+
+include::core-criterion.adoc[]
+include::criterion-taxonomy.adoc[]
+include::structure.adoc[]
+
+:leveloffset: -1

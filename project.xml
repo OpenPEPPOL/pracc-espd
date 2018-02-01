@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xmlns="urn:fdc:difi.no:2017:vefa:structure:Project-1">
+
+    <Name>PEPPOL BIS ESPD 1.0</Name>
+
+    <Documentation path="bis/">PEPPOL BIS ESPD (European Single Procurement document)</Documentation>
+    <Documentation path="edm/">ESPD Response XML Instantiation Guide (EU Commission)</Documentation>
+
+    <!-- Data models -->
+
+    <Resource>
+        <Type>Structure-1</Type>
+        <Path>structure/datamodel/espd-request.xml</Path>
+        <Title>ESPD Request</Title>
+    </Resource>
+    <Resource>
+        <Type>Structure-1</Type>
+        <Path>structure/datamodel/espd-response.xml</Path>
+        <Title>ESPD Response</Title>
+    </Resource>
+
+    <!-- Rules -->
+
+    <Resource>
+        <Identifier>common</Identifier>
+        <Type>native:Schematron</Type>
+        <Path>rules/sch/parts/common.sch</Path>
+        <Title>Common rules</Title>
+    </Resource>
+    <Resource>
+        <Identifier>empty-elements</Identifier>
+        <Type>native:Schematron</Type>
+        <Path>rules/sch/parts/empty-elements.sch</Path>
+        <Title>Empty elements</Title>
+    </Resource>
+    <Resource>
+        <Type>Rule-1</Type>
+        <Path>target/generated/CriteriaTaxonomy.xml</Path>
+    </Resource>
+
+    <!-- Code lists -->
+
+    <!-- <Resource>
+        <Type>CodeList-1</Type>
+        <Path>structure/codelist/ActivityTypeCode.xml</Path>
+    </Resource> -->
+    <Resource>
+        <Type>CodeList-1</Type>
+        <Path>structure/codelist/DocRefContentType.xml</Path>
+    </Resource>
+    <!-- <Resource>
+        <Type>CodeList-1</Type>
+        <Path>structure/codelist/AmountTypeCodes.xml</Path>
+    </Resource> -->
+    <!-- <Resource>
+        <Type>CodeList-1</Type>
+        <Path>structure/codelist/ContractType.xml</Path>
+    </Resource> -->
+    <Resource>
+        <Type>CodeList-1</Type>
+        <Path>structure/codelist/CountryCodeIdentifier.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>CodeList-1</Type>
+        <Path>structure/codelist/CriterionJurisdictionLevel.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>CodeList-1</Type>
+        <Path>structure/codelist/CriteriaTypeCode.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>CodeList-1</Type>
+        <Path>structure/codelist/CurrencyCode.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>CodeList-1</Type>
+        <Path>structure/codelist/ICD.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>CodeList-1</Type>
+        <Path>structure/codelist/LanguageCodeEU.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>CodeList-1</Type>
+        <Path>structure/codelist/PeriodMeasureTypeCodes.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>CodeList-1</Type>
+        <Path>structure/codelist/ProfileID.xml</Path>
+    </Resource>
+    <!-- <Resource>
+        <Type>CodeList-1</Type>
+        <Path>structure/codelist/ProcedureType.xml</Path>
+    </Resource> -->
+    <!-- <Resource>
+        <Type>CodeList-1</Type>
+        <Path>structure/codelist/ProfileExecutionID.xml</Path>
+    </Resource> -->
+    <Resource>
+        <Type>CodeList-1</Type>
+        <Path>structure/codelist/ResponseDataType.xml</Path>
+    </Resource>
+    <!-- <Resource>
+        <Type>CodeList-1</Type>
+        <Path>structure/codelist/TechnicalCapabilityTypeCode.xml</Path>
+    </Resource> -->
+    <!-- <Resource>
+        <Type>CodeList-1</Type>
+        <Path>structure/codelist/TendererRole.xml</Path>
+    </Resource> -->
+    <Resource>
+        <Type>CodeList-1</Type>
+        <Path>structure/codelist/EconomicOperatorIdentifierType.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>CodeList-1</Type>
+        <Path>structure/codelist/UNECERec20-11e.xml</Path>
+    </Resource>
+
+    <!-- Files -->
+    <Resource>
+        <Type>native:File</Type>
+        <Path>rules/example/example-espd-request.xml</Path>
+        <Title>Example file for PEPPOL BIS ESPD 1.0 Request</Title>
+        <Property key="download">example-espd-request.xml</Property>
+    </Resource>
+    <Resource>
+        <Type>native:File</Type>
+        <Path>rules/example/example-espd-response.xml</Path>
+        <Title>Example file for PEPPOL BIS ESPD 1.0 Response</Title>
+        <Property key="download">example-espd-response.xml</Property>
+    </Resource>
+    <Resource>
+        <Type>native:File</Type>
+        <Path>structure/codelist/sources/CriteriaTaxonomy.xlsx</Path>
+        <Title>Criteria taxonomy</Title>
+        <Description>Official criteria taxonomy part of ESPD 1.0.2.</Description>
+        <Property key="download">CriteriaTaxonomy.xlsx</Property>
+    </Resource>
+    <Resource>
+        <Type>native:File</Type>
+        <Path>structure/codelist/sources/ESPD-CodeLists.xls</Path>
+        <Title>Code lists</Title>
+        <Description>Official code lists part of ESPD 1.0.2.</Description>
+        <Property key="download">ESPD-CodeLists.xls</Property>
+    </Resource>
+    <Resource>
+        <Type>native:File</Type>
+        <Path>target/generated/schema.zip</Path>
+        <Title>XSD Schema for ESPD 1.0.2</Title>
+        <Description>Official XSD Schema files for ESPD 1.0.2</Description>
+        <Property key="download">schema.zip</Property>
+    </Resource>
+    <Resource>
+        <Type>native:File</Type>
+        <Path>structure/codelist/CriteriaTaxonomy.xml</Path>
+        <Title>Criteria taxonomy for PEPPOL BIS ESPD 1.0 as XML</Title>
+        <Description>Criteria taxonomy restructured as XML file including provided translations organized by type and assigned UUIDs.</Description>
+        <Property key="download">CriteriaTaxonomy.xml</Property>
+    </Resource>
+    <Resource>
+        <Type>native:File</Type>
+        <Path>target/generated/CriteriaTaxonomy.html</Path>
+        <Title>Outline of Criteria taxonomy for PEPPOL BIS ESPD 1.0</Title>
+        <Description>Criteria taxonomy outlined.</Description>
+    </Resource>
+    <Resource>
+        <Type>native:File</Type>
+        <Path>tools/xsd/CriteriaTaxonomy.xsd</Path>
+        <Title>XSD Schema for Criteria taxonomy as XML</Title>
+        <Description>XSD Schema file for Criteria taxonomy file provided by Difi.</Description>
+        <Property key="download">CriteriaTaxonomy.xsd</Property>
+    </Resource>
+    <Resource>
+        <Type>native:File</Type>
+        <Path>rules/sch/PEPPOLBIS-ESPD-REQUEST.sch</Path>
+        <Title>Schematron for PEPPOL BIS ESPD 1.0 Request</Title>
+        <Description>Schematron file containing rules according to ISO Schematron.</Description>
+        <Property key="download">PEPPOLBIS-ESPD-REQUEST.sch</Property>
+        <!-- <Property key="filter">schematron</Property>
+        <Property key="step">POST_ARTIFACTS</Property> -->
+    </Resource>
+    <Resource>
+        <Type>native:File</Type>
+        <Path>rules/sch/PEPPOLBIS-ESPD-RESPONSE.sch</Path>
+        <Title>Schematron for PEPPOL BIS ESPD 1.0 Response</Title>
+        <Description>Schematron file containing rules according to ISO Schematron.</Description>
+        <Property key="download">PEPPOLBIS-ESPD-RESPONSE.sch</Property>
+        <!-- <Property key="filter">schematron</Property>
+        <Property key="step">POST_ARTIFACTS</Property> -->
+    </Resource>
+
+    <!-- Namespace -->
+    <Resource>
+        <Type>Namespace-1</Type>
+        <Path>structure/namespace/cac.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>Namespace-1</Type>
+        <Path>structure/namespace/cbc.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>Namespace-1</Type>
+        <Path>structure/namespace/ccv-cac.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>Namespace-1</Type>
+        <Path>structure/namespace/ccv-cbc.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>Namespace-1</Type>
+        <Path>structure/namespace/cev-cac.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>Namespace-1</Type>
+        <Path>structure/namespace/cev-cbc.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>Namespace-1</Type>
+        <Path>structure/namespace/espd.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>Namespace-1</Type>
+        <Path>structure/namespace/espd-cac.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>Namespace-1</Type>
+        <Path>structure/namespace/espd-cbc.xml</Path>
+    </Resource>
+    <Resource>
+        <Type>Namespace-1</Type>
+        <Path>structure/namespace/espd-req.xml</Path>
+    </Resource>
+
+</Project>

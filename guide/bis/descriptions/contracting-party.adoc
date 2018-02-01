@@ -1,0 +1,18 @@
+
+= Contracting body
+
+.Definition
+****
+The contracting authority or contracting entity who is buying supplies, services or public works using a tendering procedure as described in the {link-anskaffelse} and {link-forsyning}.
+****
+
+The contracting body must be identified, hence information about the party is required, such as party name, identification, endpoint id, and country.
+
+The ESPDRequest uses the aggregate element `cac:ContractingParty` to represent information on the contracting body, but uses only a reduced subset of its element. The XSD Schema however imports the entire aggregate element, but only the elements shown in the example below, is expected in the ESPD Request
+
+
+.Example of contracting body
+[source, xml, indent=0]
+----
+include::../shared/files/snippet1.xml[tags=ca]
+----

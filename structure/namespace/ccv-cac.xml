@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Namespace xmlns="urn:fdc:difi.no:2017:vefa:structure:Namespace-1">
+   <Identifier prefix="ccv-cac">urn:isa:names:specification:ubl:schema:xsd:CCV-CommonAggregateComponents-1</Identifier>
+   <Version>1.0.2</Version>
+   <Include prefix="cev-cac">urn:isa:names:specification:ubl:schema:xsd:CEV-CommonAggregateComponents-1</Include>
+   <Include prefix="ccv-cbc">urn:isa:names:specification:ubl:schema:xsd:CCV-CommonBasicComponents-1</Include>
+   <Include prefix="cac">urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</Include>
+   <Include prefix="cbc">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</Include>
+   <Element name="Criterion">
+      <Ref card="0..">cbc:ID</Ref>
+      <Ref card="0..">ccv-cbc:FulfillmentIndicator</Ref>
+      <Ref card="0..">ccv-cbc:FulfillmentIndicatorType</Ref>
+      <Ref card="0..">cbc:TypeCode</Ref>
+      <Ref card="0..">cbc:Name</Ref>
+      <Ref card="0..">cbc:Description</Ref>
+      <Ref card="0..n">ccv-cac:LegislationReference</Ref>
+      <Ref card="1..n">ccv-cac:RequirementGroup</Ref>
+      <Ref card="0..n">ccv-cac:SubCriterion</Ref>
+   </Element>
+   <Element name="Evidence"/>
+   <Element name="EvidenceDocumentReference"/>
+   <Element name="IssuerParty"/>
+   <Element name="LegislationReference"/>
+   <Element name="RelatedParty"/>
+   <Element name="RequirementGroup">
+      <Ref card="0..1">cbc:ID</Ref>
+      <Ref card="0..1">ccv-cbc:FulfillmentIndicator</Ref>
+      <Ref card="0..1">ccv-cbc:FulfillmentIndicatorType</Ref>
+      <Ref card="0..1">cbc:Name</Ref>
+      <Ref card="0..1">cbc:Description</Ref>
+      <Ref card="0..1">cbc:TypeCode</Ref>
+      <Ref card="0..n">ccv-cac:Requirement</Ref>
+      <Ref card="0..n">ccv-cac:RequirementGroup</Ref>
+   </Element>
+   <Element name="Requirement">
+      <Ref card="0..1">cbc:ID</Ref>
+      <Ref card="0..1">cbc:Description</Ref>
+      <Ref card="0..n">ccv-cac:Response</Ref>
+   </Element>
+   <Element name="Response">
+      <Ref card="0..1">cbc:ID</Ref>
+      <Ref card="0..1">ccv-cbc:Indicator</Ref>
+      <Ref card="0..1">cbc:Description</Ref>
+      <Ref card="0..1">cbc:Amount</Ref>
+      <Ref card="0..1">ccv-cbc:Code</Ref>
+      <Ref card="0..1">cbc:Date</Ref>
+      <Ref card="0..1">cbc:Percent</Ref>
+      <Ref card="0..1">cbc:Quantity</Ref>
+      <Ref card="0..1">cac:Period</Ref>
+      <Ref card="0..n">cev-cac:Evidence</Ref>
+      <Ref card="0..n">ccv-cac:RelatedParty</Ref>
+   </Element>
+   <Element name="SubCriterion">
+      <Ref card="0..1">cbc:ID</Ref>
+      <Ref card="0..1">ccv-cbc:FulfillmentIndicator</Ref>
+      <Ref card="0..1">ccv-cbc:FulfillmentIndicatorType</Ref>
+      <Ref card="0..1">cbc:TypeCode</Ref>
+      <Ref card="0..1">cbc:Name</Ref>
+      <Ref card="0..1">cbc:Description</Ref>
+      <Ref card="0..n">ccv-cac:LegislationReference</Ref>
+      <Ref card="1..n">ccv-cac:RequirementGroup</Ref>
+      <Ref card="0..n">ccv-cac:SubCriterion</Ref>
+   </Element>
+   <Element name="Period"/>
+   <Type name="LegislationType"/>
+</Namespace>

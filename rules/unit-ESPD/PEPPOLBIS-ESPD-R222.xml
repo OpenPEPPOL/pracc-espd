@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testSet xmlns="http://difi.no/xsd/vefa/validator/1.0" configuration="ehf-espd-request-1.0">
+    <assert>
+        <scope>PEPPOLBIS-ESPD-R222</scope>
+        <description>Verify issue time is provided with ESPD request reference.</description>
+    </assert>
+    <test>
+        <assert>
+            <success>PEPPOLBIS-ESPD-R222</success>
+        </assert>
+        <ESPDResponse xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                           xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                           xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1">
+
+            <cac:AdditionalDocumentReference>
+                <cbc:DocumentTypeCode>ESPD_REQUEST</cbc:DocumentTypeCode>
+                <cbc:IssueDate/>
+            </cac:AdditionalDocumentReference>
+
+        </ESPDResponse>
+    </test>
+    <test>
+        <assert>
+            <error>PEPPOLBIS-ESPD-R222</error>
+        </assert>
+        <ESPDResponse xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                           xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                           xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1">
+
+            <cac:AdditionalDocumentReference>
+                <cbc:DocumentTypeCode>ESPD_REQUEST</cbc:DocumentTypeCode>
+                <!-- <cbc:IssueDate/> -->
+            </cac:AdditionalDocumentReference>
+
+        </ESPDResponse>
+    </test>
+</testSet>

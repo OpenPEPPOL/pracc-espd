@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeList xmlns="urn:fdc:difi.no:2017:vefa:structure:CodeList-1">
+
+    <Title>Technical Capability Type Codes</Title>
+    <Identifier>TechnicalCapabilityTypeCode</Identifier>
+    <Version>1.0</Version>
+    <Agency>European Commission</Agency>
+
+    <Code>
+        <Id>TECCZZ1</Id>
+        <Name>Other</Name>
+    </Code>
+
+    <Code>
+        <Id>TECC000</Id>
+        <Name>"Information and formalities necessary for evaluating if requirements are met"</Name>
+    </Code>
+
+    <Code>
+        <Id>TECC001</Id>
+        <Name>Minimum level(s) of standards possibly required</Name>
+    </Code>
+
+    <Code>
+        <Id>TECC002</Id>
+        <Name>Performed similar projects</Name>
+    </Code>
+
+    <Code>
+        <Id>TECC003</Id>
+        <Name>Technical units</Name>
+    </Code>
+
+    <Code>
+        <Id>TECC004</Id>
+        <Name>Academic and professionals</Name>
+    </Code>
+
+    <Code>
+        <Id>TECC005</Id>
+        <Name>Detailed Organization Chart</Name>
+    </Code>
+
+    <Code>
+        <Id>TECC006</Id>
+        <Name>Environmental measures</Name>
+    </Code>
+
+    <Code>
+        <Id>TECC007</Id>
+        <Name>Logistical Capacity</Name>
+    </Code>
+
+    <Code>
+        <Id>TECC008</Id>
+        <Name>Average staff</Name>
+    </Code>
+
+    <Code>
+        <Id>TECC009</Id>
+        <Name>Machinery, material and technical equipment to perform the project</Name>
+    </Code>
+
+    <Code>
+        <Id>TECC010</Id>
+        <Name>Technical instalations and measures to guarantee the quality</Name>
+    </Code>
+
+    <Code>
+        <Id>TECC011</Id>
+        <Name>Control measures on the capability of the tenderer</Name>
+    </Code>
+
+    <Code>
+        <Id>TECC012</Id>
+        <Name>Samples, descriptions and pictures of the products to provide</Name>
+    </Code>
+
+    <Code>
+        <Id>TECC013</Id>
+        <Name>Quality control certificates</Name>
+    </Code>
+
+    <Code>
+        <Id>TECC014</Id>
+        <Name>Indicate which part of the contract is planned to be subcontracted</Name>
+    </Code>
+
+    <Code>
+        <Id>TECC015</Id>
+        <Name>Technical background</Name>
+    </Code>
+
+    <Code>
+        <Id>TECC025</Id>
+        <Name>Attestation of the establishment of entity</Name>
+    </Code>
+
+</CodeList>

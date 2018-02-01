@@ -1,0 +1,179 @@
+<Element xmlns="urn:fdc:difi.no:2017:vefa:structure-1" cardinality="0..1">
+    <Term>ccv:Response</Term>
+    <Name>Criterion requirement response</Name>
+    <Description>Used by the economic operator to answer a specific Requirement issued by the contracting body.</Description>
+
+    <Reference type="RULE">PEPPOLBIS-ESPD-R120</Reference>
+    <Reference type="RULE">PEPPOLBIS-ESPD-R121</Reference>
+    <Reference type="RULE">PEPPOLBIS-ESPD-R122</Reference>
+    <Reference type="RULE">PEPPOLBIS-ESPD-R123</Reference>
+    <Reference type="RULE">PEPPOLBIS-ESPD-R124</Reference>
+    <Reference type="RULE">PEPPOLBIS-ESPD-R125</Reference>
+    <Reference type="RULE">PEPPOLBIS-ESPD-R126</Reference>
+    <Reference type="RULE">PEPPOLBIS-ESPD-R127</Reference>
+    <Reference type="RULE">PEPPOLBIS-ESPD-R128</Reference>
+    <Reference type="RULE">PEPPOLBIS-ESPD-R129</Reference>
+    <Reference type="RULE">PEPPOLBIS-ESPD-R130</Reference>
+    <Reference type="RULE">PEPPOLBIS-ESPD-R131</Reference>
+
+    <Element cardinality="0..1">
+        <Term>cbc:ID</Term>
+        <Name>Criterion response identifier</Name>
+        <Description>This id SHOULD be provided by the EO or the service provider that instantiates the ESPDResponse XML document</Description>
+    </Element>
+
+    <Element cardinality="0..1">
+        <Term>ccv-cbc:Indicator</Term>
+        <Name>Criterion fulfillment indicator</Name>
+        <Description>Indicates a positive or a negative answer provided by the economic operator as an answer to a question in the Requirement. The only possible values are false and true</Description>
+        <Value type="EXAMPLE">true</Value>
+    </Element>
+
+    <Element cardinality="0..1">
+        <Term>cbc:Description</Term>
+        <Name>Criterion response description</Name>
+        <Description>A textual description of a criterion response that describes how an economic operators fulfills an specific criterion</Description>
+    </Element>
+
+    <Element cardinality="0..1">
+        <Term>cbc:Amount</Term>
+        <Name>Criterion fulfillment amount</Name>
+        <Description>Declared amount that fulfills this criterion.BEWARE that amounts can use decimal separators (e.g. 14134.95 but not hundred or thousand separators)</Description>
+
+        <Attribute>
+            <Term>currencyID</Term>
+            <Name>Currency code</Name>
+            <Reference type="CODE_LIST">CurrencyCode</Reference>
+            <Value type="EXAMPLE">NOK</Value>
+        </Attribute>
+
+        <Value type="EXAMPLE">150000.00</Value>
+    </Element>
+
+    <Element cardinality="0..1">
+        <Term>ccv-cbc:Code</Term>
+        <Name>Criterion fulfillment code</Name>
+        <Description>A code pointing at a definition of a concept as the answer to the Requirement</Description>
+    </Element>
+
+    <Element cardinality="0..1">
+        <Term>cbc:Date</Term>
+        <Name>Criterion fulfillment date</Name>
+        <Description>Declared date that fulfills this criterion. The date format MUST be 'YYYY-MM-DD', no time zone indicators to be used</Description>
+        <Value type="EXAMPLE">2018-01-01</Value>
+    </Element>
+
+    <Element cardinality="0..1">
+        <Term>cbc:Percent</Term>
+        <Name>Criterion fulfillment percenatge</Name>
+        <Description>Declared percentage that fulfills this criterion. Do not format the percentage with the "%" symbol, just provide a float value</Description>
+        <Value type="EXAMPLE">20</Value>
+    </Element>
+
+    <Element cardinality="0..1">
+        <Term>cbc:Quantity</Term>
+        <Name>Criterion fulfillment quantity</Name>
+        <Description>Declared quantity that fullfills the criterion. BEWARE that different types of Quantities can be required (see codelist ResponseDataType), some of them requires a unit code to be specified.
+            Up to three different types of Quantities can be specified: (1) QUANTITY_INTEGER, a number representing a quantity in a specific unit of measure. The unit has to be specified (e.g. number of workers); (2) QUANTITY_YEAR, a non-negative integer (i.e. a natural number) representing a year. The unit has to be specified as YEAR, and (3) QUANTITY, a number representing a generic quantity with no unit specified (e.g. a ratio). Beware that in the case of QUANTITY_INTEGER and QUANTITY_YEAR the attribute unitCode MUST be always specified</Description>
+
+        <Attribute usage="Dependent">
+            <Term>unitCode</Term>
+            <Name>Unit of measure</Name>
+            <Reference type="CODE_LIST">PeriodMeasureTypeCodes</Reference>
+            <Reference type="CODE_LIST">UNECERec20</Reference>
+
+            <Value type="EXAMPLE">YEAR</Value>
+        </Attribute>
+
+        <Value type="EXAMPLE">2016</Value>
+    </Element>
+
+    <Element cardinality="0..1">
+        <Term>cac:Period</Term>
+        <Name>Criterion fulfillment period</Name>
+        <Description>Declared period that fulfills the Criterion</Description>
+
+        <Element>
+            <Term>cbc:Description</Term>
+            <Name>Period description</Name>
+            <Value type="EXAMPLE">6 months</Value>
+        </Element>
+
+    </Element>
+
+    <Element cardinality="0..n">
+        <Term>cev-cac:Evidence</Term>
+        <Name>Evidence</Name>
+        <Description>One or more references to a source where a documentary proof can be obtained
+            to demonstrate that one stated response does actually fulfill the Requirement from a Criterion</Description>
+
+
+        <Element cardinality="0..1">
+            <Term>cev-cbc:EvidenceName</Term>
+            <Name>Evidence name</Name>
+            <Description>The name of an evidence</Description>
+            <Value type="EXAMPLE">Skatteattest</Value>
+        </Element>
+
+        <Element cardinality="0..1">
+            <Term>cev-cbc:EmbeddedEvidenceIndicator</Term>
+            <Name>Embedded evidence indicator</Name>
+            <Description>Indicates whether the Evidence is embedded in the XML document</Description>
+            <Value type="FIXED">false</Value>
+        </Element>
+
+        <Element cardinality="0..1">
+            <Term>cev-cac:EvidenceIssuerParty</Term>
+            <Name>Evidence issuer party</Name>
+            <Description>Reference to the (trusted) party responsible for issuing the Evidence</Description>
+
+            <Element>
+                <Term>cac:PartyName</Term>
+                <Name>Party name</Name>
+
+                <Element>
+                    <Term>cbc:Name</Term>
+                    <Name>Evidence issuer name</Name>
+                    <Description>Name of the trusted party issuing the evidence</Description>
+                    <Value type="EXAMPLE">Skatteetaten</Value>
+                </Element>
+            </Element>
+        </Element>
+
+        <Element cardinality="0..1">
+            <Term>cev-cac:EvidenceDocumentReference</Term>
+            <Name>Evidence document</Name>
+
+            <Element cardinality="0..1">
+                <Term>cbc:ID</Term>
+                <Name>Evidence identifier</Name>
+                <Description>The ID for this document. Must be a UUID of version 4 (random generated UUID); this value is used internally to identify this document reference.</Description>
+            </Element>
+
+            <Element>
+                <Term>cac:Attachment</Term>
+                <Name>Attachment</Name>
+
+                <Element>
+                    <Term>cac:ExternalReference</Term>
+                    <Name>External reference</Name>
+
+                    <Element>
+                        <Term>cbc:URI</Term>
+                        <Name>External document URI</Name>
+                        <Description>The Uniform Resource Identifier (URI) that identifies where the external document is located.</Description>
+                        <Value type="EXAMPLE">http://www.eurodb.be/scriptsPublic/arianeweb.dll/e/m_mkt_rech</Value>
+                    </Element>
+                </Element>
+            </Element>
+        </Element>
+    </Element>
+
+    <!--
+    <Element cardinality="0..n">
+        <Term>ccv:RelatedParty</Term>
+        <Name>Response related party</Name>
+        <Description>A party that may be affected by the response provided by the economic operator</Description>
+    </Element>
+    -->
+</Element>

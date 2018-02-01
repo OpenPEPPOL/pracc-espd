@@ -1,0 +1,12 @@
+
+= Description of selected information blocks
+
+This chapter describes selected blocks of information that is used in both the ESPD Request and Response transaction, providing valid snippets of xml code.
+
+:leveloffset: +1
+
+include::contracting-party.adoc[]
+include::economic-operator-party.adoc[]
+include::additional-docs.adoc[]
+
+:leveloffset: -1

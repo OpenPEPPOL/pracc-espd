@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeList xmlns="urn:fdc:difi.no:2017:vefa:structure:CodeList-1">
+
+    <Title>ProfileExecutionID</Title>
+    <Identifier>ProfileExecutionID</Identifier>
+    <Version>1.0</Version>
+    <Agency>European Commission</Agency>
+
+    <Code>
+        <Id>QT</Id>
+        <Name>Qualification and Tender</Name>
+    </Code>
+
+    <Code>
+        <Id>Q</Id>
+        <Name>Qualification Only</Name>
+    </Code>
+
+    <Code>
+        <Id>Q2T</Id>
+        <Name>Qualification and Tender (2 stage procedure)</Name>
+    </Code>
+
+    <Code>
+        <Id>T</Id>
+        <Name>Tender Only</Name>
+    </Code>
+
+</CodeList>

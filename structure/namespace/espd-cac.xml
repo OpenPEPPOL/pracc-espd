@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Namespace xmlns="urn:fdc:difi.no:2017:vefa:structure:Namespace-1">
+   <Identifier prefix="espd-cac">urn:grow:names:specification:ubl:schema:xsd:ESPD-CommonAggregateComponents-1</Identifier>
+   <Version>1.0.2</Version>
+   <Include prefix="espd-cbc">urn:grow:names:specification:ubl:schema:xsd:ESPD-CommonBasicComponents-1</Include>
+   <Include prefix="cac">urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</Include>
+   <Include prefix="ccv-cac">urn:isa:names:specification:ubl:schema:xsd:CCV-CommonAggregateComponents-1</Include>
+   <Include prefix="cbc">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</Include>
+   <Element name="Criterion"/>
+   <Element name="EconomicOperatorParty">
+      <Ref card="0..">espd-cbc:EconomicOperatorRoleCode</Ref>
+      <Ref card="0..">espd-cbc:EconomicOperatorRoleDescription</Ref>
+      <Ref card="0..">espd-cbc:NationalDataBaseURIID</Ref>
+      <Ref card="0..">espd-cbc:NationalDatabaseAccessCredentials</Ref>
+      <Ref card="0..">espd-cbc:SMEIndicator</Ref>
+      <Ref card="0..n">espd-cac:RepresentativeNaturalPerson</Ref>
+      <Ref card="0..">cac:Party</Ref>
+   </Element>
+   <Element name="RepresentativeNaturalPerson">
+      <Ref card="0..">espd-cbc:NaturalPersonRoleCode</Ref>
+      <Ref card="0..">espd-cbc:NaturalPersonRoleDescription</Ref>
+      <Ref card="0..">espd-cbc:NaturalPersonRegistrationCountryCode</Ref>
+      <Ref card="0..">cac:PowerOfAttorney</Ref>
+   </Element>
+   <Element name="PostalAddress"/>
+   <Element name="ProcurementProjectLot"/>
+   <Element name="ServiceProviderParty"/>
+</Namespace>

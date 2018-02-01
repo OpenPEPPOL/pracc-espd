@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeList xmlns="urn:fdc:difi.no:2017:vefa:structure:CodeList-1">
+
+    <Title>Criteria Type Codes</Title>
+    <Identifier>CriteriaTypeCode</Identifier>
+    <Version>1.0.2</Version>
+    <Agency>DG GROW (European Commission)</Agency>
+
+    <Code>
+        <Id>CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION</Id>
+        <Name>Participation in a criminal organisation</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.EXCLUSION.CONVICTIONS.CORRUPTION</Id>
+        <Name>Corruption</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.EXCLUSION.CONVICTIONS.FRAUD</Id>
+        <Name>Fraud</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.EXCLUSION.CONVICTIONS.TERRORIST_OFFENCES</Id>
+        <Name>Terrorist offences or offences linked to terrorist activities</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.EXCLUSION.CONVICTIONS.MONEY_LAUNDERING</Id>
+        <Name>Money laundering or terrorist financing</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.EXCLUSION.CONVICTIONS.CHILD_LABOUR-HUMAN_TRAFFICKING</Id>
+        <Name>Child labour and other forms of trafficking in human beings</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_TAXES</Id>
+        <Name>Payment of taxes</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_SOCIAL_SECURITY</Id>
+        <Name>Payment of social security</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.EXCLUSION.SOCIAL.ENVIRONMENTAL_LAW</Id>
+        <Name>Breaching of obligations in the fields of environmental law</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.EXCLUSION.SOCIAL.SOCIAL_LAW</Id>
+        <Name>Breaching of obligations in the fields of social law</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.EXCLUSION.SOCIAL.LABOUR_LAW</Id>
+        <Name>Breaching of obligations in the fields of labour law</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.EXCLUSION.BUSINESS.BANKRUPTCY</Id>
+        <Name>Bankruptcy</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.EXCLUSION.BUSINESS.INSOLVENCY</Id>
+        <Name>Insolvency</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.EXCLUSION.BUSINESS.CREDITORS_ARRANGEMENT</Id>
+        <Name>Arrangement with creditors</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.EXCLUSION.BUSINESS.BANKRUPTCY_ANALOGOUS</Id>
+        <Name>Analogous situation like bankruptcy under national law</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.EXCLUSION.BUSINESS.LIQUIDATOR_ADMINISTERED</Id>
+        <Name>Assets being administered by liquidator</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.EXCLUSION.BUSINESS.ACTIVITIES_SUSPENDED</Id>
+        <Name>Business activities are suspended</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.EXCLUSION.MISCONDUCT.MC_PROFESSIONAL</Id>
+        <Name>Guilty of grave professional misconduct</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.EXCLUSION.MISCONDUCT.MARKET_DISTORTION</Id>
+        <Name>Agreements with other economic operators aimed at distorting competition</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.PROCEDURE_PARTICIPATION</Id>
+        <Name>Conflict of interest due to its participation in the procurement procedure</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.PROCEDURE_PREPARATION</Id>
+        <Name>Direct or indirect involvement in the preparation of this procurement procedure</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.EARLY_TERMINATION</Id>
+        <Name>Early termination, damages or other comparable sanctions</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.MISINTERPRETATION</Id>
+        <Name>Guilty of misinterpretation, withheld information, able to provide required documents and obtained
+            confidential information of this procedure
+        </Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.EXCLUSION.NATIONAL.OTHER</Id>
+        <Name>Purely national exclusion grounds</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.ALL_SATISFIED</Id>
+        <Name>All selection criteria satisfied</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.SUITABILITY.PROFESSIONAL_REGISTER_ENROLMENT</Id>
+        <Name>Enrolment in a relevant professional register</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.SUITABILITY.TRADE_REGISTER_ENROLMENT</Id>
+        <Name>Enrolment in a trade register</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.SUITABILITY.AUTHORISATION</Id>
+        <Name>For service contracts: authorisation of particular organisation needed</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.SUITABILITY.MEMBERSHIP</Id>
+        <Name>For service contracts: membership of particular organisation needed</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.GENERAL_YEARLY</Id>
+        <Name>General yearly turnover</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.AVERAGE_YEARLY</Id>
+        <Name>Average yearly turnover</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.SPECIFIC_YEARLY</Id>
+        <Name>Specific yearly turnover</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.SPECIFIC_AVERAGE</Id>
+        <Name>Specific average turnover</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.SET_UP</Id>
+        <Name>Set up of economic operator</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.FINANCIAL_RATIO</Id>
+        <Name>Financial ratio</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.RISK_INDEMNITY_INSURANCE</Id>
+        <Name>Professional risk indemnity insurance</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.OTHER_REQUIREMENTS</Id>
+        <Name>Other economic or financial requirements</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.REFERENCES.WORKS_PERFORMANCE</Id>
+        <Name>For works contracts: performance of works of the specified type</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.REFERENCES.SUPPLIES_DELIVERY_PERFORMANCE</Id>
+        <Name>For supply contracts: performance of deliveries of the specified type</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.REFERENCES.SERVICES_DELIVERY_PERFORMANCE</Id>
+        <Name>For service contracts: performance of services of the specified type</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.TECHNICIANS_FOR_QUALITY_CONTROL</Id>
+        <Name>Technicians or technical bodies for quality control</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.TECHNICIANS_FOR_CARRYING_WORKS</Id>
+        <Name>For works contracts: technicians or technical bodies to carry out the work</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.FACILITIES_FOR_QUALITY_ENSURING</Id>
+        <Name>Technical facilities and measures for ensuring quality</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.FACILITIES_FOR_STUDY_RESEARCH</Id>
+        <Name>Study and research facilities</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.SUPPLY_CHAIN_MANAGEMENT</Id>
+        <Name>Supply chain management</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.CHECKS.ALLOWANCE_OF_CHECKS</Id>
+        <Name>Allowance of checks</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.PROFESSIONAL_QUALIFICATIONS</Id>
+        <Name>Educational and professional qualifications</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.ENVIRONMENTAL_MANAGEMENT_MEASURES</Id>
+        <Name>Environmental management measures</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.MANAGERIAL_STAFF</Id>
+        <Name>Number of managerial staff</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.AVERAGE_ANNUAL_MANPOWER</Id>
+        <Name>Average annual manpower</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.EQUIPMENT</Id>
+        <Name>Tools, plant or technical equipment</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.SUBCONTRACTING_PROPORTION</Id>
+        <Name>Subcontracting proportion</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.ARTEFACTS.NO_AUTHENTICATED_ARTEFACTS</Id>
+        <Name>For supply contracts: samples, descriptions or photographs without certification of authenticity</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.ARTEFACTS.AUTHENTICATED_ARTEFACTS</Id>
+        <Name>For supply contracts: samples, descriptions or photographs with certification of authenticity</Name>
+    </Code>
+
+    <Code>
+        <Id>
+            CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.CERTIFICATES.QUALITY_ASSURANCE.QA_INSTITUTES_CERTIFICATE
+        </Id>
+        <Name>For supply contracts: certificates by quality control institutes</Name>
+    </Code>
+
+    <Code>
+        <Id>
+            CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.CERTIFICATES.QUALITY_ASSURANCE.QA_INDEPENDENT_CERTIFICATE
+        </Id>
+        <Name>Certificates by independent bodies about quality assurance standards</Name>
+    </Code>
+
+    <Code>
+        <Id>
+            CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.CERTIFICATES.ENVIRONMENTAL_MANAGEMENT.ENV_INDEPENDENT_CERTIFICATE
+        </Id>
+        <Name>Certificates by independent bodies about environmental management systems or standards</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.OTHER.EO_DATA.SHELTERED_WORKSHOP</Id>
+        <Name>Sheltered workshop</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.OTHER.EO_DATA.REGISTERED_IN_OFFICIAL_LIST</Id>
+        <Name>Registered in an official list</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.OTHER.EO_DATA.TOGETHER_WITH_OTHERS</Id>
+        <Name>Together with others</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.OTHER.EO_DATA.RELIES_ON_OTHER_CAPACITIES</Id>
+        <Name>Relies on other's capacities</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.OTHER.EO_DATA.SUBCONTRACTS_WITH_THIRD_PARTIES</Id>
+        <Name>Subcontracts any share with third parties</Name>
+    </Code>
+
+    <Code>
+        <Id>CRITERION.OTHER.EO_DATA.MEETS_THE_OBJECTIVE</Id>
+        <Name>Meets the objective and non discrimantory criteria</Name>
+    </Code>
+
+</CodeList>

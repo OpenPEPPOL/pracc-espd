@@ -1,0 +1,8 @@
+
+= Scope of this document
+
+This document explains and illustrates how to implement XML documents based on the Data Model and XSD Schema from the European Commission, as well as any specific requirements for use in the Norwegian marked (EHF specific rules and restrictions). The ESPD data model (ESPD-EDM) is rich and flexible enough so as to allow ESPD instances for contracts above and below the threshold. However this document is oriented exclusively to illustrate how to create ESPD electronic documents for contracts above the threshold.
+
+== Out-of-Scope
+
+Many of the requirements and recommendations expressed in this document MAY NOT be valid for contracts below the threshold. However, from a purely technical point of view, this document MAY be used to understand how the ESPD data model works, and to create, in a normalized way, XML instances containing criteria for contracts below the threshold.

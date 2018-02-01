@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testSet xmlns="http://difi.no/xsd/vefa/validator/1.0" configuration="ehf-espd-request-1.0">
+    <assert>
+        <scope>PEPPOLBIS-ESPD-R211</scope>
+        <description>Verify only allowed elements are provided.</description>
+    </assert>
+    <test>
+        <assert>
+            <success>PEPPOLBIS-ESPD-R211</success>
+        </assert>
+        <ESPDResponse xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                           xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                           xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1">
+
+            <cac:AdditionalDocumentReference>
+                <cbc:DocumentTypeCode>TED_CN</cbc:DocumentTypeCode>
+            </cac:AdditionalDocumentReference>
+
+        </ESPDResponse>
+    </test>
+    <test>
+        <assert>
+            <error>PEPPOLBIS-ESPD-R211</error>
+        </assert>
+        <ESPDResponse xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                           xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                           xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1">
+
+            <cac:AdditionalDocumentReference>
+                <cbc:DocumentTypeCode>TED_CN</cbc:DocumentTypeCode>
+                <cbc:IssueDate/>
+            </cac:AdditionalDocumentReference>
+
+        </ESPDResponse>
+    </test>
+    <test>
+        <assert>
+            <error>PEPPOLBIS-ESPD-R211</error>
+        </assert>
+        <ESPDResponse xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                           xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                           xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1">
+
+            <cac:AdditionalDocumentReference>
+                <cbc:DocumentTypeCode>TED_CN</cbc:DocumentTypeCode>
+                <cbc:IssueTime/>
+            </cac:AdditionalDocumentReference>
+
+        </ESPDResponse>
+    </test>
+</testSet>

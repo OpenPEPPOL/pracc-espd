@@ -1,0 +1,4 @@
+[submodule "espd-edm"]
+	path = espd-edm
+	url = https://github.com/ESPD/ESPD-EDM.git
+    branch = 1.0.2

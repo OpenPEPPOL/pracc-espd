@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildConfigurations xmlns="http://difi.no/xsd/vefa/validator/1.0" capabilities="espd">
+
+	<package>PEPPOL BIS ESPD 1.0.0</package>
+
+	<testfolder>example</testfolder>
+	<testfolder>unit-ESPD</testfolder>
+
+	<!-- Request -->
+	<configuration>
+		<identifier>espd-request-1.0-xsd</identifier>
+		<title>ESPD Request 1.0.2 XSD</title>
+		<file
+			source="../espd-edm/exchange-model/src/main/resources/schema/maindoc/ESPDRequest-1.0.xsd"
+			path="xsd/maindoc/ESPDRequest-1.0.xsd" />
+	</configuration>
+	<configuration>
+		<identifier>ehf-espd-request-1.0</identifier>
+		<title>PEPPOL BIS ESPD Request 1.0</title>
+		<declaration type="xml.espd">urn:grow:names:specification:ubl:schema:xsd:ESPDRequest-1::ESPDRequest::urn:www.cenbii.eu:transaction:biitrns070:ver3.0:extended:urn:fdc:peppol.eu:2017:pracc:spec:1.0</declaration>
+		<inherit>espd-request-1.0-xsd</inherit>
+		<file source="sch/PEPPOLBIS-ESPD-REQUEST.sch" path="xsl/PEPPOLBIS-ESPD-REQUEST.xsl" infoUrl="/peppolbis/pracc/espd/1.0/rules/{}/"/>
+	</configuration>
+
+	<!-- Response -->
+	<configuration>
+		<identifier>espd-response-1.0-xsd</identifier>
+		<title>ESPD Response 1.0.2 XSD</title>
+		<file
+			source="../espd-edm/exchange-model/src/main/resources/schema/maindoc/ESPDResponse-1.0.xsd"
+			path="xsd/maindoc/ESPDResponse-1.0.xsd" />
+	</configuration>
+	<configuration>
+		<identifier>ehf-espd-response-1.0</identifier>
+		<title>PEPPOL BIS ESPD Response 1.0</title>
+		<declaration type="xml.espd">urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1::ESPDResponse::urn:www.cenbii.eu:transaction:biitrns092:ver3.0:extended:urn:fdc:peppol.eu:2017:pracc:spec:1.0</declaration>
+		<inherit>espd-response-1.0-xsd</inherit>
+		<file source="sch/PEPPOLBIS-ESPD-RESPONSE.sch" path="xsl/PEPPOLBIS-ESPD-RESPONSE.xsl" infoUrl="/peppolbis/pracc/espd/1.0/rules/{}/"/>
+	</configuration>
+
+	<!-- Includes -->
+	<include
+		source="../espd-edm/exchange-model/src/main/resources/schema/common/CCTS_CCT_SchemaModule-2.1.xsd"
+		path="xsd/common/CCTS_CCT_SchemaModule-2.1.xsd" />
+	<include
+		source="../espd-edm/exchange-model/src/main/resources/schema/common/CCV-CommonAggregateComponents-1.0.xsd"
+		path="xsd/common/CCV-CommonAggregateComponents-1.0.xsd" />
+	<include
+		source="../espd-edm/exchange-model/src/main/resources/schema/common/CCV-CommonBasicComponents-1.0.xsd"
+		path="xsd/common/CCV-CommonBasicComponents-1.0.xsd" />
+	<include
+		source="../espd-edm/exchange-model/src/main/resources/schema/common/CEV-CommonAggregateComponents-1.0.xsd"
+		path="xsd/common/CEV-CommonAggregateComponents-1.0.xsd" />
+	<include
+		source="../espd-edm/exchange-model/src/main/resources/schema/common/CEV-CommonBasicComponents-1.0.xsd"
+		path="xsd/common/CEV-CommonBasicComponents-1.0.xsd" />
+	<include
+		source="../espd-edm/exchange-model/src/main/resources/schema/common/ESPD-CommonAggregateComponents-1.0.xsd"
+		path="xsd/common/ESPD-CommonAggregateComponents-1.0.xsd" />
+	<include
+		source="../espd-edm/exchange-model/src/main/resources/schema/common/ESPD-CommonBasicComponents-1.0.xsd"
+		path="xsd/common/ESPD-CommonBasicComponents-1.0.xsd" />
+	<include
+		source="../espd-edm/exchange-model/src/main/resources/schema/common/UBL-CommonAggregateComponents-2.1.xsd"
+		path="xsd/common/UBL-CommonAggregateComponents-2.1.xsd" />
+	<include
+		source="../espd-edm/exchange-model/src/main/resources/schema/common/UBL-CommonBasicComponents-2.1.xsd"
+		path="xsd/common/UBL-CommonBasicComponents-2.1.xsd" />
+	<include
+		source="../espd-edm/exchange-model/src/main/resources/schema/common/UBL-CommonExtensionComponents-2.1.xsd"
+		path="xsd/common/UBL-CommonExtensionComponents-2.1.xsd" />
+	<include
+		source="../espd-edm/exchange-model/src/main/resources/schema/common/UBL-CommonSignatureComponents-2.1.xsd"
+		path="xsd/common/UBL-CommonSignatureComponents-2.1.xsd" />
+	<include
+		source="../espd-edm/exchange-model/src/main/resources/schema/common/UBL-CoreComponentParameters-2.1.xsd"
+		path="xsd/common/UBL-CoreComponentParameters-2.1.xsd" />
+	<include
+		source="../espd-edm/exchange-model/src/main/resources/schema/common/UBL-ExtensionContentDataType-2.1.xsd"
+		path="xsd/common/UBL-ExtensionContentDataType-2.1.xsd" />
+	<include
+		source="../espd-edm/exchange-model/src/main/resources/schema/common/UBL-QualifiedDataTypes-2.1.xsd"
+		path="xsd/common/UBL-QualifiedDataTypes-2.1.xsd" />
+	<include
+		source="../espd-edm/exchange-model/src/main/resources/schema/common/UBL-SignatureAggregateComponents-2.1.xsd"
+		path="xsd/common/UBL-SignatureAggregateComponents-2.1.xsd" />
+	<include
+		source="../espd-edm/exchange-model/src/main/resources/schema/common/UBL-SignatureBasicComponents-2.1.xsd"
+		path="xsd/common/UBL-SignatureBasicComponents-2.1.xsd" />
+	<include
+		source="../espd-edm/exchange-model/src/main/resources/schema/common/UBL-UnqualifiedDataTypes-2.1.xsd"
+		path="xsd/common/UBL-UnqualifiedDataTypes-2.1.xsd" />
+	<include
+		source="../espd-edm/exchange-model/src/main/resources/schema/common/UBL-XAdESv132-2.1.xsd"
+		path="xsd/common/UBL-XAdESv132-2.1.xsd" />
+	<include
+		source="../espd-edm/exchange-model/src/main/resources/schema/common/UBL-XAdESv141-2.1.xsd"
+		path="xsd/common/UBL-XAdESv141-2.1.xsd" />
+	<include
+		source="../espd-edm/exchange-model/src/main/resources/schema/common/UBL-xmldsig-core-schema-2.1.xsd"
+		path="xsd/common/UBL-xmldsig-core-schema-2.1.xsd" />
+
+</buildConfigurations>

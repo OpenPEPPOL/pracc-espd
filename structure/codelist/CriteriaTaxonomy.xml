@@ -1,0 +1,2001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CriteriaTaxonomy xmlns="urn:fdc:difi.no:2017:vefa:espd:CriteriaTaxonomy-1">
+   <Version>2018-01-15</Version>
+   <Criterion id="005eb9ed-1347-4ca3-bb29-9bc0db64e1ab" required="false">
+      <Type>CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION</Type>
+      <Name code="crit_eu_title_grounds_criminal_conv">
+         <Source>Participation in a criminal organisation</Source>
+         <Translation lang="nb">Deltakelse i en kriminell organisasjon</Translation>
+      </Name>
+      <Description code="crit_eu_text_grounds_criminal_conv">
+         <Source>Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for participation in a criminal organisation, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 2 of Council Framework Decision 2008/841/JHA of 24 October 2008 on the fight against organised crime (OJ L 300, 11.11.2008, p. 42).</Source>
+         <Translation lang="nb">Er leverandøren selv eller en person, som er medlem av leverandørens administrasjons-, ledelses- eller kontrollorgan eller har kompetanse til å representere eller kontrollere eller treffe beslutninger i slike organer, ved rettskraftig dom blitt dømt for deltakelse i en kriminell organisasjon ved en dom avsagt for ikke mer enn fem år siden, eller en avvisningsperiode fastsatt direkte i dommen som fortsatt gjelder? Deltakelse i en kriminell organisasjon som definert i artikkel 2 i Rådets rammeavgjørelse 2008/841/RIA av 24. oktober 2008 om bekjempelse av organisert kriminalitet (EUT L 300 av 11.11.2008, s. 42)</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+         <Translation lang="nb">Europaparlaments- og rådsdirektiv 2014/24/EU av 26. februar 2014 om offentlige anskaffelser som avløser direktiv 2004/18/EU.</Translation>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+         <Translation lang="nb">Direktiv 2014/24/EU</Translation>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>57(1)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>7c637c0c-7703-4389-ba52-02997a055bd7</RequirementGroupId>
+      <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
+   </Criterion>
+   <Criterion id="c27b7c4e-c837-4529-b867-ed55ce639db5" required="false">
+      <Type>CRITERION.EXCLUSION.CONVICTIONS.CORRUPTION</Type>
+      <Name code="crit_eu_title_corruption">
+         <Source>Corruption</Source>
+         <Translation lang="nb">Korrupsjon</Translation>
+      </Name>
+      <Description code="crit_eu_text_corruption">
+         <Source>Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for corruption, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 3 of the Convention on the fight against corruption involving officials of the European Communities or officials of Member States of the European Union, OJ C 195, 25.6.1997, p. 1, and in Article 2(1) of Council Framework Decision 2003/568/JHA of 22 July 2003 on combating corruption in the private sector (OJ L 192, 31.7.2003, p. 54). This exclusion ground also includes corruption as defined in the national law of the contracting authority (contracting entity) or the economic operator.</Source>
+         <Translation lang="nb">Er leverandøren selv eller en person, som er medlem av leverandørens administrasjons-, ledelses- eller kontrollorgan eller har kompetanse til å representere eller kontrollere eller treffe beslutninger i slike organer, ved rettskraftig dom blitt dømt for korrupsjon ved en dom avsagt for ikke mer enn fem år siden, eller en avvisningsperiode fastsatt direkte i dommen som fortsatt gjelder?
+Korrupsjon som definert i artikkel 3 i konvensjonen om bekjempelse av korrupsjon, som involverer tjenestemenn i De Europeiske Fellesskapene eller i Den Europeiske Unions medlemsstater (EUT C 195 av 25.6.1997, s. 1), og i artikkel 2, stk. 1, i Rådets rammeavgjørelse 2003/568/RIA av 22. juli 2003 om bekjempelse av korrupsjon i den private sektor (EUT L 192 av 31.7.2003, s. 54). Denne avvisningsgrunnen omfatter også korrupsjon som definert i nasjonal rett for oppdragsgiveren eller leverandøren.</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+         <Translation lang="nb">Europaparlaments- og rådsdirektiv 2014/24/EU av 26. februar 2014 om offentlige anskaffelser som avløser direktiv 2004/18/EU.</Translation>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>57(1)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>7c637c0c-7703-4389-ba52-02997a055bd7</RequirementGroupId>
+      <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
+   </Criterion>
+   <Criterion id="297d2323-3ede-424e-94bc-a91561e6f320" required="false">
+      <Type>CRITERION.EXCLUSION.CONVICTIONS.FRAUD</Type>
+      <Name code="crit_eu_title_fraud">
+         <Source>Fraud</Source>
+         <Translation lang="nb">Bedrageri</Translation>
+      </Name>
+      <Description code="crit_eu_text_fraud">
+         <Source>Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for fraud, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? Within the meaning of Article 1 of the Convention on the protection of the European Communities' financial interests (OJ C 316, 27.11.1995, p. 48).</Source>
+         <Translation lang="nb">Er leverandøren selv eller en person, som er medlem av leverandørens administrasjons-, ledelses- eller kontrollorgan eller har kompetanse til å representere eller kontrollere eller treffe beslutninger i slike organer, ved rettskraftig dom blitt dømt for bedrageri ved en dom avsagt for ikke mer enn fem år siden, eller en avvisningsperiode fastsatt direkte i dommen som fortsatt gjelder?</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>57(1)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>7c637c0c-7703-4389-ba52-02997a055bd7</RequirementGroupId>
+      <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
+   </Criterion>
+   <Criterion id="d486fb70-86b3-4e75-97f2-0d71b5697c7d" required="false">
+      <Type>CRITERION.EXCLUSION.CONVICTIONS.TERRORIST_OFFENCES</Type>
+      <Name code="crit_eu_title_terrorist">
+         <Source>Terrorist offences or offences linked to terrorist activities</Source>
+         <Translation lang="nb">Terrorhandlinger eller straffbare handlinger med forbindelse til terroraktivitet</Translation>
+      </Name>
+      <Description code="crit_eu_text_terrorist">
+         <Source>Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for terrorist offences or offences linked to terrorist activities, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Articles 1 and 3 of Council Framework Decision of 13 June 2002 on combating terrorism (OJ L 164, 22.6.2002, p. 3). This exclusion ground also includes inciting or aiding or abetting or attempting to commit an offence, as referred to in Article 4 of that Framework Decision.</Source>
+         <Translation lang="nb">Er leverandøren selv eller en person, som er medlem av leverandørens administrasjons-, ledelses- eller kontrollorgan eller har kompetanse til å representere eller kontrollere eller treffe beslutninger i slike organer, ved rettskraftig dom blitt dømt for terrorhandlinger eller straffbare handlinger med forbindelse til terroraktivitetved en dom avsagt for ikke mer enn fem år siden, eller en avvisningsperiode fastsatt direkte i dommen som fortsatt gjelder?
+ Terrorhandlinger eller straffbare handlinger med forbindelse til terroraktivitet som definert i artikkel 1 og 3 i Rådets rammeavgjørelse 2002/475/RIA av 13. juni 2002 om bekjempelse av terrorisme (EFT L 164 af 22.6.2002, s. 3). Denne avvisningsgrunnen omfatter også oppfordring til, medvirkning til eller forsøk på å begå slike handlinger som omhandlet i artikkel 4 i nevnte rammeavgjørelse.</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>57(1)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>7c637c0c-7703-4389-ba52-02997a055bd7</RequirementGroupId>
+      <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
+   </Criterion>
+   <Criterion id="47112079-6fec-47a3-988f-e561668c3aef" required="false">
+      <Type>CRITERION.EXCLUSION.CONVICTIONS.MONEY_LAUNDERING</Type>
+      <Name code="crit_eu_title_money_laundering">
+         <Source>Money laundering or terrorist financing</Source>
+         <Translation lang="nb">Hvitvasking av penger eller finansiering av terrorisme</Translation>
+      </Name>
+      <Description code="crit_eu_text_money_laundering">
+         <Source>Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for money laundering or terrorist financing, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 1 of Directive 2005/60/EC of the European Parliament and of the Council of 26 October 2005 on the prevention of the use of the financial system for the purpose of money laundering and terrorist financing (OJ L 309, 25.11.2005, p. 15).</Source>
+         <Translation lang="nb">Er leverandøren selv eller en person, som er medlem av leverandørens administrasjons-, ledelses- eller kontrollorgan eller har kompetanse til å representere eller kontrollere eller treffe beslutninger i slike organer, ved rettskraftig dom blitt dømt for hvitvasking av penger eller finansiering av terrorisme ved en dom avsagt for ikke mer enn fem år siden, eller en avvisningsperiode fastsatt direkte i dommen som fortsatt gjelder?</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>57(1)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>7c637c0c-7703-4389-ba52-02997a055bd7</RequirementGroupId>
+      <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
+   </Criterion>
+   <Criterion id="d789d01a-fe03-4ccd-9898-73f9cfa080d1" required="false">
+      <Type>CRITERION.EXCLUSION.CONVICTIONS.CHILD_LABOUR-HUMAN_TRAFFICKING</Type>
+      <Name code="crit_eu_title_child_labour">
+         <Source>Child labour and other forms of trafficking in human beings</Source>
+         <Translation lang="nb">Barnearbeid og andre former for menneskehandel</Translation>
+      </Name>
+      <Description code="crit_eu_text_child_labour">
+         <Source>Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for child labour and other forms of trafficking in human beings, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 2 of Directive 2011/36/EU of the European Parliament and of the Council of 5 April 2011 on preventing and combating trafficking in human beings and protecting its victims, and replacing Council Framework Decision 2002/629/JHA (OJ L 101, 15.4.2011, p. 1).</Source>
+         <Translation lang="nb">Er leverandøren selv eller en person, som er medlem av leverandørens administrasjons-, ledelses- eller kontrollorgan eller har kompetanse til å representere eller kontrollere eller treffe beslutninger i slike organer, ved rettskraftig dom blitt dømt for barnearbeid og andre former for menneskehandel ved en dom avsagt for ikke mer enn fem år siden, eller en avvisningsperiode fastsatt direkte i dommen som fortsatt gjelder?
+Barnearbeid og andre former for menneskehandel som definert i artikkel 2 i Europaparlamentets og Rådets direktiv 2011/36/EU av 5. april 2011 om forebygging og bekjempelse av menneskehandel og beskyttelse av dets ofre, og om erstatning av Rådets rammeavgjørelse 2002/629/RIA (EUT L 101 av 15.4.2011, s. 1).</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>57(1)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>7c637c0c-7703-4389-ba52-02997a055bd7</RequirementGroupId>
+      <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
+   </Criterion>
+   <Criterion id="b61bbeb7-690e-4a40-bc68-d6d4ecfaa3d4" required="false">
+      <Type>CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_TAXES</Type>
+      <Name code="crit_eu_title_payment_taxes">
+         <Source>Payment of taxes</Source>
+         <Translation lang="nb">Betaling av skatter og avgifter</Translation>
+      </Name>
+      <Description code="crit_eu_text_payment_taxes">
+         <Source>Has the economic operator breached its obligations relating to the payment of taxes, both in the country in which it is established and in Member State of the contracting authority or contracting entity if other than the country of establishment?</Source>
+         <Translation lang="nb">Har leverandøren unnlatt å oppfylle alle sine forpliktelser til å betale skatter og avgifter både i det land han er etablert i, og i oppdragsgivers medlemsstat, hvis dette er et annet land enn det han er etablert i?</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>57(2)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>098fd3cc-466e-4233-af1a-affe09471bce</RequirementGroupId>
+      <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
+   </Criterion>
+   <Criterion id="7d85e333-bbab-49c0-be8d-c36d71a72f5e" required="false">
+      <Type>CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_SOCIAL_SECURITY</Type>
+      <Name code="crit_eu_title_payment_social_security">
+         <Source>Payment of social security contributions</Source>
+         <Translation lang="nb">Betaling av trygdeavgifter</Translation>
+      </Name>
+      <Description code="crit_eu_text_payment_social_security">
+         <Source>Has the economic operator breached its obligations relating to the payment social security contributions, both in the country in which it is established and in Member State of the contracting authority or contracting entity if other than the country of establishment?</Source>
+         <Translation lang="nb">Har leverandør unnlatt å oppfylle alle sine forpliktelser til å betale trygdeavgifter både i det land han er etablert i, og i oppdragsgivers medlemsstat, hvis dette er et annet land enn det han er etablert i?</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>57(2)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>098fd3cc-466e-4233-af1a-affe09471bce</RequirementGroupId>
+      <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
+   </Criterion>
+   <Criterion id="a80ddb62-d25b-4e4e-ae22-3968460dc0a9" required="false">
+      <Type>CRITERION.EXCLUSION.SOCIAL.ENVIRONMENTAL_LAW</Type>
+      <Name code="crit_eu_title_breaching_obligations_environmental">
+         <Source>Breaching of obligations in the fields of environmental law</Source>
+         <Translation lang="nb">Brudd på bestemmelsene om miljø</Translation>
+      </Name>
+      <Description code="crit_eu_text_breaching_obligations_environmental">
+         <Source>Has the economic operator, to its knowledge, breached its obligations in the fields of environmental law? As referred to for the purposes of this procurement in national law, in the relevant notice or the procurement documents or in Article 18(2) of Directive 2014/24/EU.</Source>
+         <Translation lang="nb">Er leverandøren kjent med å ha begått brudd på bestemmelser om miljø slik som de fremgår av nasjonal rett, den relevante kunngjøringen eller anskaffelsesdokumentene eller artikkel 18 (2) i direktiv 2014/24/EU.</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>57(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>976b5acb-c00f-46ca-8f83-5ce6abfdfe43</RequirementGroupId>
+   </Criterion>
+   <Criterion id="a261a395-ed17-4939-9c75-b9ff1109ca6e" required="false">
+      <Type>CRITERION.EXCLUSION.SOCIAL.SOCIAL_LAW</Type>
+      <Name code="crit_eu_title_breaching_obligations_social">
+         <Source>Breaching of obligations in the fields of social law</Source>
+         <Translation lang="nb">Brudd på bestemmelsene om sosiale forhold</Translation>
+      </Name>
+      <Description code="crit_eu_text_breaching_obligations_social">
+         <Source>Has the economic operator, to its knowledge, breached its obligations in the fields of social law? As referred to for the purposes of this procurement in national law, in the relevant notice or the procurement documents or in Article 18(2) of Directive 2014/24/EU.</Source>
+         <Translation lang="nb">Er leverandøren kjent med å ha begått brudd på bestemmelser om sosiale forhold slik som de fremgår av nasjonal rett, den relevante kunngjøringen eller anskaffelsesdokumentene eller artikkel 18 (2) i direktiv 2014/24/EU.</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>57(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>976b5acb-c00f-46ca-8f83-5ce6abfdfe43</RequirementGroupId>
+   </Criterion>
+   <Criterion id="a34b70d6-c43d-4726-9a88-8e2b438424bf" required="false">
+      <Type>CRITERION.EXCLUSION.SOCIAL.LABOUR_LAW</Type>
+      <Name code="crit_eu_title_breaching_obligations_labour">
+         <Source>Breaching of obligations in the fields of labour law</Source>
+         <Translation lang="nb">Brudd på bestemmelsene om arbeidsforhold</Translation>
+      </Name>
+      <Description code="crit_eu_text_breaching_obligations_labour">
+         <Source>Has the economic operator, to its knowledge, breached its obligations in the fields of labour law? As referred to for the purposes of this procurement in national law, in the relevant notice or the procurement documents or in Article 18(2) of Directive 2014/24/EU.</Source>
+         <Translation lang="nb">Er leverandøren kjent med å ha begått brudd på bestemmelser om arbeidsforhold slik som de fremgår av nasjonal rett, den relevante kunngjøringen eller anskaffelsesdokumentene eller artikkel 18 (2) i direktiv 2014/24/EU.</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>57(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>976b5acb-c00f-46ca-8f83-5ce6abfdfe43</RequirementGroupId>
+   </Criterion>
+   <Criterion id="d3732c09-7d62-4edc-a172-241da6636e7c" required="false">
+      <Type>CRITERION.EXCLUSION.BUSINESS.BANKRUPTCY</Type>
+      <Name code="crit_eu_title_bankrupt">
+         <Source>Bankruptcy</Source>
+         <Translation lang="nb">Konkurs</Translation>
+      </Name>
+      <Description code="crit_eu_text_bankrupt">
+         <Source>Is the economic operator bankrupt? This information needs not be given if exclusion of economic operators in this case has been made mandatory under the applicable national law without any possibility of derogation where the economic operator is nevertheless able to perform the contract.</Source>
+         <Translation lang="nb">Er leverandøren i en konkurssituasjon? Angi hvorfor man under nevnte omstendigheter likevel er i stand til å utføre kontrakten, tatt i betraktning gjeldende nasjonale bestemmelser og tiltak vedrørende fortsettelse av forretningsaktivitetene? Det er ikke nødvendig å angi disse opplysningene hvis avvisning av leverandører, som befinner seg i en slik situasjon, er gjort obligatorisk i henhold til gjeldende nasjonal rett uten mulighet for unntak, når leverandør likevel er i stand til å utføre kontrakten.</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>57(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>d91c11a1-f19e-4b83-8ade-c4be2bf00555</RequirementGroupId>
+      <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
+   </Criterion>
+   <Criterion id="396f288a-e267-4c20-851a-ed4f7498f137" required="false">
+      <Type>CRITERION.EXCLUSION.BUSINESS.INSOLVENCY</Type>
+      <Name code="crit_eu_title_insolvency">
+         <Source>Insolvency</Source>
+         <Translation lang="nb">Insolvens</Translation>
+      </Name>
+      <Description code="crit_eu_text_insolvency">
+         <Source>Is the economic operator the subject of insolvency or winding-up? This information needs not be given if exclusion of economic operators in this case has been made mandatory under the applicable national law without any possibility of derogation where the economic operator is nevertheless able to perform the contract.</Source>
+         <Translation lang="nb">Er leverandøren i en insolvenssituasjon? Angi hvorfor man under nevnte omstendigheter likevel er i stand til å utføre kontrakten, tatt i betraktning gjeldende nasjonale bestemmelser og tiltak vedrørende fortsettelse av forretningsaktivitetene? Det er ikke nødvendig å angi disse opplysningene hvis avvisning av leverandører, som befinner seg i en slik situasjon, er gjort obligatorisk i henhold til gjeldende nasjonal rett uten mulighet for unntak, når leverandør likevel er i stand til å utføre kontrakten.</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>57(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>d91c11a1-f19e-4b83-8ade-c4be2bf00555</RequirementGroupId>
+      <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
+   </Criterion>
+   <Criterion id="68918c7a-f5bc-4a1a-a62f-ad8983600d48" required="false">
+      <Type>CRITERION.EXCLUSION.BUSINESS.CREDITORS_ARRANGEMENT</Type>
+      <Name code="crit_eu_title_arrangement_creditors">
+         <Source>Arrangement with creditors</Source>
+         <Translation lang="nb">Tvungen gjeldsordning</Translation>
+      </Name>
+      <Description code="crit_eu_text_arrangement_creditors">
+         <Source>Is the economic operator in arrangement with creditors? This information needs not be given if exclusion of economic operators in this case has been made mandatory under the applicable national law without any possibility of derogation where the economic operator is nevertheless able to perform the contract.</Source>
+         <Translation lang="nb">Er leverandøren i en situasjon hvor han har fått tvungen gjeldsordning?  Angi hvorfor man under nevnte omstendigheter likevel er i stand til å utføre kontrakten, tatt i betraktning gjeldende nasjonale bestemmelser og tiltak vedrørende fortsettelse av forretningsaktivitetene? Det er ikke nødvendig å angi disse opplysningene hvis avvisning av leverandører, som befinner seg i en slik situasjon, er gjort obligatorisk i henhold til gjeldende nasjonal rett uten mulighet for unntak, når leverandør likevel er i stand til å utføre kontrakten.</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>57(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>d91c11a1-f19e-4b83-8ade-c4be2bf00555</RequirementGroupId>
+      <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
+   </Criterion>
+   <Criterion id="daffa2a9-9f8f-4568-8be8-7b8bf306d096" required="false">
+      <Type>CRITERION.EXCLUSION.BUSINESS.BANKRUPTCY_ANALOGOUS</Type>
+      <Name>
+         <Source>Analogous situation like bankruptcy under national law</Source>
+      </Name>
+      <Description code="crit_eu_title_national_bankruptcy">
+         <Source>Is the economic operator in any analogous situation like bankruptcy arising from a similar procedure under national laws and regulations? This information needs not be given if exclusion of economic operators in this case has been made mandatory under the applicable national law without any possibility of derogation where the economic operator is nevertheless able to perform the contract.</Source>
+         <Translation lang="nb">Er leverandøren i en lignende situasjon i henhold til en tilsvarende prosedyre som er fastsatt i nasjonal rett? Se nasjonal rett, den relevante kunngjøring eller anskaffelsesdokumentene.</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>57(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>d91c11a1-f19e-4b83-8ade-c4be2bf00555</RequirementGroupId>
+      <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
+   </Criterion>
+   <Criterion id="8fda202a-0c37-41bb-9d7d-de3f49edbfcb" required="false">
+      <Type>CRITERION.EXCLUSION.BUSINESS.LIQUIDATOR_ADMINISTERED</Type>
+      <Name code="crit_eu_title_liquidator">
+         <Source>Assets being administered by liquidator</Source>
+         <Translation lang="nb">Er leverandøren i en situasjon hvor han har sine aktiva forvaltet av en konkursforvalter eller av retten?</Translation>
+      </Name>
+      <Description code="crit_eu_text_liquidator">
+         <Source>Are the assets of the economic operator being administered by a liquidator or by the court?  This information needs not be given if exclusion of economic operators in this case has been made mandatory under the applicable national law without any possibility of derogation where the economic operator is nevertheless able to perform the contract.</Source>
+         <Translation lang="nb">Angi hvorfor man under nevnte omstendigheter likevel er i stand til å utføre kontrakten, tatt i betraktning gjeldende nasjonale bestemmelser og tiltak vedrørende fortsettelse av forretningsaktivitetene? Det er ikke nødvendig å angi disse opplysningene hvis avvisning av leverandører, som befinner seg i en slik situasjon, er gjort obligatorisk i henhold til gjeldende nasjonal rett uten mulighet for unntak, når leverandør likevel er i stand til å utføre kontrakten.</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>57(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>d91c11a1-f19e-4b83-8ade-c4be2bf00555</RequirementGroupId>
+      <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
+   </Criterion>
+   <Criterion id="166536e2-77f7-455c-b018-70582474e4f6" required="false">
+      <Type>CRITERION.EXCLUSION.BUSINESS.ACTIVITIES_SUSPENDED</Type>
+      <Name>
+         <Source>Business activities are suspended</Source>
+      </Name>
+      <Description code="crit_eu_title_suspended_business">
+         <Source>Are the business activities of the economic operator suspended?  This information needs not be given if exclusion of economic operators in this case has been made mandatory under the applicable national law without any possibility of derogation where the economic operator is nevertheless able to perform the contract.</Source>
+         <Translation lang="nb">Har leverandørens forretningsførsel har blitt stanset?</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>57(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>d91c11a1-f19e-4b83-8ade-c4be2bf00555</RequirementGroupId>
+      <RequirementGroupId>7458d42a-e581-4640-9283-34ceb3ad4345</RequirementGroupId>
+   </Criterion>
+   <Criterion id="514d3fde-1e3e-4dcd-b02a-9f984d5bbda3" required="false">
+      <Type>CRITERION.EXCLUSION.MISCONDUCT.MC_PROFESSIONAL</Type>
+      <Name code="crit_eu_title_guilty_misconduct">
+         <Source>Guilty of grave professional misconduct</Source>
+         <Translation lang="nb">Alvorlige feil i yrkesutøvelsen</Translation>
+      </Name>
+      <Description code="crit_eu_text_guilty_misconduct">
+         <Source>Is the economic operator  guilty of grave professional misconduct? Where applicable, see definitions in national law, the relevant notice or the procurement documents.</Source>
+         <Translation lang="nb">Har leverandøren begått alvorlige feil i yrkesutøvelsen? Hvis det er relevant, se definisjoner i nasjonal rett, den relevante kunngjøring eller anskaffelsesdokumentene.</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>57(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>67362ec7-cec3-4cb8-a38e-5d7a2a31e6d8</RequirementGroupId>
+   </Criterion>
+   <Criterion id="56d13e3d-76e8-4f23-8af6-13e60a2ee356" required="false">
+      <Type>CRITERION.EXCLUSION.MISCONDUCT.MARKET_DISTORTION</Type>
+      <Name code="crit_eu_title_agreement_economic">
+         <Source>Agreements with other economic operators aimed at distorting competition</Source>
+         <Translation lang="nb">Avtale(r) med andre leverandører med hensikt å vri konkurransen</Translation>
+      </Name>
+      <Description code="crit_eu_text_agreement_economic">
+         <Source>Has the economic operator entered into agreements with other economic operators aimed at distorting competition?</Source>
+         <Translation lang="nb">Har leverandør inngått avtale(r) med andre leverandører med hensikt å vri konkurransen?</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>57(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>67362ec7-cec3-4cb8-a38e-5d7a2a31e6d8</RequirementGroupId>
+   </Criterion>
+   <Criterion id="b1b5ac18-f393-4280-9659-1367943c1a2e" required="false">
+      <Type>CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.PROCEDURE_PARTICIPATION</Type>
+      <Name code="crit_eu_text_conflict_interest">
+         <Source>Conflict of interest due to its participation in the procurement procedure</Source>
+         <Translation lang="nb">Interessekonflikt som følge av sin deltakelse i konkurransen</Translation>
+      </Name>
+      <Description code="crit_eu_text_conflict_interest">
+         <Source>Is the economic operator aware of any conflict of interest, as indicated in national law, the relevant notice or the procurement documents due to its participation in the procurement procedure?</Source>
+         <Translation lang="nb">Er leverandør oppmerksom på en interessekonflikt som angitt i nasjonal rett, den relevante kunngjøring eller anskaffelsesdokumentene?</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>57(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>30450436-f559-4dfa-98ba-f0842ed9d2a0</RequirementGroupId>
+   </Criterion>
+   <Criterion id="61874050-5130-4f1c-a174-720939c7b483" required="false">
+      <Type>CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.PROCEDURE_PREPARATION</Type>
+      <Name>
+         <Source>Direct or indirect involvement in the preparation of this procurement procedure</Source>
+      </Name>
+      <Description code="crit_eu_text_involvement">
+         <Source>Has the economic operator or an undertaking related to it advised the contracting authority or contracting entity or otherwise been involved in the preparation of the procurement procedure?</Source>
+         <Translation lang="nb">Har leverandør eller en virksomhet tilknyttet leverandøren gitt råd til oppdragsgiver eller på annen måte vært involvert i planleggingen av konkurransen?</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>57(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>77ae3f29-7c5f-4afa-af97-24afec48c5bf</RequirementGroupId>
+   </Criterion>
+   <Criterion id="3293e92b-7f3e-42f1-bee6-a7641bb04251" required="false">
+      <Type>CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.EARLY_TERMINATION</Type>
+      <Name code="crit_eu_title_early_termination">
+         <Source>Early termination, damages or other comparable sanctions</Source>
+         <Translation lang="nb">Heving av kontrakt, erstatning eller andre lignende sanksjoner</Translation>
+      </Name>
+      <Description code="crit_eu_text_early_termination">
+         <Source>Has the economic operator experienced that a prior public contract, a prior contract with a contracting entity or a prior concession contract was terminated early, or that damages or other comparable sanctions were imposed in connection with that prior contract?</Source>
+         <Translation lang="nb">Har leverandør begått vesentlig kontraktsbrudd i forbindelse med oppfyllelsen av en tidligere offentlig kontrakt, en tidligere kontrakt med en offentlig oppdragsgiver eller en tidligere konsesjonskontrakt, der bruddet har ført til heving av kontrakten, erstatning eller andre lignende sanksjoner?</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>57(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>67362ec7-cec3-4cb8-a38e-5d7a2a31e6d8</RequirementGroupId>
+   </Criterion>
+   <Criterion id="696a75b2-6107-428f-8b74-82affb67e184" required="false">
+      <Type>CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.MISINTERPRETATION</Type>
+      <Name code="crit_eu_title_guilty_misinterpretation">
+         <Source>Guilty of misinterpretation, withheld information, unable to provide required documents and obtained confidential information of this procedure</Source>
+         <Translation lang="nb">Grovt uriktige opplysninger, unnlatt å gi opplysninger, ute av stand til å fremlegge etterspurte støttedokumenterog misvisende opplysninger som kan få innfytelse på konkurransen</Translation>
+      </Name>
+      <Description code="crit_eu_text_guilty_misinterpretation">
+         <Source>Can the economic operator confirm the four exclusion grounds, that it has not been guilty of serious misrepresentation in supplying the information required for the verification of the absence of grounds for exclusion or the fulfilment of the selection criteria, that it has not withheld such information, it has been able, without delay, to submit the supporting documents required by a contracting authority or contracting entity, and it has not undertaken to unduly influence the decision making process of the contracting authority or contracting entity, to obtain confidential information that may confer upon it undue advantages in the procurement procedure or to negligently provide misleading information that may have a material influence on decisions concerning exclusion, selection or award?</Source>
+         <Translation lang="nb">Har leverandøren:
+a) gitt grovt uriktige opplysninger ved meddelelsen av opplysningene som kreves for å kontrollere at det ikke er grunnlag for avvisning, eller av at kvalifikasjonskravene er oppfylt,
+b) unnlatt å gi slike opplysninger,
+c) tatt forbehold om straks å fremlegge de støttedokumenter som oppdragsgiver anmoder om, eller
+d) urettmessig påvirket oppdragsgivers beslutningsprosess for å tilegne seg konfidensiell informasjon som kan gi denne en urettmessig fordel i forbindelse med konkurransen, eller uaktsomt har gitt misvisende opplysninger som kan få vesentlig innflytelse på beslutninger om avvisning, utvelgelse eller tildeling?</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>57(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>30450436-f559-4dfa-98ba-f0842ed9d2a0</RequirementGroupId>
+   </Criterion>
+   <Criterion id="6ee55a59-6adb-4c3a-b89f-e62a7ad7be7f" required="false">
+      <Type>CRITERION.SELECTION.SUITABILITY.PROFESSIONAL_REGISTER_ENROLMENT</Type>
+      <Name code="crit_selection_suitability_enrolment_professional_register_main">
+         <Source>Enrolment in a relevant professional register</Source>
+         <Translation lang="nb">Registrert i faglig register</Translation>
+      </Name>
+      <Description code="crit_selection_suitability_enrolment_professional_register_description">
+         <Source>It is enrolled in relevant professional registers kept in the Member State of its establishment as described in Annex XI of Directive 2014/24/EU; economic operators from certain Member States may have to comply with other requirements set out in that Annex.</Source>
+         <Translation lang="nb">Leverandør er registrert i et faglig register i medlemsstaten som leverandøren er etablert i. Som beskrevet i bilag XI til direktiv 2014/24/EU; leverandører fra visse medlemsstater kan være nødt til å oppfylle andre krav i nevnte bilag.</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(2)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>1768de86-a6c8-48e4-bd8e-de2f2f7424d0</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+   </Criterion>
+   <Criterion id="87b3fa26-3549-4f92-b8e0-3fd8f04bf5c7" required="false">
+      <Type>CRITERION.SELECTION.SUITABILITY.TRADE_REGISTER_ENROLMENT</Type>
+      <Name code="crit_selection_suitability_enrolment_trade_register_main...">
+         <Source>Enrolment in a trade register</Source>
+         <Translation lang="nb">Registrert i handelsregister eller foretaksregister</Translation>
+      </Name>
+      <Description code="crit_selection_suitability_enrolment_trade_register_description">
+         <Source>It is enrolled in trade registers kept in the Member State of its establishment as described in Annex XI of Directive 2014/24/EU; economic operators from certain Member States may have to comply with other requirements set out in that Annex.</Source>
+         <Translation lang="nb">Leverandør er registrert i et foretaksregister eller et handelsregister i medlemsstaten som leverandøren er etablert i. Som beskrevet i bilag XI til direktiv 2014/24/EU; leverandører fra visse medlemsstater kan være nødt til å oppfylle andre krav i nevnte bilag.</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(2)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>1768de86-a6c8-48e4-bd8e-de2f2f7424d0</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+   </Criterion>
+   <Criterion id="9eeb6d5c-0eb8-48e8-a4c5-5087a7c095a4" required="false">
+      <Type>CRITERION.SELECTION.SUITABILITY.AUTHORISATION</Type>
+      <Name code="crit_selection_suitability_service_contracts_auth_main">
+         <Source>For service contracts: authorisation of particular organisation needed</Source>
+         <Translation lang="nb">Autorisasjoner fra en bestemt organisasjon nødvendig</Translation>
+      </Name>
+      <Description code="crit_selection_suitability_service_contracts_auth_description">
+         <Source>Is a particular authorisation of a particular organisation needed in order to be able to perform the service in question in the country of establishment of the economic operator?</Source>
+         <Translation lang="nb">Er det nødvendig med et bestemt autorisasjon fra en bestemt organisasjon for å kunne utføre tjenesten i leverandørens hjemland?</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(2)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>a109e144-f65e-469d-bcda-220f1af34b6c</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+   </Criterion>
+   <Criterion id="73f10e36-ed7a-412e-995c-aa76463e3776" required="false">
+      <Type>CRITERION.SELECTION.SUITABILITY.MEMBERSHIP</Type>
+      <Name code="crit_selection_suitability_service_contracts_membership_main">
+         <Source>For service contracts: membership of particular organisation needed</Source>
+         <Translation lang="nb">Medlemskap i en bestemt organisasjon nødvendig</Translation>
+      </Name>
+      <Description code="crit_selection_suitability_service_contracts_membership_description">
+         <Source>Is a particular membership of a particular organisation needed in order to be able to perform the service in question in the country of establishment of the economic operator?</Source>
+         <Translation lang="nb">Er det nødvendig med et bestemt medlemsskap i en bestemt organisasjon for å kunne utføre tjenesten i leverandørens hjemland?</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>Directive 2014/24/EU</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(2)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>a109e144-f65e-469d-bcda-220f1af34b6c</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+   </Criterion>
+   <Criterion id="499efc97-2ac1-4af2-9e84-323c2ca67747" required="false">
+      <Type>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.GENERAL_YEARLY</Type>
+      <Name code="crit_selection_economic_general_yearly_turnover_main">
+         <Source>General yearly turnover</Source>
+         <Translation lang="nb">"Totale" årsomsetning-</Translation>
+      </Name>
+      <Description code="crit_selection_economic_general_yearly_turnover_description">
+         <Source>Its general yearly turnover for the number of financial years required in the relevant notice, the procurement documents or the ESPD is as follows:</Source>
+         <Translation lang="nb">Leverandørens ("totale") årsomsetning for det antall regnskapsår som det anmodes om i kunngjøringen eller i anskaffelsesdokumentene, er som følger:</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(3)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>c0cd9c1c-e90a-4ff9-bce3-ac0fe31abf16</RequirementGroupId>
+      <RequirementGroupId>c0cd9c1c-e90a-4ff9-bce3-ac0fe31abf16</RequirementGroupId>
+      <RequirementGroupId>c0cd9c1c-e90a-4ff9-bce3-ac0fe31abf16</RequirementGroupId>
+      <RequirementGroupId>c0cd9c1c-e90a-4ff9-bce3-ac0fe31abf16</RequirementGroupId>
+      <RequirementGroupId>c0cd9c1c-e90a-4ff9-bce3-ac0fe31abf16</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+      <Comment>Structure of RequirementGroups and Requirements are completely rewritten for the ESPD Service and it not in line with the official 1.0.2. We've kept the changes done in the ESPD Service to allow receivers of EHF ESPD to use the ESPD service when evaluating EHF ESPD Response.</Comment>
+   </Criterion>
+   <Criterion id="b16cb9fc-6cb7-4585-9302-9533b415cf48" required="false">
+      <Type>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.AVERAGE_YEARLY</Type>
+      <Name code="crit_selection_economic_average_yearly_turnover_main">
+         <Source>Average yearly turnover</Source>
+         <Translation lang="nb">Gjennomsnittlig årsomsetning</Translation>
+      </Name>
+      <Description code="crit_selection_economic_average_yearly_turnover_description">
+         <Source>Its average yearly turnover for the number of years required in the relevant notice, the procurement documents or the ESPD is as follows:</Source>
+         <Translation lang="nb">Leverandørens gjennomsnittlige årsomsetning for det antall år som det anmodes om i kunngjøringen eller i anskaffelsesdokumentene er som følger:</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(3)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>e1886054-ada4-473c-9afc-2fde82c24cf4</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+      <Comment>Structure of RequirementGroups and Requirements are completely rewritten for the ESPD Service and it not in line with the official 1.0.2. We've kept the changes done in the ESPD Service to allow receivers of EHF ESPD to use the ESPD service when evaluating EHF ESPD Response.</Comment>
+   </Criterion>
+   <Criterion id="074f6031-55f9-4e99-b9a4-c4363e8bc315" required="false">
+      <Type>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.SPECIFIC_YEARLY</Type>
+      <Name code="crit_selection_economic_specific_yearly_turnover_main">
+         <Source>Specific yearly turnover</Source>
+         <Translation lang="nb">"Spesifikk årsomsetning"</Translation>
+      </Name>
+      <Description code="crit_selection_economic_specific_yearly_turnover_description">
+         <Source>Its specific yearly turnover in the business area covered by the contract for the number of financial years required in the relevant notice, the procurement documents or the ESPD is as follows:</Source>
+         <Translation lang="nb">Er leverandørens ("spesifikke") årsomsetning innenfor det området kontrakten gjelder og spesifisert i kunngjøringen eller i anskaffelsesdokumentene for det antall regnskapsår det anmodes om er som følger:</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(3)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>c0cd9c1c-e90a-4ff9-bce3-ac0fe31abf16</RequirementGroupId>
+      <RequirementGroupId>c0cd9c1c-e90a-4ff9-bce3-ac0fe31abf16</RequirementGroupId>
+      <RequirementGroupId>c0cd9c1c-e90a-4ff9-bce3-ac0fe31abf16</RequirementGroupId>
+      <RequirementGroupId>c0cd9c1c-e90a-4ff9-bce3-ac0fe31abf16</RequirementGroupId>
+      <RequirementGroupId>c0cd9c1c-e90a-4ff9-bce3-ac0fe31abf16</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+      <Comment>Structure of RequirementGroups and Requirements are completely rewritten for the ESPD Service and it not in line with the official 1.0.2. We've kept the changes done in the ESPD Service to allow receivers of EHF ESPD to use the ESPD service when evaluating EHF ESPD Response.</Comment>
+   </Criterion>
+   <Criterion id="d3dfb714-f558-4512-bbc5-e456fa2339de" required="false">
+      <Type>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.SPECIFIC_AVERAGE</Type>
+      <Name code="crit_selection_economic_specific_yearly_turnover_main">
+         <Source>Specific average turnover</Source>
+         <Translation lang="nb">"Spesifikk årsomsetning"</Translation>
+      </Name>
+      <Description code="crit_selection_economic_specific_yearly_turnover_description">
+         <Source>Its specific average yearly turnover in the business area covered by the contract for the number of years required in the relevant notice, the procurement documents or the ESPD is as follows:</Source>
+         <Translation lang="nb">Er leverandørens ("spesifikke") årsomsetning innenfor det området kontrakten gjelder og spesifisert i kunngjøringen eller i anskaffelsesdokumentene for det antall regnskapsår det anmodes om er som følger:</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(3)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>e1886054-ada4-473c-9afc-2fde82c24cf4</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+      <Comment>Structure of RequirementGroups and Requirements are completely rewritten for the ESPD Service and it not in line with the official 1.0.2. We've kept the changes done in the ESPD Service to allow receivers of EHF ESPD to use the ESPD service when evaluating EHF ESPD Response.</Comment>
+   </Criterion>
+   <Criterion id="77f481ce-ffb6-483f-8e2b-c78db5e68292" required="false">
+      <Type>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.SET_UP</Type>
+      <Name code="crit_selection_economic_setup_eo_main">
+         <Source>Set up of economic operator</Source>
+         <Translation lang="nb">Leverandørens etableringsdato</Translation>
+      </Name>
+      <Description code="crit_selection_economic_setup_eo_description">
+         <Source>In case the information concerning turnover (general or specific) is not available for the entire period required, please state the date on which the economic operator was set up or started trading:</Source>
+         <Translation lang="nb">Hvis opplysningene om omsetning (samlet eller spesifikt) ikke er tilgjengelige for hele perioden som det anmodes om, vennligst angi den dato da virksomheten ble etablert, eller leverandørene startet sin virksomhet:</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(3)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>e9aa7763-c167-4352-8060-1a3d7d3e2662</RequirementGroupId>
+   </Criterion>
+   <Criterion id="e4d37adc-08cd-4f4d-a8d8-32b62b0a1f46" required="false">
+      <Type>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.FINANCIAL_RATIO</Type>
+      <Name code="crit_selection_economic_financial_ratio_main">
+         <Source>Financial ratio</Source>
+         <Translation lang="nb">Finansielle nøkkeltall</Translation>
+      </Name>
+      <Description code="crit_selection_economic_financial_ratio_description">
+         <Source>Concerning the financial ratios  specified in the relevant notice, the procurement documents or the ESPD, the economic operator declares that the actual values for the required ratios are as follows:</Source>
+         <Translation lang="nb">Når det gjelder finansielle nøkkeltall som er angitt i kunngjøringen eller i anskaffelsesdokumentene erklærer leverandøren at den eller de faktiske verdien(e) for det eller de nøkkeltall(ene) som det anmodes om er som følger:</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(3)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>096686e1-82ca-4de0-8710-d74d90da0f0c</RequirementGroupId>
+      <RequirementGroupId>096686e1-82ca-4de0-8710-d74d90da0f0c</RequirementGroupId>
+      <RequirementGroupId>096686e1-82ca-4de0-8710-d74d90da0f0c</RequirementGroupId>
+      <RequirementGroupId>096686e1-82ca-4de0-8710-d74d90da0f0c</RequirementGroupId>
+      <RequirementGroupId>096686e1-82ca-4de0-8710-d74d90da0f0c</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+      <Comment>Structure of RequirementGroups and Requirements are completely rewritten for the ESPD Service and it not in line with the official 1.0.2. We've kept the changes done in the ESPD Service to allow receivers of EHF ESPD to use the ESPD service when evaluating EHF ESPD Response.</Comment>
+   </Criterion>
+   <Criterion id="7604bd40-4462-4086-8763-a50da51a869c" required="false">
+      <Type>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.RISK_INDEMNITY_INSURANCE</Type>
+      <Name code="crit_selection_economic_professional_risk_insurance_main">
+         <Source>Professional risk indemnity insurance</Source>
+         <Translation lang="nb">Ansvarsforsikring</Translation>
+      </Name>
+      <Description code="crit_selection_economic_professional_risk_insurance_description">
+         <Source>The insured amount in its professional risk indemnity insurance is the following:</Source>
+         <Translation lang="nb">Det forsikrede beløp i leverandørens ansvarsforsikring er følgende:</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(3)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>42dc8062-974d-4201-91ba-7f2ea90338fd</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+   </Criterion>
+   <Criterion id="ab0e7f2e-6418-40e2-8870-6713123e41ad" required="false">
+      <Type>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.OTHER_REQUIREMENTS</Type>
+      <Name>
+         <Source>Other economic or financial requirements</Source>
+      </Name>
+      <Description>
+         <Source>Concerning the other economic or financial requirements, if any, that may have been specified in the relevant notice or the procurement documents, the economic operator declares that:</Source>
+      </Description>
+      <RequirementGroupId>488ca189-bcdb-4bf4-80c7-3ad507fd89fb</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+   </Criterion>
+   <Criterion id="cdd3bb3e-34a5-43d5-b668-2aab86a73822" required="false">
+      <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.REFERENCES.WORKS_PERFORMANCE</Type>
+      <Name code="crit_selection_technical_work_contracts_performance_works_main">
+         <Source>For works contracts: performance of works of the specified type</Source>
+         <Translation lang="nb">Bare for bygg- og anleggsarbeider:</Translation>
+      </Name>
+      <Description code="crit_selection_technical_work_contracts_performance_works_description">
+         <Source>For public works contracts only: During the reference period, the economic operator has performed the following works of the specified type. Contracting authorities may require up to five years and allow experience dating from more than five years.</Source>
+         <Translation lang="nb">Bare for offentlige bygg- og anleggsarbeider: I referanseperioden  har leverandøren utført følgende arbeider av den etterspurte type. Oppdragsgiver kan kreve opp til fem års erfaring og tillate at det tas hensyn til erfaring fra tiden før de seneste fem år.</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>96f00020-0a25-402e-b850-2378e83b5695</RequirementGroupId>
+      <RequirementGroupId>96f00020-0a25-402e-b850-2378e83b5695</RequirementGroupId>
+      <RequirementGroupId>96f00020-0a25-402e-b850-2378e83b5695</RequirementGroupId>
+      <RequirementGroupId>96f00020-0a25-402e-b850-2378e83b5695</RequirementGroupId>
+      <RequirementGroupId>96f00020-0a25-402e-b850-2378e83b5695</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+      <Comment>Structure of RequirementGroups and Requirements are completely rewritten for the ESPD Service and it not in line with the official 1.0.2. We've kept the changes done in the ESPD Service to allow receivers of EHF ESPD to use the ESPD service when evaluating EHF ESPD Response.</Comment>
+   </Criterion>
+   <Criterion id="3a18a175-1863-4b1d-baef-588ce61960ca" required="false">
+      <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.REFERENCES.SUPPLIES_DELIVERY_PERFORMANCE</Type>
+      <Name code="crit_selection_technical_supply_contracts_performance_deliveries_main">
+         <Source>For supply contracts: performance of deliveries of the specified type</Source>
+         <Translation lang="nb">Bare for offentlige vareleveranser</Translation>
+      </Name>
+      <Description code="crit_selection_technical_supply_contracts_performance_deliveries_description">
+         <Source>For public supply contracts only: During the reference period, the economic operator has delivered the following principal deliveries of the type specified. Contracting authorities may require up to three years and allow experience dating from more than three years.</Source>
+         <Translation lang="nb">Bare for offentlige vareleveranser: I referanseperioden  har leverandøren utført følgende viktige vareleveranser av den etterspurte type, eller følgende viktige tjenester av den etterspurte type. Oppdragsgiver kan kreve opp til tre års erfaring og tillate at det tas hensyn til erfaring fra tiden før de seneste tre år.</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>96f00020-0a25-402e-b850-2378e83b5695</RequirementGroupId>
+      <RequirementGroupId>96f00020-0a25-402e-b850-2378e83b5695</RequirementGroupId>
+      <RequirementGroupId>96f00020-0a25-402e-b850-2378e83b5695</RequirementGroupId>
+      <RequirementGroupId>96f00020-0a25-402e-b850-2378e83b5695</RequirementGroupId>
+      <RequirementGroupId>96f00020-0a25-402e-b850-2378e83b5695</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+      <Comment>Structure of RequirementGroups and Requirements are completely rewritten for the ESPD Service and it not in line with the official 1.0.2. We've kept the changes done in the ESPD Service to allow receivers of EHF ESPD to use the ESPD service when evaluating EHF ESPD Response.</Comment>
+   </Criterion>
+   <Criterion id="5e506c16-26ab-4e32-bb78-b27f87dc0565" required="false">
+      <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.REFERENCES.SERVICES_DELIVERY_PERFORMANCE</Type>
+      <Name code="crit_selection_technical_service_contracts_performance_services_main">
+         <Source>For service contracts: performance of services of the specified type</Source>
+         <Translation lang="nb">Bare for tjenester</Translation>
+      </Name>
+      <Description code="crit_selection_technical_service_contracts_performance_services_description">
+         <Source>For public service contracts only: During the reference period, the economic operator has provided the following main services of the type specified. Contracting authorities may require up to three years and allow experience dating from more than three years.</Source>
+         <Translation lang="nb">Bare for tjenester: I referanseperioden  har leverandøren utført følgende viktige vareleveranser av den etterspurte type, eller følgende viktige tjenester av den etterspurte type. Oppdragsgiver kan kreve opp til tre års erfaring og tillate at det tas hensyn til erfaring fra tiden før de seneste tre år.</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>96f00020-0a25-402e-b850-2378e83b5695</RequirementGroupId>
+      <RequirementGroupId>96f00020-0a25-402e-b850-2378e83b5695</RequirementGroupId>
+      <RequirementGroupId>96f00020-0a25-402e-b850-2378e83b5695</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+      <Comment>Structure of RequirementGroups and Requirements are completely rewritten for the ESPD Service and it not in line with the official 1.0.2. We've kept the changes done in the ESPD Service to allow receivers of EHF ESPD to use the ESPD service when evaluating EHF ESPD Response.</Comment>
+   </Criterion>
+   <Criterion id="3aaca389-4a7b-406b-a4b9-080845d127e7" required="false">
+      <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.TECHNICIANS_FOR_QUALITY_CONTROL</Type>
+      <Name code="crit_selection_technical_technicians_technical_bodies_main">
+         <Source>Technicians or technical bodies for quality control</Source>
+         <Translation lang="nb">Teknisk personell eller tekniske enheter</Translation>
+      </Name>
+      <Description code="crit_selection_technical_technicians_technical_bodies_description">
+         <Source>It can call upon the following technicians or technical bodies, especially those responsible for quality control. For technicians or technical bodies not belonging directly to the economic operator's undertaking but on whose capacities the economic operator relies as set out under Part II, Section C, separate ESPD forms must be filled in.</Source>
+         <Translation lang="nb">Leverandør kan råde over følgende tekniske personell eller tekniske enheter , særlig dem som er ansvarlige for kvalitetskontrollen: For teknisk personell eller tekniske enheter som ikke direkte hører til leverandørens virksomhet, men hvis kapasitet leverandøren støtter seg på, jf. del II, avsnitt C, skal det utfylles særskilte ESPD-formularer.</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>488ca189-bcdb-4bf4-80c7-3ad507fd89fb</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+   </Criterion>
+   <Criterion id="c599c130-b29f-461e-a187-4e16c7d40db7" required="false">
+      <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.TECHNICIANS_FOR_CARRYING_WORKS</Type>
+      <Name code="crit_selection_technical_work_contracts_technicians_main">
+         <Source>For works contracts: technicians or technical bodies to carry out the work</Source>
+         <Translation lang="nb">For offentlige bygge- og anleggsarbeider, teknisk personell eller enheter som skal utføre arbeidet</Translation>
+      </Name>
+      <Description code="crit_selection_technical_work_contracts_technicians_description">
+         <Source>In the case of public works contracts, the economic operator will be able to call on the following technicians or technical bodies to carry out the work:</Source>
+         <Translation lang="nb">I forbindelse med offentlige bygge- og anleggsarbeider kan leverandøren råde over følgende tekniske personell eller tekniske enheter til å utføre kontrakten:</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>488ca189-bcdb-4bf4-80c7-3ad507fd89fb</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+   </Criterion>
+   <Criterion id="4bf996d9-439c-40c6-9ab9-980a48cb55a1" required="false">
+      <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.FACILITIES_FOR_QUALITY_ENSURING</Type>
+      <Name code="crit_selection_technical_technical_facilities_measures_main">
+         <Source>Technical facilities and measures for ensuring quality</Source>
+         <Translation lang="nb">Tekniske fasiliteter og kvalitetssikringstiltak</Translation>
+      </Name>
+      <Description code="crit_selection_technical_technical_facilities_measures_description">
+         <Source>It uses the following technical facilities and measures for ensuring quality and its study and research facilities are as follows:</Source>
+         <Translation lang="nb">Leverandøren anvender følgende tekniske fasiliteter og kvalitetssikringstiltak, og leverandørens undersøkelses- og forskningsfasiliter er som følger:</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>488ca189-bcdb-4bf4-80c7-3ad507fd89fb</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+   </Criterion>
+   <Criterion id="90a2e100-44cc-45d3-9970-69d6714f1596" required="false">
+      <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.FACILITIES_FOR_STUDY_RESEARCH</Type>
+      <Name code="crit_selection_technical_study_research_facilities_main">
+         <Source>Study and research facilities</Source>
+         <Translation lang="nb">Undersøkelses- og forskningsfasiliteter</Translation>
+      </Name>
+      <Description code="crit_selection_technical_study_research_facilities_description">
+         <Source>It uses the following study and research facilities are as follows:</Source>
+         <Translation lang="nb">Leverandørens undersøkelses- og forskningsfasiliter er som følger:</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>488ca189-bcdb-4bf4-80c7-3ad507fd89fb</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+   </Criterion>
+   <Criterion id="dc12a151-7fdf-4733-a8f0-30f667292e66" required="false">
+      <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.SUPPLY_CHAIN_MANAGEMENT</Type>
+      <Name code="crit_selection_technical_supply_chain_management_main">
+         <Source>Supply chain management</Source>
+         <Translation lang="nb">Styring og sporing av leveransekjeden</Translation>
+      </Name>
+      <Description code="crit_selection_technical_supply_chain_management_description">
+         <Source>It will be able to apply the following supply chain management and tracking systems when performing the contract:</Source>
+         <Translation lang="nb">Leverandøren vil være i stand til å anvende følgende styring av leveringskjeden og sporingssystemer ved gjennomføring av kontrakten:</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>488ca189-bcdb-4bf4-80c7-3ad507fd89fb</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+   </Criterion>
+   <Criterion id="c8809aa1-29b6-4f27-ae2f-27e612e394db" required="false">
+      <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.CHECKS.ALLOWANCE_OF_CHECKS</Type>
+      <Name code="crit_selection_technical_allowance_of_checks_main">
+         <Source>Allowance of checks</Source>
+         <Translation lang="nb">Tillatelse til kontroll</Translation>
+      </Name>
+      <Description code="crit_selection_technical_allowance_of_checks_description">
+         <Source>For complex products or services to be supplied or, exceptionally, for products or services which are required for a special purpose: The economic operator will allow checks  to be conducted on the production capacities or the technical capacity of the economic operator and, where necessary, on the means of study and research which are available to it and on the quality control measures? The check is to be performed by the contracting authority or, in case the latter consents to this, on its behalf by a competent official body of the country in which the supplier or service provider is established.</Source>
+         <Translation lang="nb">For varer eller tjenester som er kompliserte,  eller som unntaksvis skal benyttes til et spesielt formål: Vil leverandøren tillate, at det foretas kontroll av leverandørens produksjonskapasitet eller tekniske kapasitet og, hvor det er nødvendig, av de undersøkelses- og forskningsfasiliteter som leverandøren råder over, og av kvalitetskontrolltiltak? Kontrollen skal foretas av oppdragsgiveren eller oppdragsgiver kan overlate det til et kompetent offentlige organ i den staten leverandøren er etablert.</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>d7721546-9106-43a7-8d31-2fe08a862b00</RequirementGroupId>
+   </Criterion>
+   <Criterion id="07301031-2270-41af-8e7e-66fe0c777107" required="false">
+      <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.PROFESSIONAL_QUALIFICATIONS</Type>
+      <Name code="crit_selection_technical_educational_professional_qualifications_main">
+         <Source>Educational and professional qualifications</Source>
+         <Translation lang="nb">Utdanning og faglige kvalifikasjoner</Translation>
+      </Name>
+      <Description code="crit_selection_technical_educational_professional_qualifications_description">
+         <Source>The following educational and professional qualifications are held by the service provider or the contractor itself, and/or (depending on the requirements set out in the relevant notice or the procurement documents by its managerial staff.</Source>
+         <Translation lang="nb">Følgende utdanning og faglige kvalifikasjoner besittes av leverandøren og/eller (avhengig av hvilke krav som er fastsatt i kunngjøringen eller i anskaffelsesdokumenterne) av de ledende medarbeiderne:</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>488ca189-bcdb-4bf4-80c7-3ad507fd89fb</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+   </Criterion>
+   <Criterion id="9460457e-b43d-48a9-acd1-615de6ddd33e" required="false">
+      <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.ENVIRONMENTAL_MANAGEMENT_MEASURES</Type>
+      <Name code="crit_selection_technical_environment_management_features_main">
+         <Source>Environmental management measures</Source>
+         <Translation lang="nb">Miljøledelsestiltak</Translation>
+      </Name>
+      <Description code="crit_selection_technical_environment_management_features_description">
+         <Source>The economic operator will be able to apply the following environmental management measures when performing the contract:</Source>
+         <Translation lang="nb">Leverandør kan anvende følgende miljøledelsestiltak i forbindelse med utførelsen av kontrakten:</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>488ca189-bcdb-4bf4-80c7-3ad507fd89fb</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+   </Criterion>
+   <Criterion id="6346959b-e097-4ea1-89cd-d1b4c131ea4d" required="false">
+      <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.MANAGERIAL_STAFF</Type>
+      <Name code="crit_selection_technical_number_managerial_staff_main">
+         <Source>Number of managerial staff</Source>
+         <Translation lang="nb">Antall  medarbeidere i ledelsen</Translation>
+      </Name>
+      <Description code="crit_selection_technical_number_managerial_staff_description">
+         <Source>The economic operator’s number of managerial staff for the last three years were as follows:</Source>
+         <Translation lang="nb">Leverandørens antall medarbeidere i ledelsen i løpet av de siste tre årene var som følger:</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>96defecc-7d32-4957-82e9-aad5f3c5b736</RequirementGroupId>
+      <RequirementGroupId>96defecc-7d32-4957-82e9-aad5f3c5b736</RequirementGroupId>
+      <RequirementGroupId>96defecc-7d32-4957-82e9-aad5f3c5b736</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+      <Comment>Structure of RequirementGroups and Requirements are completely rewritten for the ESPD Service and it not in line with the official 1.0.2. We've kept the changes done in the ESPD Service to allow receivers of EHF ESPD to use the ESPD service when evaluating EHF ESPD Response.</Comment>
+   </Criterion>
+   <Criterion id="1f49b3f0-d50f-43f6-8b30-4bafab108b9b" required="false">
+      <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.AVERAGE_ANNUAL_MANPOWER</Type>
+      <Name code="crit_selection_technical_average_annual_manpower_main">
+         <Source>Average annual manpower</Source>
+         <Translation lang="nb">Gjennomsnittlige årlige arbeidsstyrke</Translation>
+      </Name>
+      <Description code="codecrit_selection_technical_average_annual_manpower_description">
+         <Source>The economic operator’s average annual manpower for the last three years were as follows:</Source>
+         <Translation lang="nb">Leverandørens gjennomsnittlige årlige arbeidsstyrke i løpet av de siste tre årene har vært som følger:</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>96defecc-7d32-4957-82e9-aad5f3c5b736</RequirementGroupId>
+      <RequirementGroupId>96defecc-7d32-4957-82e9-aad5f3c5b736</RequirementGroupId>
+      <RequirementGroupId>96defecc-7d32-4957-82e9-aad5f3c5b736</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+      <Comment>Structure of RequirementGroups and Requirements are completely rewritten for the ESPD Service and it not in line with the official 1.0.2. We've kept the changes done in the ESPD Service to allow receivers of EHF ESPD to use the ESPD service when evaluating EHF ESPD Response.</Comment>
+   </Criterion>
+   <Criterion id="cc18c023-211d-484d-a32e-52f3f970285f" required="false">
+      <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.TECHNICAL.EQUIPMENT</Type>
+      <Name code="crit_selection_technical_tools_plant_main">
+         <Source>Tools, plant or technical equipment</Source>
+         <Translation lang="nb">Redskaper, materiell og teknisk utstyr</Translation>
+      </Name>
+      <Description code="crit_selection_technical_tools_plant_description">
+         <Source>The following tools, plant or technical equipment will be available to it for performing the contract:</Source>
+         <Translation lang="nb">Leverandøren vil kunne råde over følgende redskaper, materielle og teknisk utstyr til å utføre kontrakten:</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>488ca189-bcdb-4bf4-80c7-3ad507fd89fb</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+   </Criterion>
+   <Criterion id="612a1625-118d-4ea4-a6db-413184e7c0a8" required="false">
+      <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.SUBCONTRACTING_PROPORTION</Type>
+      <Name code="crit_selection_technical_subcontracting_proportion_main">
+         <Source>Subcontracting proportion</Source>
+         <Translation lang="nb">Andel av kontrakt til underleverandør</Translation>
+      </Name>
+      <Description code="crit_selection_technical_subcontracting_proportion_description">
+         <Source>The economic operator intends possibly to subcontract  the following proportion (i.e. percentage) of the contract. Please note that if the economic operator has decided to subcontract a part of the contract and relies on the subcontractor’s capacities to perform that part, then please fill in a separate ESPD for such subcontractors, see Part II, Section C above.</Source>
+         <Translation lang="nb">Leverandør vurderer å sette bort følgende del (i prosent) av kontrakten til underleverandører. Legg merke til at hvis leverandøren har besluttet å sette bort en del av kontrakten til underleverandører og støtter seg på underleverandørenes kapasitet til å utføre denne del, utfylles et særskilt ESPD for slike underleverandører, se del II, avsnitt C, ovenfor.</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>575f7550-8a2d-4bad-b9d8-be07ab570076</RequirementGroupId>
+   </Criterion>
+   <Criterion id="bdf0601d-2480-4250-b870-658d0ee95be6" required="false">
+      <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.ARTEFACTS.NO_AUTHENTICATED_ARTEFACTS</Type>
+      <Name code="crit_selection_technical_supply_contracts_without_ca_main">
+         <Source>For supply contracts: samples, descriptions or photographs without certification of authenticity</Source>
+         <Translation lang="nb">Ved anskaffelser av varer: Etterspurte prøver, beskrivelser eller fotografier, som ikke behøver å være ledsaget av attester for at de er ekte</Translation>
+      </Name>
+      <Description code="crit_selection_technical_supply_contracts_without_ca_description">
+         <Source>For public supply contracts: The economic operator will supply the required samples, descriptions or photographs of the products to be supplied, which do not need to be accompanied by certifications of authenticity.</Source>
+         <Translation lang="nb">Ved anskaffelser av varer: Leverandøren fremlegger for de varer som skal leveres, etterspurte prøver, beskrivelser eller fotografier, som ikke behøver å være ledsaget av attester for at de er ekte</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>cb73544d-e8bb-4cc6-819b-b8e04f1e240e</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+   </Criterion>
+   <Criterion id="7662b7a9-bcb8-4763-a0a7-7505d8e8470d" required="false">
+      <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.MANAGEMENT.ARTEFACTS.AUTHENTICATED_ARTEFACTS</Type>
+      <Name code="crit_selection_technical_supply_contracts_with_ca_main">
+         <Source>For supply contracts: samples, descriptions or photographs with certification of authenticity</Source>
+         <Translation lang="nb">Ved anskaffelser av varer: Etterspurte prøver, beskrivelser eller fotografier med attester.</Translation>
+      </Name>
+      <Description code="crit_selection_technical_supply_contracts_with_ca_description">
+         <Source>For public supply contracts: The economic operator will supply the required samples, descriptions or photographs of the products to be supplied and will provide certifications of authenticity where applicable.</Source>
+         <Translation lang="nb">Ved anskaffelse av varer: Hvis det etterspørres, erklærer leverandøren videre at denne vil levere de etterspurte attestene for at de er ekte.</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>cb73544d-e8bb-4cc6-819b-b8e04f1e240e</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+   </Criterion>
+   <Criterion id="a7669d7d-9297-43e1-9d10-691a1660187c" required="false">
+      <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.CERTIFICATES.QUALITY_ASSURANCE.QA_INSTITUTES_CERTIFICATE</Type>
+      <Name code="crit_selection_technical_supply_contracts_certificate_quality_main">
+         <Source>For supply contracts: certificates by quality control institutes</Source>
+         <Translation lang="nb">Ved anskaffelse av varer: Attester utstedt av offisielle organer for kvalitetskontroll</Translation>
+      </Name>
+      <Description code="crit_selection_technical_supply_contracts_certificate_quality_description">
+         <Source>Can the economic operator provide the required certificates drawn up by official quality control institutes or agencies of recognised competence attesting the conformity of products clearly identified by references to the technical specifications or standards, which are set out in the relevant notice or the procurement documents?</Source>
+         <Translation lang="nb">Kan leverandør levere etterspurte attester utstedt av offisielle organer for kvalitetskontroll, og som kan bekrefte at varene, som er klart identifisert ved henvisning til tekniske spesifikasjoner eller standarder, som er fastsatt i kunngjøringen eller i anskaffelsesdokumentene, er i overensstemmelse med disse?</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>58(4)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>4887c3d7-05fc-4e3e-b066-f338910f0c4c</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+   </Criterion>
+   <Criterion id="d726bac9-e153-4e75-bfca-c5385587766d" required="false">
+      <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.CERTIFICATES.QUALITY_ASSURANCE.QA_INDEPENDENT_CERTIFICATE</Type>
+      <Name code="crit_selection_quality_certificate_independent_bodies_quality_main">
+         <Source>Certificates by independent bodies about arderquality assurance standards</Source>
+         <Translation lang="nb">Attester utstedt av uavhengige organer for kvalitetssikringsstandarder</Translation>
+      </Name>
+      <Description code="crit_selection_quality_certificate_independent_bodies_quality_description">
+         <Source>Will the economic operator be able to produce certificates drawn up by independent bodies attesting that the economic operator complies with the required quality assurance standards, including accessibility for disabled persons?</Source>
+         <Translation lang="nb">Kan leverandør fremlegge attester utstedt av uavhengige organer som dokumentasjon for at leverandøren oppfyller de angitte kvalitetssikringsstandardene, inkludert krav til universell utforming?</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>62(2)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>0e88f63c-5642-4a17-833b-ae5800e1750a</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+   </Criterion>
+   <Criterion id="8ed65e48-fd0d-444f-97bd-4f58da632999" required="false">
+      <Type>CRITERION.SELECTION.TECHNICAL_PROFESSIONAL_ABILITY.CERTIFICATES.ENVIRONMENTAL_MANAGEMENT.ENV_INDEPENDENT_CERTIFICATE</Type>
+      <Name code="crit_selection_quality_certificate_independent_bodies_environmental_main">
+         <Source>Certificates by independent bodies about environmental management systems or standards</Source>
+         <Translation lang="nb">Attester utstedt av uavhengige organer for miljøledelsesstandarder</Translation>
+      </Name>
+      <Description code="crit_selection_quality_certificate_independent_bodies_environmental_description">
+         <Source>Will the economic operator be able to produce certificates drawn up by independent bodies attesting that the economic operator complies with the required environmental management systems or standards?</Source>
+         <Translation lang="nb">Er leverandøren i stand til å fremlegge attester utstedt av uavhengige organer som dokumentasjon for at leverandøren oppfyller de angitte miljøledelsessystemene eller -standardene?</Translation>
+      </Description>
+      <LegislationTitle>
+         <Source>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationTitle>
+      <LegislationDescription>
+         <Source>On public procurement and repealing Directive 2004/18/EC</Source>
+      </LegislationDescription>
+      <JurisdictionLevel>EU_DIRECTIVE</JurisdictionLevel>
+      <Article>62(2)</Article>
+      <URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</URI>
+      <RequirementGroupId>82a59ce2-9c59-4075-af08-843ad89a45ec</RequirementGroupId>
+      <RequirementGroupId>9026e403-3eb6-4705-a9e9-e21a1efc867d</RequirementGroupId>
+   </Criterion>
+   <Criterion id="2043338f-a38a-490b-b3ec-2607cb25a017" required="false">
+      <Type>CRITERION.OTHER.EO_DATA.SHELTERED_WORKSHOP</Type>
+      <Name>
+         <Source>Procurement reserved</Source>
+         <Translation lang="nb">Reservert anskaffelse</Translation>
+      </Name>
+      <Description code="createeo_if_proc_reserved">
+         <Source>Only in case the procurement is reserved: is the economic operator a sheltered workshop, a 'social business' or will it provide for the performance of the contract in the context of sheltered employment programmes?</Source>
+         <Translation lang="nb">Kun i forbindelse med en reservert kontrakt: Se kunngjøringens punkt III.1.5. Er leverandør en vernet bedrift, en "sosial virksomhet", eller vil den utføre kontrakten som ledd i programmer for vernet sysselsetting? Dvs. dens hovedformål er sosial og faglig integrasjon av funksjonshemmede eller vanskeligstilte personer</Translation>
+      </Description>
+      <RequirementGroupId>6febbe4a-e715-427c-a2b1-19cfabadaef0</RequirementGroupId>
+   </Criterion>
+   <Criterion id="9b19e869-6c89-4cc4-bd6c-ac9ca8602165" required="false">
+      <Type>CRITERION.OTHER.EO_DATA.REGISTERED_IN_OFFICIAL_LIST</Type>
+      <Name>
+         <Source>EO registered</Source>
+         <Translation lang="nb">Registrert leverandør</Translation>
+      </Name>
+      <Description code="createeo_eo_approved_cert">
+         <Source>If applicable, is the economic operator registered on an official list of approved economic operators or does it have an equivalent certificate (e.g. under a national (pre)qualification system)?</Source>
+         <Translation lang="nb">Hvis relevant, er leverandøren registrert på en offisiell liste over godkjente leverandører, eller har denne en tilsvarende attest for sertifisering (f.eks. i henhold til en nasjonal (pre)kvalifikasjonsordning)?</Translation>
+      </Description>
+      <RequirementGroupId>64162276-7014-408f-a9af-080426bfe1fd</RequirementGroupId>
+   </Criterion>
+   <Criterion id="ee51100f-8e3e-40c9-8f8b-57d5a15be1f2" required="false">
+      <Type>CRITERION.OTHER.EO_DATA.TOGETHER_WITH_OTHERS</Type>
+      <Name>
+         <Source>EO participating in procurement procedure</Source>
+         <Translation lang="nb">Leverandør som deltar i konkurransen</Translation>
+      </Name>
+      <Description code="createeo_is_eo_proc_together">
+         <Source>Is the economic operator participating in the procurement procedure together with others?</Source>
+         <Translation lang="nb">Deltar leverandøren i konkurransen sammen med andre?</Translation>
+      </Description>
+      <RequirementGroupId>d939f2c6-ba25-4dc4-889c-11d1853add19</RequirementGroupId>
+   </Criterion>
+   <Criterion id="0d62c6ed-f074-4fcf-8e9f-f691351d52ad" required="false">
+      <Type>CRITERION.OTHER.EO_DATA.RELIES_ON_OTHER_CAPACITIES</Type>
+      <Name code="createeo_info_reliance">
+         <Source>EO relies capacities</Source>
+         <Translation lang="nb">C: Opplysninger om støtte fra andre virksomhete</Translation>
+      </Name>
+      <Description code="createeo_eo_rely_other_entities">
+         <Source>Does the economic operator rely on the capacities of other entities in order to meet the selection criteria set out under Part IV and the criteria and rules (if any) set out under Part V below?</Source>
+         <Translation lang="nb">Støtter leverandør seg på andre virksomheters kapasitet for å oppfylle kvalifikasjonskravene  i del IV og eventuelle kriterier og regler fastsatt i del V nedenfor?
+createeo_first_name=Fornavn</Translation>
+      </Description>
+      <RequirementGroupId>e688f7d6-dcef-4726-bc61-052e63ead60f</RequirementGroupId>
+   </Criterion>
+   <Criterion id="72c0c4b1-ca50-4667-9487-461f3eed4ed7" required="false">
+      <Type>CRITERION.OTHER.EO_DATA.SUBCONTRACTS_WITH_THIRD_PARTIES</Type>
+      <Name code="createeo_information_subcontractors">
+         <Source>Subcontracting third parties</Source>
+         <Translation lang="nb">D: Opplysninger om underleverandører som leverandøren ikke støtter seg på</Translation>
+      </Name>
+      <Description code="createeo_information_subcontractors_title">
+         <Source>Does the economic operator intend to subcontract any share of the contract to third parties?</Source>
+         <Translation lang="nb">Har leverandøren til hensikt å bruke underleverandør til å oppfylle kontrakten?</Translation>
+      </Description>
+      <RequirementGroupId>d5fe5a71-7fd3-4910-b6f4-5cd2a4d23524</RequirementGroupId>
+   </Criterion>
+   <Criterion id="9c70375e-1264-407e-8b50-b9736bc08901" required="false">
+      <Type>CRITERION.OTHER.EO_DATA.MEETS_THE_OBJECTIVE</Type>
+      <Name code="createcafinish_title_eo_declares_that">
+         <Source>It meets the objective and non discriminatory criteria or rules to be applied in order to limit the number of candidates in the following way: In case certain certificates or other forms of documentary evidence are required, please indicate for each whether the economic operator has the required documents:</Source>
+         <Translation lang="nb">Denne oppfyller de objektive og ikke-diskriminerende kriterier eller regler som skal anvendes for å velge ut antallet av leverandører på følgende måte: 
+Hvis det anmodes om visse attester eller andre former for dokumentasjon, angis for hver enkelt om leverandøren er i besittelse av dokumentene som etterspørres: 
+</Translation>
+      </Name>
+      <Description code="createcafinish_text_eo_declares_that">
+         <Source>If some of these certificates or forms of documentary evidence are available electronically, please indicate for each:</Source>
+         <Translation lang="nb">Hvis noen av disse attestene eller andre former for dokumentasjon er tilgjengelige i elektronisk form, angis dette for hver enkelt:</Translation>
+      </Description>
+      <RequirementGroupId>3e5c2859-68a7-4312-92e4-01ae79c00cb8</RequirementGroupId>
+      <RequirementGroupId>ab335516-73a4-41f7-977b-a98c13a51060</RequirementGroupId>
+   </Criterion>
+   <RequirementGroup id="7c637c0c-7703-4389-ba52-02997a055bd7">
+      <RequirementId>974c8196-9d1c-419c-9ca9-45bb9f5fd59a</RequirementId>
+      <RequirementGroupId>f5276600-a2b6-4ff6-a90e-b31fe19dae41</RequirementGroupId>
+      <Comment>RequirementGroup '41dd2e..' is replaced with 'f52766..'. This is done to align towards the ESPD Service. Identifier '41dd2e..' is also used for a different RequirementGroup.</Comment>
+   </RequirementGroup>
+   <RequirementGroup id="f5276600-a2b6-4ff6-a90e-b31fe19dae41">
+      <ProsessingInstruction>GROUP_FULFILLED.ON_TRUE</ProsessingInstruction>
+      <RequirementId>ecf40999-7b64-4e10-b960-7f8ff8674cf6</RequirementId>
+      <RequirementId>7d35fb7c-da5b-4830-b598-4f347a04dceb</RequirementId>
+      <RequirementId>c5012430-14da-454c-9d01-34cedc6a7ded</RequirementId>
+      <RequirementId>9ca9096f-edd2-4f19-b6b1-b55c83a2d5c8</RequirementId>
+      <RequirementGroupId>5f9f09f7-f701-432c-9fdc-c22c124a74c9</RequirementGroupId>
+   </RequirementGroup>
+   <RequirementGroup id="5f9f09f7-f701-432c-9fdc-c22c124a74c9">
+      <RequirementId>20c5361b-7599-4ee6-b030-7f8323174d1e</RequirementId>
+      <RequirementGroupId>74e6c7b4-757b-4b40-ada6-fad6a997c310</RequirementGroupId>
+   </RequirementGroup>
+   <RequirementGroup id="74e6c7b4-757b-4b40-ada6-fad6a997c310">
+      <ProsessingInstruction>GROUP_FULFILLED.ON_TRUE</ProsessingInstruction>
+      <RequirementId>7b07904f-e080-401a-a3a1-9a3efeeda54b</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="7458d42a-e581-4640-9283-34ceb3ad4345">
+      <RequirementId>c1347b74-1872-4060-a6db-f4044edcd7c4</RequirementId>
+      <RequirementGroupId>41dd2e9b-1bfd-44c7-93ee-56bd74a4334b</RequirementGroupId>
+   </RequirementGroup>
+   <RequirementGroup id="41dd2e9b-1bfd-44c7-93ee-56bd74a4334b">
+      <ProsessingInstruction>GROUP_FULFILLED.ON_TRUE</ProsessingInstruction>
+      <RequirementId>f4313bb6-21b6-499e-bdff-debe10e11d2c</RequirementId>
+      <RequirementId>1f1cd18e-3e01-4ca2-af4c-e2981924ba8d</RequirementId>
+      <RequirementId>c3ccfa31-0c5e-4e3a-a3fd-db9fb83d78d4</RequirementId>
+      <Comment>Requirement 'c3ccfa..' is not part of the official 1.0.2, however it is added to align towards the ESPD Service and the Norwegian schema.</Comment>
+   </RequirementGroup>
+   <RequirementGroup id="098fd3cc-466e-4233-af1a-affe09471bce">
+      <RequirementId>974c8196-9d1c-419c-9ca9-45bb9f5fd59a</RequirementId>
+      <RequirementGroupId>f8499787-f9f8-4355-95e2-9784426f4d7b</RequirementGroupId>
+   </RequirementGroup>
+   <RequirementGroup id="f8499787-f9f8-4355-95e2-9784426f4d7b">
+      <ProsessingInstruction>GROUP_FULFILLED.ON_TRUE</ProsessingInstruction>
+      <RequirementId>6c87d3d4-e8eb-4253-b385-6373020ab886</RequirementId>
+      <RequirementId>9052cc59-cfe5-41c6-a314-02a7f378ffe8</RequirementId>
+      <RequirementGroupId>7c2aec9f-4876-4c33-89e6-2ab6d6cf5d02</RequirementGroupId>
+      <RequirementGroupId>c882afa4-6971-4b00-8970-0c283eb122cc</RequirementGroupId>
+      <RequirementGroupId>fc57e473-d63e-4a04-b589-dcf81cab8052</RequirementGroupId>
+   </RequirementGroup>
+   <RequirementGroup id="7c2aec9f-4876-4c33-89e6-2ab6d6cf5d02">
+      <RequirementId>9b4497e6-a166-46f9-8581-7fc39ff975c4</RequirementId>
+      <RequirementGroupId>3cb7abf1-662a-4756-b61c-7bc716c1fafc</RequirementGroupId>
+   </RequirementGroup>
+   <RequirementGroup id="3cb7abf1-662a-4756-b61c-7bc716c1fafc">
+      <ProsessingInstruction>GROUP_FULFILLED.ON_TRUE</ProsessingInstruction>
+      <RequirementId>201f11c3-1fa2-4464-acc0-f021266fd881</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="c882afa4-6971-4b00-8970-0c283eb122cc">
+      <RequirementId>08b0c984-c5e6-4143-8493-868c39745637</RequirementId>
+      <RequirementGroupId>815422d6-f8a1-418a-8bf0-3524f7c8f721</RequirementGroupId>
+   </RequirementGroup>
+   <RequirementGroup id="815422d6-f8a1-418a-8bf0-3524f7c8f721">
+      <ProsessingInstruction>GROUP_FULFILLED.ON_TRUE</ProsessingInstruction>
+      <RequirementId>ecf40999-7b64-4e10-b960-7f8ff8674cf6</RequirementId>
+      <RequirementId>9ca9096f-edd2-4f19-b6b1-b55c83a2d5c8</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="fc57e473-d63e-4a04-b589-dcf81cab8052">
+      <RequirementId>70f8697b-8953-411a-a489-4ff62e5250d2</RequirementId>
+      <RequirementGroupId>6c3609e1-9add-4fa9-9409-62ce72ae4548</RequirementGroupId>
+   </RequirementGroup>
+   <RequirementGroup id="6c3609e1-9add-4fa9-9409-62ce72ae4548">
+      <ProsessingInstruction>GROUP_FULFILLED.ON_TRUE</ProsessingInstruction>
+      <RequirementId>55905dd0-38f0-4f93-8c74-5ae05a21afc5</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="976b5acb-c00f-46ca-8f83-5ce6abfdfe43">
+      <RequirementId>974c8196-9d1c-419c-9ca9-45bb9f5fd59a</RequirementId>
+      <RequirementGroupId>64a2102c-4af1-4ecb-97b3-0c41907ec0f6</RequirementGroupId>
+   </RequirementGroup>
+   <RequirementGroup id="64a2102c-4af1-4ecb-97b3-0c41907ec0f6">
+      <ProsessingInstruction>GROUP_FULFILLED.ON_TRUE</ProsessingInstruction>
+      <RequirementId>e098da8e-4717-4500-965f-f882d5b4e1ad</RequirementId>
+      <RequirementGroupId>5f9f09f7-f701-432c-9fdc-c22c124a74c9</RequirementGroupId>
+   </RequirementGroup>
+   <RequirementGroup id="d91c11a1-f19e-4b83-8ade-c4be2bf00555">
+      <RequirementId>974c8196-9d1c-419c-9ca9-45bb9f5fd59a</RequirementId>
+      <RequirementGroupId>aeef523b-c8fc-4dba-9c34-03e34812567b</RequirementGroupId>
+   </RequirementGroup>
+   <RequirementGroup id="aeef523b-c8fc-4dba-9c34-03e34812567b">
+      <ProsessingInstruction>GROUP_FULFILLED.ON_TRUE</ProsessingInstruction>
+      <RequirementId>e098da8e-4717-4500-965f-f882d5b4e1ad</RequirementId>
+      <RequirementId>4e3f468a-86c4-4c99-bd15-c8b221229348</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="67362ec7-cec3-4cb8-a38e-5d7a2a31e6d8">
+      <RequirementId>974c8196-9d1c-419c-9ca9-45bb9f5fd59a</RequirementId>
+      <RequirementGroupId>2cbcf978-765c-40aa-996b-b1d082485cef</RequirementGroupId>
+   </RequirementGroup>
+   <RequirementGroup id="2cbcf978-765c-40aa-996b-b1d082485cef">
+      <ProsessingInstruction>GROUP_FULFILLED.ON_TRUE</ProsessingInstruction>
+      <RequirementId>e098da8e-4717-4500-965f-f882d5b4e1ad</RequirementId>
+      <RequirementGroupId>5f9f09f7-f701-432c-9fdc-c22c124a74c9</RequirementGroupId>
+   </RequirementGroup>
+   <RequirementGroup id="30450436-f559-4dfa-98ba-f0842ed9d2a0">
+      <RequirementId>974c8196-9d1c-419c-9ca9-45bb9f5fd59a</RequirementId>
+      <RequirementGroupId>73f0fe4c-4ed9-4343-8096-d898cf200146</RequirementGroupId>
+      <Comment>RequirementGroupo '73f0fe..' is not part of this RequirementGroup in the the official 1.0.2, however it is added to align towards the ESPD Service and the Norwegian schema.</Comment>
+   </RequirementGroup>
+   <RequirementGroup id="73f0fe4c-4ed9-4343-8096-d898cf200146">
+      <ProsessingInstruction>GROUP_FULFILLED.ON_TRUE</ProsessingInstruction>
+      <RequirementId>e098da8e-4717-4500-965f-f882d5b4e1ad</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="77ae3f29-7c5f-4afa-af97-24afec48c5bf">
+      <RequirementId>974c8196-9d1c-419c-9ca9-45bb9f5fd59a</RequirementId>
+      <RequirementGroupId>73f0fe4c-4ed9-4343-8096-d898cf200146</RequirementGroupId>
+   </RequirementGroup>
+   <RequirementGroup id="1768de86-a6c8-48e4-bd8e-de2f2f7424d0">
+      <RequirementId>15335c12-ad77-4728-b5ad-3c06a60d65a4</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="9026e403-3eb6-4705-a9e9-e21a1efc867d">
+      <RequirementId>9dae5670-cb75-4c97-901b-96ddac5a633a</RequirementId>
+      <RequirementGroupId>0a166f0a-0c5f-42b0-81e9-0fc9fa598a48</RequirementGroupId>
+   </RequirementGroup>
+   <RequirementGroup id="0a166f0a-0c5f-42b0-81e9-0fc9fa598a48">
+      <ProsessingInstruction>GROUP_FULFILLED.ON_TRUE</ProsessingInstruction>
+      <RequirementId>03bb1954-13ae-47d8-8ef8-b7fe0f22d700</RequirementId>
+      <RequirementId>e2d863a0-60cb-4e58-8c14-4c1595af48b7</RequirementId>
+      <RequirementId>5cbf74d9-a1e2-4233-921d-8b298842ee7d</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="a109e144-f65e-469d-bcda-220f1af34b6c">
+      <RequirementId>15335c12-ad77-4728-b5ad-3c06a60d65a4</RequirementId>
+      <RequirementGroupId>7696fb3f-9722-43b8-9b91-ad59bb4b8ad2</RequirementGroupId>
+   </RequirementGroup>
+   <RequirementGroup id="7696fb3f-9722-43b8-9b91-ad59bb4b8ad2">
+      <ProsessingInstruction>GROUP_FULFILLED.ON_TRUE</ProsessingInstruction>
+      <RequirementId>51391308-0bf6-423c-95e2-d5a54aa31fb8</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="c0cd9c1c-e90a-4ff9-bce3-ac0fe31abf16">
+      <RequirementId>42ec8116-31a7-4118-8612-5b04f5c8bde7</RequirementId>
+      <RequirementId>3641b897-f9f0-4d90-909a-b6d4c4b1d645</RequirementId>
+      <RequirementId>42db0eaa-d2dd-48cb-83ac-38d73cab9b50</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="e1886054-ada4-473c-9afc-2fde82c24cf4">
+      <RequirementId>b98ffd05-6572-4b07-a521-693a1754ed46</RequirementId>
+      <RequirementId>217637ba-6bdb-4c73-a38f-27fe0e71d9be</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="e9aa7763-c167-4352-8060-1a3d7d3e2662">
+      <RequirementId>a18b2c98-8552-45ca-9751-d4c94c05847a</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="096686e1-82ca-4de0-8710-d74d90da0f0c">
+      <RequirementId>ab05ff3b-f3e1-4441-9b43-ee9912e29e92</RequirementId>
+      <RequirementId>5461b973-7067-457e-93cc-8338da2c3eef</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="42dc8062-974d-4201-91ba-7f2ea90338fd">
+      <RequirementId>42db0eaa-d2dd-48cb-83ac-38d73cab9b50</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="96f00020-0a25-402e-b850-2378e83b5695">
+      <RequirementId>ab05ff3b-f3e1-4441-9b43-ee9912e29e92</RequirementId>
+      <RequirementId>42db0eaa-d2dd-48cb-83ac-38d73cab9b50</RequirementId>
+      <RequirementId>42ec8116-31a7-4118-8612-5b04f5c8bde7</RequirementId>
+      <RequirementId>3641b897-f9f0-4d90-909a-b6d4c4b1d645</RequirementId>
+      <RequirementId>a92536ab-6783-40bb-a037-5d31f421fd85</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="488ca189-bcdb-4bf4-80c7-3ad507fd89fb">
+      <RequirementId>51391308-0bf6-423c-95e2-d5a54aa31fb8</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="d7721546-9106-43a7-8d31-2fe08a862b00">
+      <RequirementId>23a27c0e-c4f7-42cd-b0fd-a7cedfbf77a7</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="96defecc-7d32-4957-82e9-aad5f3c5b736">
+      <RequirementId>5aacceb3-280e-42f1-b2da-3d8ac7877fe9</RequirementId>
+      <RequirementId>42037f41-53af-44df-b6b8-2395cee98087</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="575f7550-8a2d-4bad-b9d8-be07ab570076">
+      <RequirementId>15778db8-0d84-42ba-931b-774c1b3d3f9f</RequirementId>
+      <Comment>Requirement '3aaca3..' is the correct Requirement according to the standard, however '15778d..' is used to allow receivers of EHF ESPD to use the ESPD service when evaluating EHF ESPD Response.</Comment>
+   </RequirementGroup>
+   <RequirementGroup id="cb73544d-e8bb-4cc6-819b-b8e04f1e240e">
+      <RequirementId>15335c12-ad77-4728-b5ad-3c06a60d65a4</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="4887c3d7-05fc-4e3e-b066-f338910f0c4c">
+      <RequirementId>15335c12-ad77-4728-b5ad-3c06a60d65a4</RequirementId>
+      <RequirementGroupId>83f2f79e-0455-4918-89ff-d7829e8bf758</RequirementGroupId>
+      <Comment>RequirementGroup '83f2f7..' is not part of the official 1.0.2 format, however it is kept to align to the service.</Comment>
+   </RequirementGroup>
+   <RequirementGroup id="83f2f79e-0455-4918-89ff-d7829e8bf758">
+      <ProsessingInstruction>GROUP_FULFILLED.ON_FALSE</ProsessingInstruction>
+      <RequirementId>b9dec4cb-2f6f-47d7-a023-e9099b19b338</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="0e88f63c-5642-4a17-833b-ae5800e1750a">
+      <RequirementId>15335c12-ad77-4728-b5ad-3c06a60d65a4</RequirementId>
+      <RequirementGroupId>76c7cf31-be3a-4a7e-8c35-a65ae60cd674</RequirementGroupId>
+   </RequirementGroup>
+   <RequirementGroup id="76c7cf31-be3a-4a7e-8c35-a65ae60cd674">
+      <ProsessingInstruction>GROUP_FULFILLED.ON_FALSE</ProsessingInstruction>
+      <RequirementId>8c5d1e13-54f7-4895-a65c-b8e09253130c</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="82a59ce2-9c59-4075-af08-843ad89a45ec">
+      <RequirementId>15335c12-ad77-4728-b5ad-3c06a60d65a4</RequirementId>
+      <RequirementGroupId>d664788a-df88-49a0-9dfa-2dd217355724</RequirementGroupId>
+   </RequirementGroup>
+   <RequirementGroup id="d664788a-df88-49a0-9dfa-2dd217355724">
+      <ProsessingInstruction>GROUP_FULFILLED.ON_FALSE</ProsessingInstruction>
+      <RequirementId>b0aace10-fd73-46d1-ae78-289ee5cd42ca</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="6febbe4a-e715-427c-a2b1-19cfabadaef0">
+      <RequirementId>7f18c64e-ae09-4646-9400-f3666d50af51</RequirementId>
+      <RequirementGroupId>a5e33369-e2b5-45f7-9969-ddb1c3ae17c8</RequirementGroupId>
+   </RequirementGroup>
+   <RequirementGroup id="a5e33369-e2b5-45f7-9969-ddb1c3ae17c8">
+      <ProsessingInstruction>GROUP_FULFILLED.ON_TRUE</ProsessingInstruction>
+      <RequirementId>4e552658-d532-4770-943b-b90efcc9788d</RequirementId>
+      <RequirementId>e01d0929-c7a9-455a-aaf9-e1f7cd966336</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="64162276-7014-408f-a9af-080426bfe1fd">
+      <RequirementGroupId>ecb5127b-9018-4fb8-8327-a6a7a2c73195</RequirementGroupId>
+      <Comment>This is completely rewritten in the ESPD Service, changes are kept to align towards the ESPD Service.</Comment>
+   </RequirementGroup>
+   <RequirementGroup id="ecb5127b-9018-4fb8-8327-a6a7a2c73195">
+      <ProsessingInstruction>GROUP_FULFILLED.ON_FALSE</ProsessingInstruction>
+      <RequirementId>7f18c64e-ae09-4646-9400-f3666d50af51</RequirementId>
+      <RequirementGroupId>dc4acf0c-c761-40d0-b031-4ee1f224be5c</RequirementGroupId>
+      <RequirementGroupId>59e6f3ef-15cd-4e21-82ac-ea497ccd44e2</RequirementGroupId>
+   </RequirementGroup>
+   <RequirementGroup id="dc4acf0c-c761-40d0-b031-4ee1f224be5c">
+      <ProsessingInstruction>GROUP_FULFILLED.ON_TRUE</ProsessingInstruction>
+      <RequirementId>30064ad3-fc11-4579-8528-fdd0b9a5ba75</RequirementId>
+      <RequirementId>b3403349-cbc0-4d84-879e-fc0f2d90ecbd</RequirementId>
+      <RequirementId>792ff522-6f3f-4a62-ab6e-a8b272bc290e</RequirementId>
+      <RequirementGroupId>92e44d3b-af8e-4a29-91a8-24d27aa27fee</RequirementGroupId>
+   </RequirementGroup>
+   <RequirementGroup id="92e44d3b-af8e-4a29-91a8-24d27aa27fee">
+      <RequirementId>d9996ef5-49f9-4cf8-a2f5-31c9f4efd894</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="59e6f3ef-15cd-4e21-82ac-ea497ccd44e2">
+      <ProsessingInstruction>GROUP_FULFILLED.ON_FALSE</ProsessingInstruction>
+      <RequirementId>0e71abd3-198e-49c5-8128-5708617bb191</RequirementId>
+      <RequirementId>caa72cea-5443-49fb-84ba-ab6c64427f77</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="d939f2c6-ba25-4dc4-889c-11d1853add19">
+      <RequirementId>7f18c64e-ae09-4646-9400-f3666d50af51</RequirementId>
+      <RequirementGroupId>f5663c5a-d311-4ae4-be14-1575754be5f2</RequirementGroupId>
+   </RequirementGroup>
+   <RequirementGroup id="f5663c5a-d311-4ae4-be14-1575754be5f2">
+      <ProsessingInstruction>GROUP_FULFILLED.ON_TRUE</ProsessingInstruction>
+      <RequirementId>907fd62b-02f1-452c-81a8-785bedb0c536</RequirementId>
+      <RequirementId>7c267f95-a3a7-49ef-abd9-e121dcd641a9</RequirementId>
+      <RequirementId>96f38793-4469-4153-aba6-c613282cdbdc</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="e688f7d6-dcef-4726-bc61-052e63ead60f">
+      <RequirementId>7f18c64e-ae09-4646-9400-f3666d50af51</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="d5fe5a71-7fd3-4910-b6f4-5cd2a4d23524">
+      <RequirementId>7f18c64e-ae09-4646-9400-f3666d50af51</RequirementId>
+      <RequirementGroupId>b638edf6-4f00-4e24-92c4-cf96846f2c17</RequirementGroupId>
+   </RequirementGroup>
+   <RequirementGroup id="b638edf6-4f00-4e24-92c4-cf96846f2c17">
+      <ProsessingInstruction>GROUP_FULFILLED.ON_TRUE</ProsessingInstruction>
+      <RequirementId>999c7fe2-61cd-4e86-b76f-e280304dc8c9</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="3e5c2859-68a7-4312-92e4-01ae79c00cb8">
+      <RequirementId>7f18c64e-ae09-4646-9400-f3666d50af51</RequirementId>
+      <RequirementGroupId>6066950e-3049-4b4e-86e7-2454f1fb3780</RequirementGroupId>
+   </RequirementGroup>
+   <RequirementGroup id="6066950e-3049-4b4e-86e7-2454f1fb3780">
+      <ProsessingInstruction>GROUP_FULFILLED.ON_TRUE</ProsessingInstruction>
+      <RequirementId>323f19b5-3308-4873-b2d1-767963cc81e9</RequirementId>
+   </RequirementGroup>
+   <RequirementGroup id="ab335516-73a4-41f7-977b-a98c13a51060">
+      <RequirementId>0622bbd1-7378-45e1-8fb9-25429740ac22</RequirementId>
+      <RequirementGroupId>8e7e890c-d117-44c8-aa48-cc236d26b475</RequirementGroupId>
+   </RequirementGroup>
+   <RequirementGroup id="8e7e890c-d117-44c8-aa48-cc236d26b475">
+      <ProsessingInstruction>GROUP_FULFILLED.ON_TRUE</ProsessingInstruction>
+      <RequirementId>ee1ee1cd-3791-4855-8b8b-28d4f4c5c007</RequirementId>
+      <RequirementId>1e55ff14-c643-4abc-91d7-2f4dfcdf2409</RequirementId>
+      <RequirementId>d8e1e818-d67b-4bb9-9aeb-4c10943a8342</RequirementId>
+   </RequirementGroup>
+   <Requirement id="974c8196-9d1c-419c-9ca9-45bb9f5fd59a">
+      <Description code="crit_your_answer">
+         <Source>Your answer?</Source>
+         <Translation lang="nb">Ditt svar?</Translation>
+      </Description>
+      <Response>INDICATOR</Response>
+   </Requirement>
+   <Requirement id="ecf40999-7b64-4e10-b960-7f8ff8674cf6">
+      <Description code="crit_date_of_conviction">
+         <Source>Date of conviction</Source>
+         <Translation lang="nb">Dato for domsavsigelse</Translation>
+      </Description>
+      <Response>DATE</Response>
+   </Requirement>
+   <Requirement id="7d35fb7c-da5b-4830-b598-4f347a04dceb">
+      <Description code="crit_reason">
+         <Source>Reason</Source>
+         <Translation lang="nb">Grunn(er) for domfellelse</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="c5012430-14da-454c-9d01-34cedc6a7ded">
+      <Description code="crit_who_convicted">
+         <Source>Who has been convicted</Source>
+         <Translation lang="nb">Hvem som har blitt dømt</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="9ca9096f-edd2-4f19-b6b1-b55c83a2d5c8">
+      <Description code="crit_length_period_exclusion">
+         <Source>Length of the period of exclusion</Source>
+         <Translation lang="nb">I den grad det er uttrykkelig fastsat i dommen: Avvisningsperiodens varighet</Translation>
+      </Description>
+      <Response>PERIOD</Response>
+   </Requirement>
+   <Requirement id="20c5361b-7599-4ee6-b030-7f8323174d1e">
+      <Description code="crit_taken_self_cleaning_measures">
+         <Source>Have you taken measures to demonstrate your reliability ("Self-Cleaning")?</Source>
+         <Translation lang="nb">Har leverandør gjennomført tiltak som viser at han likevel har den nødvendige integritet som kontraktspart ("self-cleaning")?</Translation>
+      </Description>
+      <Response>INDICATOR</Response>
+   </Requirement>
+   <Requirement id="7b07904f-e080-401a-a3a1-9a3efeeda54b">
+      <Description code="crit_please_describe_them">
+         <Source>Please describe them</Source>
+         <Translation lang="nb">Vennligst beskriv</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="c1347b74-1872-4060-a6db-f4044edcd7c4">
+      <Description>
+         <Source>Is this information available electronically?</Source>
+         <Translation lang="nb">Er denne informasjonsn tilgjengelig elektronisk?</Translation>
+      </Description>
+      <Response>INDICATOR</Response>
+   </Requirement>
+   <Requirement id="f4313bb6-21b6-499e-bdff-debe10e11d2c">
+      <Description code="crit_url">
+         <Source>URL</Source>
+         <Translation lang="nb">URL/nettadresse</Translation>
+      </Description>
+      <Response>EVIDENCE_URL</Response>
+   </Requirement>
+   <Requirement id="1f1cd18e-3e01-4ca2-af4c-e2981924ba8d">
+      <Description code="crit_code">
+         <Source>Code</Source>
+         <Translation lang="nb">Kode eller identifikator</Translation>
+      </Description>
+      <Response>CODE</Response>
+   </Requirement>
+   <Requirement id="c3ccfa31-0c5e-4e3a-a3fd-db9fb83d78d4">
+      <Description code="crit_issuer">
+         <Source>Issuer</Source>
+         <Translation lang="nb">Utsteder</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="6c87d3d4-e8eb-4253-b385-6373020ab886">
+      <Description code="crit_country_member_state">
+         <Source>Country or member state concerned</Source>
+         <Translation lang="nb">Berørte land eller medlemsstat</Translation>
+      </Description>
+      <Response>CODE_COUNTRY</Response>
+   </Requirement>
+   <Requirement id="9052cc59-cfe5-41c6-a314-02a7f378ffe8">
+      <Description code="crit_amount_concerned">
+         <Source>Amount concerned</Source>
+         <Translation lang="nb">Beløpets størrelse</Translation>
+      </Description>
+      <Response>AMOUNT</Response>
+   </Requirement>
+   <Requirement id="9b4497e6-a166-46f9-8581-7fc39ff975c4">
+      <Description code="crit_other_than_judicial_or_administrative_decision">
+         <Source>Has this breach of obligations been established by means other than a judicial or administrative decision?</Source>
+         <Translation lang="nb">Har den manglende oppfyllelsen av forpliktelsene blitt konstantert på andre måter enn ved en rettslig eller administrativ avgjørelse?</Translation>
+      </Description>
+      <Response>INDICATOR</Response>
+   </Requirement>
+   <Requirement id="201f11c3-1fa2-4464-acc0-f021266fd881">
+      <Description code="crit_taxes_means_description">
+         <Source>Please describe which means were used</Source>
+         <Translation lang="nb">Vennligst beskriv på hvilke måter</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="08b0c984-c5e6-4143-8493-868c39745637">
+      <Description code="crit_decision_final_and_binding">
+         <Source>If this breach of obligations was established through a judicial or administrative decision, was this decision final and binding?</Source>
+         <Translation lang="nb">Har den manglende oppfyllelse av forpliktelser blitt konstantert ved en rettskkraftig dom eller endelig forvaltningsvedtak?</Translation>
+      </Description>
+      <Response>INDICATOR</Response>
+   </Requirement>
+   <Requirement id="70f8697b-8953-411a-a489-4ff62e5250d2">
+      <Description code="crit_taxes_eo_fulfilled_obligations">
+         <Source>Has the economic operator fulfilled its obligations by paying or entering into a binding arrangement with a view to paying the taxes or social security contributions due, including, where applicable, any interest accrued or fines?</Source>
+         <Translation lang="nb">Har leverandøren oppfylt sine forpliktelser ved å betale eller inngå en bindende betalingsavtale for å betale skyldige skatter, avgifter eller trygdeavgifter, inkludert eventuelle renter og bøter.</Translation>
+      </Description>
+      <Response>INDICATOR</Response>
+   </Requirement>
+   <Requirement id="55905dd0-38f0-4f93-8c74-5ae05a21afc5">
+      <Description code="crit_taxes_means_description">
+         <Source>Please describe them</Source>
+         <Translation lang="nb">Vennligst beskriv på hvilke måter</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="e098da8e-4717-4500-965f-f882d5b4e1ad">
+      <Description code="crit_taxes_means_description">
+         <Source>Please describe them</Source>
+         <Translation lang="nb">Vennligst beskriv på hvilke måter</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="4e3f468a-86c4-4c99-bd15-c8b221229348">
+      <Description>
+         <Source>Indicate reasons for being nevertheless to perform the contract</Source>
+         <Translation lang="nb">Angi hvorfor man under nevnte omstendigheter likevel er i stand til å utføre kontrakten</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="15335c12-ad77-4728-b5ad-3c06a60d65a4">
+      <Description code="crit_your_answer">
+         <Source>Your answer?</Source>
+         <Translation lang="nb">Ditt svar?</Translation>
+      </Description>
+      <Response>INDICATOR</Response>
+   </Requirement>
+   <Requirement id="9dae5670-cb75-4c97-901b-96ddac5a633a">
+      <Description code="crit_information_available_electronically">
+         <Source>Is this information available electronically?</Source>
+         <Translation lang="nb">Er disse opplysningene mulig for oppdragsgiver å innhente kostnadsfritt i en database i en EØS-stat?</Translation>
+      </Description>
+      <Response>INDICATOR</Response>
+   </Requirement>
+   <Requirement id="03bb1954-13ae-47d8-8ef8-b7fe0f22d700">
+      <Description code="crit_url">
+         <Source>URL</Source>
+         <Translation lang="nb">URL/nettadresse</Translation>
+      </Description>
+      <Response>EVIDENCE_URL</Response>
+   </Requirement>
+   <Requirement id="e2d863a0-60cb-4e58-8c14-4c1595af48b7">
+      <Description code="crit_code">
+         <Source>Code</Source>
+         <Translation lang="nb">Kode</Translation>
+      </Description>
+      <Response>CODE</Response>
+   </Requirement>
+   <Requirement id="5cbf74d9-a1e2-4233-921d-8b298842ee7d">
+      <Description code="crit_issuer">
+         <Source>Issuer</Source>
+         <Translation lang="nb">Utsteder</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="51391308-0bf6-423c-95e2-d5a54aa31fb8">
+      <Description code="crit_please_describe_them">
+         <Source>Please describe them</Source>
+         <Translation lang="nb">Vennligst beskri</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="42ec8116-31a7-4118-8612-5b04f5c8bde7">
+      <Description code="crit_start_date">
+         <Source>Start Date</Source>
+         <Translation lang="nb">Startdato</Translation>
+      </Description>
+      <Response>DATE</Response>
+   </Requirement>
+   <Requirement id="3641b897-f9f0-4d90-909a-b6d4c4b1d645">
+      <Description code="crit_end_date">
+         <Source>End Date</Source>
+         <Translation lang="nb">Sluttdato</Translation>
+      </Description>
+      <Response>DATE</Response>
+   </Requirement>
+   <Requirement id="42db0eaa-d2dd-48cb-83ac-38d73cab9b50">
+      <Description code="crit_amount">
+         <Source>Amount</Source>
+         <Translation lang="nb">Beløp</Translation>
+      </Description>
+      <Response>AMOUNT</Response>
+   </Requirement>
+   <Requirement id="b98ffd05-6572-4b07-a521-693a1754ed46">
+      <Description code="crit_number_of_years">
+         <Source>Number of years</Source>
+         <Translation lang="nb">Antall år</Translation>
+      </Description>
+      <Response>QUANTITY_INTEGER</Response>
+   </Requirement>
+   <Requirement id="217637ba-6bdb-4c73-a38f-27fe0e71d9be">
+      <Description code="crit_average_turnover">
+         <Source>Average turnover</Source>
+         <Translation lang="nb">Gjennomsnittlig årsomsetning</Translation>
+      </Description>
+      <Response>AMOUNT</Response>
+   </Requirement>
+   <Requirement id="a18b2c98-8552-45ca-9751-d4c94c05847a">
+      <Description code="crit_please_specify">
+         <Source>Please specify</Source>
+         <Translation lang="nb">Vennligst spesifiser</Translation>
+      </Description>
+      <Response>QUANTITY_YEAR</Response>
+   </Requirement>
+   <Requirement id="ab05ff3b-f3e1-4441-9b43-ee9912e29e92">
+      <Description code="crit_description">
+         <Source>Description</Source>
+         <Translation lang="nb">Beskrivelse</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="5461b973-7067-457e-93cc-8338da2c3eef">
+      <Description code="crit_ratio">
+         <Source>Ratio</Source>
+         <Translation lang="nb">Nøkkeltall</Translation>
+      </Description>
+      <Response>QUANTITY</Response>
+   </Requirement>
+   <Requirement id="a92536ab-6783-40bb-a037-5d31f421fd85">
+      <Description code="crit_recipients">
+         <Source>Recipients</Source>
+         <Translation lang="nb">Mottakere</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="23a27c0e-c4f7-42cd-b0fd-a7cedfbf77a7">
+      <Description code="crit_do_you_allow_checks">
+         <Source>Do you allow checks?</Source>
+         <Translation lang="nb">Tillater leverandøren kontroll?</Translation>
+      </Description>
+      <Response>INDICATOR</Response>
+   </Requirement>
+   <Requirement id="5aacceb3-280e-42f1-b2da-3d8ac7877fe9">
+      <Description code="crit_year">
+         <Source>Year</Source>
+         <Translation lang="nb">År</Translation>
+      </Description>
+      <Response>QUANTITY_YEAR</Response>
+   </Requirement>
+   <Requirement id="42037f41-53af-44df-b6b8-2395cee98087">
+      <Description code="crit_number">
+         <Source>Number</Source>
+         <Translation lang="nb">Nummer</Translation>
+      </Description>
+      <Response>QUANTITY_INTEGER</Response>
+   </Requirement>
+   <Requirement id="15778db8-0d84-42ba-931b-774c1b3d3f9f">
+      <Description code="crit_please_specify">
+         <Source>Please specify</Source>
+         <Translation lang="nb">Vennligst spesifiser</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="b9dec4cb-2f6f-47d7-a023-e9099b19b338">
+      <Description code="crit_explain_supply_contracts_quality_description">
+         <Source>If not, please explain why and state which other means of proof can be provided:</Source>
+         <Translation lang="nb">Hvis ikke, forklar hvorfor, og angi, hvilke andre former for bevis som kan leveres:</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="8c5d1e13-54f7-4895-a65c-b8e09253130c">
+      <Description code="crit_explain_certificates_independent_quality_description">
+         <Source>If not, please explain why and specify which other means of proof concerning the quality assurance scheme can be provided:</Source>
+         <Translation lang="nb">Hvis ikke, vennligst forklar hvorfor, og angi hvilke andre former for bevis vedrørende kvalitetssikringsstandarder som kan fremlegges:</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="b0aace10-fd73-46d1-ae78-289ee5cd42ca">
+      <Description code="crit_explain_certificates_independent_environmental_description">
+         <Source>If not, please explain why and specify which other means of proof concerning the environmental management systems or standards can be provided:</Source>
+         <Translation lang="nb">Hvis ikke, vennligst forklar hvorfor og angi hvilke andre former for bevis vedrørende miljøledelsessystemer eller -standarder som kan fremlegges:</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="7f18c64e-ae09-4646-9400-f3666d50af51">
+      <Description code="crit_your_answer">
+         <Source>Your answer</Source>
+         <Translation lang="nb">Ditt svar?</Translation>
+      </Description>
+      <Response>INDICATOR</Response>
+   </Requirement>
+   <Requirement id="4e552658-d532-4770-943b-b90efcc9788d">
+      <Description code="createeo_percentage_disworkers">
+         <Source>What is the corresponding percentage of disabled or disadvantaged workers?</Source>
+         <Translation lang="nb">Hva er den prosentvise andel av funksjonshemmede eller vanskeligstilte personer?</Translation>
+      </Description>
+      <Response>PERCENTAGE</Response>
+   </Requirement>
+   <Requirement id="e01d0929-c7a9-455a-aaf9-e1f7cd966336">
+      <Description code="createeo_disworkers_details">
+         <Source>If required, please provide details on whether the employees concerned belong to a specific category of disabled or disadvantaged workers?</Source>
+         <Translation lang="nb">Dersom angitt som krav, spesifiser hvilken kategori eller hvilke kategorier av funksjonshemmede eller vanskeligstilte personer som tilhører virksomheten.</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="30064ad3-fc11-4579-8528-fdd0b9a5ba75">
+      <Description code="createeo_provide_regnumber">
+         <Source>a) Please provide the relevant registration or certification number, if applicable:</Source>
+         <Translation lang="nb">a) Angi navnet på listen eller attesten og det tilhørende registrerings- eller sertifiseringsnummeret</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="b3403349-cbc0-4d84-879e-fc0f2d90ecbd">
+      <Description code="createeo_cert_e_avaliable">
+         <Source>b) If the certificate of registration or certification is available electronically, please state:</Source>
+         <Translation lang="nb">b) Hvis attesten for registreringen eller sertiseringen finnes i elektronisk format, angis følgende:</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="792ff522-6f3f-4a62-ab6e-a8b272bc290e">
+      <Description code="createeo_ref_for_cert">
+         <Source>c) Please state the references on which the registration or certification is based, and, where applicable, the classification obtained in the official list:</Source>
+         <Translation lang="nb">c) Angi hvilke opplysninger som har dannet grunnlag for registeringen eller utstedelsen av attesten og, hvis aktuelt, hvilken klassifisering som følger av listen :Opplysningene og klassifiseringen, hvis aktuelt, fremgår av attesten.</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="d9996ef5-49f9-4cf8-a2f5-31c9f4efd894">
+      <Description code="createeo_all_selection_covered">
+         <Source>d) Does the registration or certification cover all of the required selection criteria?</Source>
+         <Translation lang="nb">d) Omfatter registreringen eller sertifiseringen alle de påkrevde kvalifikasjonskravene?</Translation>
+      </Description>
+      <Response>INDICATOR</Response>
+   </Requirement>
+   <Requirement id="0e71abd3-198e-49c5-8128-5708617bb191">
+      <Description code="createeo_eo_has_cert_soc">
+         <Source>e) Will the economic operator be able to provide a certificate with regard to the payment of social security contributions and taxes or provide information enabling the contracting authority or contracting entity to obtaining it directly by accessing a national database in any Member State that is available free of charge?</Source>
+         <Translation lang="nb">e) Er leverandøren i stand til å fremlegge en attest for betaling av skatter, avgifter og trygdeavgifter eller å fremlegge opplysninger som setter oppdragsgiver i stand til å innhente opplysningene kostnadsfritt i en database i en EØS-stat?</Translation>
+      </Description>
+      <Response>INDICATOR</Response>
+   </Requirement>
+   <Requirement id="caa72cea-5443-49fb-84ba-ab6c64427f77">
+      <Description code="createeo_doc_e_avaliable">
+         <Source>If the relevant documentation is available electronically, please indicate:</Source>
+         <Translation lang="nb">Hvis den relevante dokumentasjonen er tilgengelig i elektronisk form, angi følgende</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="907fd62b-02f1-452c-81a8-785bedb0c536">
+      <Description code="createeo_eo_group_role">
+         <Source>a) Please indicate the role of the economic operator in the group (leader, responsible for specific tasks...):</Source>
+         <Translation lang="nb">a) Angi leverandørens rolle i gruppen (leder, ansvarlig for spesifikke oppgaver osv.):</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="7c267f95-a3a7-49ef-abd9-e121dcd641a9">
+      <Description code="createeo_other_eo_part">
+         <Source>b) Please identify the other economic operators participating in the procurement procedure together:</Source>
+         <Translation lang="nb">b) Angi de øvrige leverandørene som deltar i fellesskap i konkurransen</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="96f38793-4469-4153-aba6-c613282cdbdc">
+      <Description code="createeo_ref_for_cert">
+         <Source>c) Where applicable, name of the participating group:</Source>
+         <Translation lang="nb">c) Navnet på den deltakende gruppen, der det er relevant</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="999c7fe2-61cd-4e86-b76f-e280304dc8c9">
+      <Description code="createeo_information_subcontractors_description">
+         <Source>If yes and in so far as known, please list the proposed subcontractors:</Source>
+         <Translation lang="nb">Hvis ja og dersom er kjent, angis de foreslåtte/planlagte underleverandører</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="323f19b5-3308-4873-b2d1-767963cc81e9">
+      <Description code="crit_please_describe_them">
+          <Source>Please describe them</Source>
+          <Translation lang="nb">Vennligst beskriv</Translation>
+       </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+   <Requirement id="0622bbd1-7378-45e1-8fb9-25429740ac22">
+      <Description code="crit_information_available_electronically">
+         <Source>Is this information available electronically?</Source>
+         <Translation lang="nb">Er disse opplysningene mulig for oppdragsgiver å innhente kostnadsfritt i en database i en EØS-stat?</Translation>
+      </Description>
+      <Response>INDICATOR</Response>
+   </Requirement>
+   <Requirement id="ee1ee1cd-3791-4855-8b8b-28d4f4c5c007">
+      <Description code="crit_url">
+         <Source>URL</Source>
+         <Translation lang="nb">URL/nettadresse</Translation>
+      </Description>
+      <Response>EVIDENCE_URL</Response>
+   </Requirement>
+   <Requirement id="1e55ff14-c643-4abc-91d7-2f4dfcdf2409">
+      <Description code="crit_code">
+         <Source>Code</Source>
+         <Translation lang="nb">Kode</Translation>
+      </Description>
+      <Response>CODE</Response>
+   </Requirement>
+   <Requirement id="d8e1e818-d67b-4bb9-9aeb-4c10943a8342">
+      <Description code="crit_issuer">
+         <Source>Issuer</Source>
+         <Translation lang="nb">Utsteder</Translation>
+      </Description>
+      <Response>DESCRIPTION</Response>
+   </Requirement>
+</CriteriaTaxonomy>

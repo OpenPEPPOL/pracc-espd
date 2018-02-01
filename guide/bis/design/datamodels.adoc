@@ -1,0 +1,10 @@
+
+= The Core Criterion and Core Evidence Data Models and Vocabularies
+
+When creating a new ESPD Request XML document, the Contracting Authority (CA) specifies the series of exclusion and selection ''criteria'' that the Economic Operator (EO) has
+to satisfy for a specific Procurement Project. In the ESPD Response, the Economic Operator (EO) MAY provide where to get evidences that prove it satisfies the criteria required by the CA.
+
+Two new data models were defined from scratch by the European Commission (COM), the Core Criterion Data Model and the Core Evidence Data Model. Once implemented as XSD schemata these Data Models are named ''Core Criterion Vocabulary'' and ''Core Evidence Vocabulary''. Both Data Models (and therefore the vocabularies too) are interrelated.
+
+From the modelling perspective the main difference between the ESPDRequest and the ESPDResponse is that the ESPDRequest does not use the Response element, and therefore neither
+the XML Core Evidence Vocabulary.

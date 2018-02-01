@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeList xmlns="urn:fdc:difi.no:2017:vefa:structure:CodeList-1">
+
+    <Title>ISO 639-1 Language Codes</Title>
+    <Identifier>LanguageCodeEU</Identifier>
+    <Version>1.0.2</Version>
+    <Agency>European Comission</Agency>
+    <Subset>Language codes within European Union</Subset>
+
+    <Code>
+        <Id>PL</Id>
+        <Name>Polski (pl)</Name>
+    </Code>
+
+    <Code>
+        <Id>PT</Id>
+        <Name>Português (pt)</Name>
+    </Code>
+
+    <Code>
+        <Id>EL</Id>
+        <Name>Ελληνικά (el)</Name>
+    </Code>
+
+    <Code>
+        <Id>EN</Id>
+        <Name>English (en)</Name>
+    </Code>
+
+    <Code>
+        <Id>ES</Id>
+        <Name>Español (es)</Name>
+    </Code>
+
+    <Code>
+        <Id>ET</Id>
+        <Name>Eesti (et)</Name>
+    </Code>
+
+    <Code>
+        <Id>FI</Id>
+        <Name>Suomi (fi)</Name>
+    </Code>
+
+    <Code>
+        <Id>RO</Id>
+        <Name>Romană (ro)</Name>
+    </Code>
+
+    <Code>
+        <Id>GA</Id>
+        <Name>Gaeilge (ga)</Name>
+    </Code>
+
+    <Code>
+        <Id>FR</Id>
+        <Name>Français (fr)</Name>
+    </Code>
+
+    <Code>
+        <Id>SK</Id>
+        <Name>Slovenčina (sk)</Name>
+    </Code>
+
+    <Code>
+        <Id>SL</Id>
+        <Name>Slovenščina (sl)</Name>
+    </Code>
+
+    <Code>
+        <Id>SV</Id>
+        <Name>Svenska (sv)</Name>
+    </Code>
+
+    <Code>
+        <Id>HU</Id>
+        <Name>Magyar (hu)</Name>
+    </Code>
+
+    <Code>
+        <Id>IT</Id>
+        <Name>Italiano (it)</Name>
+    </Code>
+
+    <Code>
+        <Id>LT</Id>
+        <Name>Lietuvių (lt)</Name>
+    </Code>
+
+    <Code>
+        <Id>LV</Id>
+        <Name>Latviešu (lv)</Name>
+    </Code>
+
+    <Code>
+        <Id>MT</Id>
+        <Name>Malti (mt)</Name>
+    </Code>
+
+    <Code>
+        <Id>BG</Id>
+        <Name>български (bg)</Name>
+    </Code>
+
+    <Code>
+        <Id>NL</Id>
+        <Name>Nederlands (nl)</Name>
+    </Code>
+
+    <Code>
+        <Id>DA</Id>
+        <Name>Dansk (da)</Name>
+    </Code>
+
+    <Code>
+        <Id>CS</Id>
+        <Name>čeština (cs)</Name>
+    </Code>
+
+    <Code>
+        <Id>DE</Id>
+        <Name>Deutsch (de)</Name>
+    </Code>
+
+    <Code>
+        <Id>HR</Id>
+        <Name>Hrvatski (hr)</Name>
+    </Code>
+
+</CodeList>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<espd:ESPDRequest
+    xmlns:espd="urn:grow:names:specification:ubl:schema:xsd:ESPDRequest-1"
+    xmlns:espd-cac="urn:grow:names:specification:ubl:schema:xsd:ESPD-CommonAggregateComponents-1"
+    xmlns:espd-cbc="urn:grow:names:specification:ubl:schema:xsd:ESPD-CommonBasicComponents-1"
+    xmlns:ccv="urn:isa:names:specification:ubl:schema:xsd:CCV-CommonAggregateComponents-1"
+    xmlns:ccv-cbc="urn:isa:names:specification:ubl:schema:xsd:CCV-CommonBasicComponents-1"
+    xmlns:cev-cbc="urn:isa:names:specification:ubl:schema:xsd:CEV-CommonBasicComponents-1"
+    xmlns:cev="urn:isa:names:specification:ubl:schema:xsd:CEV-CommonAggregateComponents-1" 
+    xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+    xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+    xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+    <cbc:UBLVersionID schemeAgencyID="OASIS-UBL-TC">2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID schemeName="CustomizationID" schemeAgencyID="BII" schemeVersionID="3.0">urn:www.cenbii.eu:transaction:biitrns070:ver3.0:extended:urn:fdc:difi.no:2017:ehf:spec:1.0</cbc:CustomizationID> 
+    <cbc:ID schemeID="ISO/IEC 9834-8:2008 - 4UUID" schemeAgencyID="EU-COM-GROW"
+        schemeAgencyName="DG GROW (European Commission)" schemeVersionID="1.1">id123</cbc:ID>
+    <cbc:CopyIndicator>false</cbc:CopyIndicator>
+    <cbc:VersionID schemeAgencyID="EU-COM-GROW">2016.04.2</cbc:VersionID>
+    <cbc:IssueDate>2017-11-02</cbc:IssueDate>
+    <cbc:IssueTime>10:00:00</cbc:IssueTime>
+    <cbc:ContractFolderID schemeAgencyID="TeD">provided by the CO</cbc:ContractFolderID>
+    <!-- tag::ca[] -->
+    <cac:ContractingParty>
+        <cac:Party>
+            <cbc:EndpointID schemeID="NO:ORGNR">991825827</cbc:EndpointID>
+            <cac:PartyIdentification>
+                <cbc:ID schemeID="NO:ORGNR">991825827</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyName>
+                <cbc:Name>Name of CO</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cac:Country>
+                    <cbc:IdentificationCode listID="CountryCodeIdentifier" listAgencyID="EU-COM-GROW" listName="CountryCodeIdentifier" listVersionID="1.0.2">NO</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:ContractingParty>
+    <!-- end::ca[] -->
+    <cac:ProcurementProjectLot>
+        <cbc:ID schemeAgencyID="EU-COM-GROW">1</cbc:ID>
+    </cac:ProcurementProjectLot>
+    <!-- tag::criterion[] -->
+    <ccv:Criterion>
+        <cbc:ID schemeID="CriteriaID" schemeAgencyID="EU-COM-GROW" schemeVersionID="1.0"
+            >61874050-5130-4f1c-a174-720939c7b483</cbc:ID><!--1-->
+        <cbc:TypeCode listID="CriteriaTypeCode" listAgencyID="EU-COM-GROW" listVersionID="1.0.2"
+            >CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.PROCEDURE_PREPARATION</cbc:TypeCode>
+        <cbc:Name>Direct or indirect involvement in the preparation of this procurement
+            procedure</cbc:Name>
+        <cbc:Description>Has the economic operator or an undertaking related to it advised the
+            contracting authority or contracting entity or otherwise been involved in the preparation
+            of the procurement procedure?</cbc:Description>
+        <ccv:LegislationReference><!--2-->
+            <ccv-cbc:Title>DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26
+                February 2014 on public procurement and repealing Directive 2004/18/EC</ccv-cbc:Title>
+            <cbc:Description>Directive 2014/24/EU</cbc:Description>
+            <ccv-cbc:JurisdictionLevelCode listID="CriterionJurisdictionLevel"
+                listAgencyID="EU-COM-GROW" listVersionID="1.0.2"
+                >EU_DIRECTIVE</ccv-cbc:JurisdictionLevelCode>
+            <ccv-cbc:Article>57(4)</ccv-cbc:Article>
+            <cbc:URI>http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024</cbc:URI>
+        </ccv:LegislationReference>
+        <ccv:RequirementGroup><!--3-->
+            <cbc:ID schemeAgencyID="EU-COM-GROW" schemeVersionID="1.0"
+                >77ae3f29-7c5f-4afa-af97-24afec48c5bf</cbc:ID>
+            <ccv:Requirement responseDataType="INDICATOR"><!--4-->
+                <cbc:ID schemeID="CriterionRelatedIDs" schemeAgencyID="EU-COM-GROW"
+                    schemeVersionID="1.0">974c8196-9d1c-419c-9ca9-45bb9f5fd59a</cbc:ID>
+                <cbc:Description>Your answer?</cbc:Description>
+            </ccv:Requirement>
+            <ccv:RequirementGroup pi="GROUP_FULFILLED.ON_TRUE">
+                <cbc:ID schemeAgencyID="EU-COM-GROW" schemeVersionID="1.0"
+                    >73f0fe4c-4ed9-4343-8096-d898cf200146</cbc:ID>
+                <ccv:Requirement responseDataType="DESCRIPTION">
+                    <cbc:ID schemeID="CriterionRelatedIDs" schemeAgencyID="EU-COM-GROW"
+                        schemeVersionID="1.0">e098da8e-4717-4500-965f-f882d5b4e1ad</cbc:ID>
+                    <cbc:Description>Please describe them</cbc:Description>
+                </ccv:Requirement>
+            </ccv:RequirementGroup>
+        </ccv:RequirementGroup>
+    </ccv:Criterion>
+    <!-- end::criterion[] -->
+    <!-- tag::doffin[] -->
+    <cac:AdditionalDocumentReference>
+        <cbc:ID schemeAgencyID="EU-COM-GROW" schemeAgencyName="DG GROW (European Commission)" schemeVersionID="1.1">18/00001</cbc:ID><!--1-->
+        <cbc:DocumentTypeCode listID="ReferencesTypeCodes" listAgencyID="EU-COM-GROW" listVersionID="1.0">NGOJ</cbc:DocumentTypeCode><!--2-->
+    </cac:AdditionalDocumentReference>
+    <!-- end::doffin[] -->
+</espd:ESPDRequest>

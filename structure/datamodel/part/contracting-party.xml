@@ -1,0 +1,107 @@
+<Element xmlns="urn:fdc:difi.no:2017:vefa:structure-1">
+    <Term>cac:ContractingParty</Term>
+    <Name>Contracting Body</Name>
+    <Description>The contracting authority or contracting entity who is buying supplies, services or public works using a tendering procedure as described
+        in the applicable directive (Directives 2014/24/EU, 2014/25/EU).</Description>
+    <Property key="doc">structure/docs/contracting-party.adoc</Property>
+
+    <Element>
+        <Term>cac:Party</Term>
+        <Name>Party information</Name>
+
+        <Element cardinality="0..1">
+            <Term>cbc:EndpointID</Term>
+            <Name>Contracting body electronic address identifier</Name>
+
+            <Reference type="RULE">PEPPOLBIS-ESPD-R022</Reference>
+
+            <Attribute>
+                <Term>schemeID</Term>
+                <Name>Identifier qualifier</Name>
+                <Reference type="CODE_LIST">ICD</Reference>
+                <Value type="EXAMPLE">NO:ORGNR</Value>
+            </Attribute>
+
+            <Value type="EXAMPLE">991825827</Value>
+        </Element>
+
+        <Element>
+            <Term>cac:PartyIdentification</Term>
+            <Name>Party identifier</Name>
+
+            <Element>
+                <Term>cbc:ID</Term>
+                <Name>Contracting body identifier</Name>
+                <Description>The identifier of a contracting body as it is legally registered</Description>
+
+                <Attribute>
+                    <Term>schemeID</Term>
+                    <Name>Identifier qualifier</Name>
+                    <Reference type="CODE_LIST">ICD</Reference>
+                    <Value type="FIXED">NO:ORGNR</Value>
+                </Attribute>
+
+                <Value type="EXAMPLE">991825827</Value>
+            </Element>
+        </Element>
+
+        <Element>
+            <Term>cac:PartyName</Term>
+            <Name>Contracting body name</Name>
+
+            <Element>
+                <Term>cbc:Name</Term>
+                <Name>Name</Name>
+                <Description>The name of the contracting body</Description>
+                <Value type="EXAMPLE">Difi</Value>
+            </Element>
+        </Element>
+
+        <Element>
+            <Term>cac:PostalAddress</Term>
+            <Name>Postal Address</Name>
+
+
+            <Element>
+                <Term>cac:Country</Term>
+                <Name>Country</Name>
+
+                <Element>
+                    <Term>cbc:IdentificationCode</Term>
+                    <Name>Country code</Name>
+                    <Description>The country code of the contracting body</Description>
+                    <Reference type="CODE_LIST">CountryCodeIdentifier</Reference>
+
+                    <Attribute>
+                        <Term>listID</Term>
+                        <Name>List identifier</Name>
+
+                        <Value type="FIXED">CountryCodeIdentifier</Value>
+                    </Attribute>
+
+                    <Attribute>
+                        <Term>listAgencyID</Term>
+                        <Name>Maintainer of list</Name>
+                        <Value type="FIXED">EU-COM-GROW</Value>
+                    </Attribute>
+
+                    <Attribute>
+                        <Term>listName</Term>
+                        <Name>List name</Name>
+                        <Value type="FIXED">CountryCodeIdentifier</Value>
+                    </Attribute>
+
+                    <Attribute>
+                        <Term>listVersionID</Term>
+                        <Name>List version</Name>
+                        <Value type="FIXED">1.0.2</Value>
+                    </Attribute>
+
+                    <Value type="FIXED">NO</Value>
+                </Element>
+            </Element>
+        </Element>
+
+
+    </Element>
+</Element>

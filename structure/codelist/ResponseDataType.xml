@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeList xmlns="urn:fdc:difi.no:2017:vefa:structure:CodeList-1">
+
+    <Title>Response Data Types</Title>
+    <Identifier>ResponseDataType</Identifier>
+    <Version>1.0.2</Version>
+    <Agency>DG GROW (European Commission)</Agency>
+
+    <Code>
+        <Id>AMOUNT</Id>
+        <Name>An Amount, and currency, as defined in UN/CEFACT's CCTS</Name>
+    </Code>
+
+    <Code>
+        <Id>CODE</Id>
+        <Name>A code for an unespecified concept</Name>
+    </Code>
+
+    <Code>
+        <Id>CODE_COUNTRY</Id>
+        <Name>Code identifying a country (Compulsory use of ISO 3166-1 alpha 2</Name>
+    </Code>
+
+    <Code>
+        <Id>DATE</Id>
+        <Name>Date values (format YYYY-DD-MM)</Name>
+    </Code>
+
+    <Code>
+        <Id>DESCRIPTION</Id>
+        <Name>Textual field</Name>
+    </Code>
+
+    <Code>
+        <Id>EVIDENCE_URL</Id>
+        <Name>URL, namely pointing to an evidence</Name>
+    </Code>
+
+    <Code>
+        <Id>INDICATOR</Id>
+        <Name>"true" or "false" values representing "Yes" affirmative or "No" negative answers</Name>
+    </Code>
+
+    <Code>
+        <Id>PERCENTAGE</Id>
+        <Name>A decimal number representing a percent (e.g. 0.1)</Name>
+    </Code>
+
+    <Code>
+        <Id>PERIOD</Id>
+        <Name>Period object as defined in UBL-2.1</Name>
+    </Code>
+
+    <Code>
+        <Id>QUANTITY_INTEGER</Id>
+        <Name>A number representing a quantity in a specific unit of measure. The unit has to be specified (e.g. Kg).
+        </Name>
+    </Code>
+
+    <Code>
+        <Id>QUANTITY_YEAR</Id>
+        <Name>A non-negative integer representing a year. The unit has to be specified as YEAR</Name>
+    </Code>
+
+    <Code>
+        <Id>QUANTITY</Id>
+        <Name>A number representing a generic quantity with no unit specified.</Name>
+    </Code>
+
+</CodeList>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeList xmlns="urn:fdc:difi.no:2017:vefa:structure:CodeList-1">
+
+    <Title>EconomicOperatorIdentifierType</Title>
+    <Identifier>EconomicOperatorIdentifierType</Identifier>
+    <Version>1.0.2</Version>
+    <Agency>DG GROW (European Commission)</Agency>
+
+    <Code>
+        <Id>VAT_Number</Id>
+        <Name>Public Contract</Name>
+    </Code>
+
+    <Code>
+        <Id>National_Number</Id>
+        <Name>Establishment of a Framework agreement</Name>
+    </Code>
+
+</CodeList>

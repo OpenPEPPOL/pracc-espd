@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeList xmlns="urn:fdc:difi.no:2017:vefa:structure:CodeList-1">
+
+    <Title>Tenderer Role Codes</Title>
+    <Identifier>TendererRole</Identifier>
+    <Version>1.0</Version>
+    <Agency>BII</Agency>
+
+    <Code>
+        <Id>MT</Id>
+        <Name>Main tenderer</Name>
+    </Code>
+
+    <Code>
+        <Id>SC</Id>
+        <Name>Subcontractor</Name>
+    </Code>
+
+    <Code>
+        <Id>CL</Id>
+        <Name>Consortium leader</Name>
+    </Code>
+
+    <Code>
+        <Id>CM</Id>
+        <Name>Consortium member</Name>
+    </Code>
+
+    <Code>
+        <Id>JV</Id>
+        <Name>Joint Venture</Name>
+    </Code>
+
+    <Code>
+        <Id>SME</Id>
+        <Name>SME</Name>
+    </Code>
+
+    <Code>
+        <Id>OTH</Id>
+        <Name>Other</Name>
+    </Code>
+
+</CodeList>

@@ -1,0 +1,14 @@
+
+
+= Evidence
+
+Evidence is used by the economic operator to refer to a trusted source of proofs that supports the stated response to a criterion requirement.
+
+In the ESPD Exchange Data Model (ESPD EDM) the Evidence class is part of the Response to a Requirement, as shown in the XSD diagram below
+
+:leveloffset: +1
+
+
+include::response.adoc[]
+
+:leveloffset: -1

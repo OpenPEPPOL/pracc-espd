@@ -1,0 +1,22 @@
+
+= Additional documents
+
+.Example of additional document reference used in the ESPDRequest XML document.
+[source, xml, indent=0]
+----
+include::guide/bis/shared/files/snippet1.xml[tags=doffin]
+----
+<1> Doffin referanse
+<2> The code for this type of content
+
+
+.Example of additional document reference used in the ESPDResponse XML document.
+[source, xml, indent=0]
+----
+include::guide/bis/shared/files/snippet-response.xml[tags=docs]
+----
+<1> UUID for the ESPD Request
+<2> Issue date of the ESPD Request
+<3> Issue time of the ESPD request
+<4> Ted reference number of the Contract Notice
+<5> Document type code

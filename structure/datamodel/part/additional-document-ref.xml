@@ -1,0 +1,85 @@
+<Element xmlns="urn:fdc:difi.no:2017:vefa:structure-1" cardinality="0..n">
+    <Term>cac:AdditionalDocumentReference</Term>
+    <Name>Additional document reference</Name>
+    
+    <Property key="doc">structure/docs/AdditionalDocumentReference.adoc</Property>
+    
+    <Element>
+        <Term>cbc:ID</Term>
+        <Name>Document identifier</Name>
+        <Description>All ESPDRequest instances, MUST always include an Additional Document Reference indicating the TeD reference number
+            of the Contract Notice the ESPDResponse is related to. This reference number MUST be specified in the field `cbc:ID`of the element cac:AdditionalDocumentReference component,
+            and MUST follow the scheme defined by the Publications Office: [][][][]/S [][][]-[][][][][][] (e.g. 2015/S 252-461137).</Description>
+        <Value type="EXAMPLE">0000/S 000-000000</Value>
+    </Element>
+    
+    <Element cardinality="0..1">
+        <Term>cbc:IssueDate</Term>
+        <Name>Issue date</Name>
+        <Description>The date, assigned by the sender, on which the document was issued. Must not include timezone information. Format YYYY-MM-DD</Description>
+        <Value type="EXAMPLE">2017-12-26</Value>
+    </Element>
+    
+    <Element cardinality="0..1">
+        <Term>cbc:IssueTime</Term>
+        <Name>Issue time</Name>
+        <Description>The time, assigned by the sender, at which the document was issued. Format "hh:mm:ss", no timezone information allowed</Description>
+        <Value type="EXAMPLE">08:16:09</Value>
+    </Element>
+    
+    <Element>
+        <Term>cbc:DocumentTypeCode</Term>
+        <Name>Document content type code</Name>
+        <Description>The commisions code for this type of content</Description>
+        <Reference type="CODE_LIST">DocRefContentType</Reference>
+        
+        <Attribute>
+            <Term>listID</Term>
+            <Value type="FIXED">ReferencesTypeCodes</Value>
+        </Attribute>
+        
+        <Attribute>
+            <Term>listAgencyID</Term>
+            <Value type="FIXED">EU-COM-GROW</Value>
+        </Attribute>
+        
+        <Attribute>
+            <Term>listVersionID</Term>
+            <Value type="FIXED">1.0</Value>
+        </Attribute>
+        
+        <Value type="EXAMPLE">TED_CN</Value>
+    </Element>
+
+    <Element cardinality="0..1">
+        <Term>cac:Attachment</Term>
+        <Name>Attachment</Name>
+        
+        <Element>
+            <Term>cac:ExternalReference</Term>
+            <Name>External references</Name>
+            
+            <Element cardinality="0..1">
+                <Term>cbc:URI</Term>
+                <Name>Attachement URI</Name>
+                <Description>The Uniform Resource Identifier (URI) that identifies where the document is located.</Description>
+                <Value type="EXAMPLE">https://example.com/document.pdf</Value>
+            </Element>
+            
+            <Element cardinality="0..1">
+                <Term>cbc:FileName</Term>
+                <Name>File name or title</Name>
+                <Description>The title of the document</Description>
+                <Value type="EXAMPLE">Belgium-Brussels: European Resource Efficiency Excellence Centre</Value>
+            </Element>
+            
+            <Element>
+                <Term>cbc:Description</Term>
+                <Name>A description of the content and/or intended purpose of the referenced document</Name>
+                <Value type="EXAMPLE">The objective of this contract is to set up a virtual European Resource Efficiency Excellence Centre.
+                    The Centre will provide information and support to European SMEs, business intermediaries, resource efficiencypractitioners and other
+                    interested parties such as regional authorities</Value>
+            </Element>
+        </Element>
+    </Element>
+</Element>

@@ -1,0 +1,12 @@
+
+= CRITERION
+
+.Example of criterion
+[source, xml, indent=0]
+----
+include::guide/bis/shared/files/snippet1.xml[tags=criterion]
+----
+<1> UUID from Criteria Taxonomy
+<2> Legislation reference
+<3> Requirement group
+<4> Requirement with expected response type (INDICATOR)

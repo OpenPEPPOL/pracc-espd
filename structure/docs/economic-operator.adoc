@@ -1,0 +1,12 @@
+
+= Economic operator
+
+The economic operator must be identified in a ESPD Response, hence information about the party is required, such as party name, identification, endpoint id, and country.
+
+Information on representative is not mandatory.
+
+.Example of economic operator
+[source, xml, indent=0]
+----
+include::guide/bis/shared/files/snippet-response.xml[tags=eo]
+----

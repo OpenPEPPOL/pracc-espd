@@ -1,0 +1,12 @@
+
+include::guide/settings.adoc[]
+
+= Contracting body
+
+The contracting body must be identified, hence information about the party is required, such as party name, identification, endpoint id, and country.
+
+.Example of contracting body
+[source, xml, indent=0]
+----
+include::guide/bis/shared/files/snippet1.xml[tags=ca]
+----

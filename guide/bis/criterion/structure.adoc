@@ -1,0 +1,21 @@
+
+= Criteria structure
+
+The flow-chart below illustrates the structure of the criteria
+
+.Legend
+****
+image::images/criterion-legend.png[alt="data_flow_design", width="600", align="center"]
+****
+
+.General data-structure design for criteria and requirements with a ''yes'' or ''no'' answer"
+image::images/criterion-structure.png[alt="data_flow_design", width="900"]
+
+.Interpretation
+****
+* This criterion has two main groups of requirements  (G1: _Breach?_ and G2: _Online Evidence_);
+* The first group of requirements has one requirement and one sub-group or requirements;
+* If the response to the requirement is "Yes" (ON TRUE) the EO will have to provide the date of the conviction,
+the reason, who was convicted and for how long.  If the response is "No", then the EO will proceed providing data about whether there's online evidence or not regarding to the absence of conviction (if that is possible).
+* This behaviour repeats per each subgroup of requirements: the deepest subgroup of the structure for the group 1 will have to be filled by the EO in case a requirement has a "Yes" in the response to the requirement _Self-Cleaning_.
+****

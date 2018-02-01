@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Namespace xmlns="urn:fdc:difi.no:2017:vefa:structure:Namespace-1">
+   <Identifier prefix="">urn:isa:names:specification:ubl:schema:xsd:CEV-CommonBasicComponents-1</Identifier>
+   <Version>1.0.2</Version>
+   <Include prefix="cev-cbc">urn:isa:names:specification:ubl:schema:xsd:CEV-CommonBasicComponents-1</Include>
+   <Include prefix="udt">urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2</Include>
+   <Include prefix="cbc">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</Include>
+   <Element name="EmbeddedEvidenceIndicator">
+      <DataType>udt:IndicatorType</DataType>
+   </Element>
+   <Element name="EvidenceID"/>
+   <Element name="EvidenceTypeCode"/>
+   <Element name="EvidenceName"/>
+   <Element name="EvidenceDescription"/>
+</Namespace>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testSet xmlns="http://difi.no/xsd/vefa/validator/1.0" configuration="ehf-espd-request-1.0">
+    <assert>
+        <scope>PEPPOLBIS-ESPD-R101</scope>
+        <description>Verify response contains only one child.</description>
+    </assert>
+    <test>
+        <assert>
+            <success>PEPPOLBIS-ESPD-R101</success>
+        </assert>
+        <ESPDRequest xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                      xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                      xmlns:ccv="urn:isa:names:specification:ubl:schema:xsd:CCV-CommonAggregateComponents-1"
+                      xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDRequest-1">
+
+            <ccv:Requirement>
+
+            </ccv:Requirement>
+
+        </ESPDRequest>
+    </test>
+    <test>
+        <assert>
+            <success>PEPPOLBIS-ESPD-R101</success>
+        </assert>
+        <ESPDResponse xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                      xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                      xmlns:ccv="urn:isa:names:specification:ubl:schema:xsd:CCV-CommonAggregateComponents-1"
+                      xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1">
+
+            <ccv:Requirement>
+                <ccv:Response>
+                    <Some/>
+                </ccv:Response>
+            </ccv:Requirement>
+
+        </ESPDResponse>
+    </test>
+    <test>
+        <assert>
+            <success>PEPPOLBIS-ESPD-R101</success>
+        </assert>
+        <ESPDResponse xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                      xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                      xmlns:ccv="urn:isa:names:specification:ubl:schema:xsd:CCV-CommonAggregateComponents-1"
+                      xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1">
+
+            <ccv:Requirement>
+                <ccv:Response>
+                    <cbc:ID/>
+                    <Some/>
+                </ccv:Response>
+            </ccv:Requirement>
+
+        </ESPDResponse>
+    </test>
+    <test>
+        <assert>
+            <success>PEPPOLBIS-ESPD-R101</success>
+        </assert>
+        <ESPDResponse xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                      xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                      xmlns:ccv="urn:isa:names:specification:ubl:schema:xsd:CCV-CommonAggregateComponents-1"
+                      xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1">
+
+            <ccv:Requirement>
+            </ccv:Requirement>
+
+        </ESPDResponse>
+    </test>
+    <test>
+        <assert>
+            <error>PEPPOLBIS-ESPD-R101</error>
+        </assert>
+        <ESPDResponse xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                      xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                      xmlns:ccv="urn:isa:names:specification:ubl:schema:xsd:CCV-CommonAggregateComponents-1"
+                      xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1">
+
+            <ccv:Requirement>
+                <ccv:Response>
+                </ccv:Response>
+            </ccv:Requirement>
+
+        </ESPDResponse>
+    </test>
+    <test>
+        <assert>
+            <error>PEPPOLBIS-ESPD-R101</error>
+        </assert>
+        <ESPDResponse xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                      xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                      xmlns:ccv="urn:isa:names:specification:ubl:schema:xsd:CCV-CommonAggregateComponents-1"
+                      xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1">
+
+            <ccv:Requirement>
+                <ccv:Response>
+                    <Some/>
+                    <Some/>
+                </ccv:Response>
+            </ccv:Requirement>
+
+        </ESPDResponse>
+    </test>
+</testSet>

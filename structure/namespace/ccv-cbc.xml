@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Namespace xmlns="urn:fdc:difi.no:2017:vefa:structure:Namespace-1">
+   <Identifier prefix="ccv-cbc">urn:isa:names:specification:ubl:schema:xsd:CCV-CommonBasicComponents-1</Identifier>
+   <Version>1.0.2</Version>
+   <Include prefix="udt">urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2</Include>
+   <Include prefix="cbc">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</Include>
+   <Element name="ccv-cbc:Article"/>
+   <Element name="ccv-cbc:Code"/>
+   <Element name="ccv-cbc:ExpectedResponseType"/>
+   <Element name="ccv-cbc:FulfillmentIndicator">
+      <DataType>udt:IndicatorType</DataType>
+   </Element>
+   <Element name="ccv-cbc:FulfillmentIndicatorType"/>
+   <Element name="ccv-cbc:IdentifierReferenceID"/>
+   <Element name="ccv-cbc:Indicator">
+      <DataType>udt:IndicatorType</DataType>
+   </Element>
+   <Element name="ccv-cbc:JurisdictionLevelCode"/>
+   <Element name="ccv-cbc:Title"/>
+</Namespace>

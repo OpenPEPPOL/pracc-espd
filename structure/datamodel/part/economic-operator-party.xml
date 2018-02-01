@@ -1,0 +1,324 @@
+<Element xmlns="urn:fdc:difi.no:2017:vefa:structure-1">
+    <Term>espd-cac:EconomicOperatorParty</Term>
+    <Name>Economic operator</Name>
+    <Description>Any natural or legal person or public entity or group of such persons and/or entities, including any temporary association of undertakings,
+        which offers the execution of works and/or a work, the supply of products or the provision of services on the market.
+        Information about the party submitting the qualification. A placeholder for the data related to only one Economic Operator (EO) that tenders solely to a procurement project, to one of the EOs that tender as part of a group (e.g. a Consortium), or to one possible sub-contractor of the EO.
+        Consortia grouping more than one EO need to draft and submit as many ESPDResponses as Economic Operators and sub-contractors participate in the tender.</Description>
+
+    <Property key="doc">structure/docs/economic-operator.adoc</Property>
+    
+    <Element cardinality="0..1">
+        <Term>espd-cbc:SMEIndicator</Term>
+        <Name>SME indicator</Name>
+        <Description>Indicates whether the economic operator can be categorized as an SME (true) or not.According to the EC,
+            SME are enterprises with less than 250 employees, a turnover less than EUR 50 m and a balance sheet total less than EUR 43 m.</Description>
+        <Value type="EXAMPLE">false</Value>
+    </Element>
+
+    <Element cardinality="0..n"><!-- Representative -->
+        <Term>espd-cac:RepresentativeNaturalPerson</Term>
+        <Name>Representative Natural person</Name>
+        <Description>Information about individuals who in one way or the other represent the economic operator.</Description>
+
+
+        <Element cardinality="0..1">
+            <Term>espd-cbc:NaturalPersonRoleDescription</Term>
+            <Name>Role description</Name>
+            <Description>A short description for the role of the Economic Operator’s representative</Description>
+        </Element>
+
+        <Element cardinality="0..1">
+            <Term>espd-cbc:NaturalPersonRegistrationCountryCode</Term>
+            <Name>Country code</Name>
+            <Description>Country of registration of the natural person</Description>
+            <Reference type="CODE_LIST">CountryCodeIdentifier</Reference>
+        </Element>
+
+        <Element cardinality="0..1">
+            <Term>cac:PowerOfAttorney</Term>
+            <Name>Power of attorney</Name>
+
+
+            <Element cardinality="0..1">
+                <Term>cac:AgentParty</Term>
+                <Name>Agent party</Name>
+
+                <Element cardinality="0..1">
+                    <Term>cac:Person</Term>
+                    <Name>Representative Natural person</Name>
+                    <Description>Information about individuals who in one way or the other represent the economic operator.</Description>
+
+
+                    <Element>
+                        <Term>cbc:FirstName</Term>
+                        <Name>Representative natural person first name</Name>
+                        <Description>First name of the natural person.</Description>
+                        <Value type="EXAMPLE">Jens</Value>
+                    </Element>
+
+                    <Element>
+                        <Term>cbc:FamilyName</Term>
+                        <Name>Representative natural person first name</Name>
+                        <Description>First name of the natural person.</Description>
+                        <Value type="EXAMPLE">Jensen</Value>
+                    </Element>
+
+                    <Element cardinality="0..1">
+                        <Term>cbc:BirthDate</Term>
+                        <Name>Representative natural person birth date</Name>
+                        <Description>Birth date of the natural person. Format YYYY-MM-DD</Description>
+                        <Value type="EXAMPLE">1980-01-01</Value>
+                    </Element>
+
+                    <Element cardinality="0..1">
+                        <Term>cbc:BirthplaceName</Term>
+                        <Name>Representative natural person birth place</Name>
+                        <Description>Birth place of the natural person.</Description>
+                        <Value type="EXAMPLE">Oslo</Value>
+                    </Element>
+
+                    <Element cardinality="0..1">
+                        <Term>cac:Contact</Term>
+                        <Name>Representative natural person contact information</Name>
+                        <Description>Information about contact details for the representative natural person.</Description>
+
+                        <Element cardinality="0..1">
+                            <Term>cbc:Telephone</Term>
+                            <Name>Representative natural person telephone</Name>
+                            <Description>Telephone number to the natural person.</Description>
+                            <Value type="EXAMPLE">99899900</Value>
+                        </Element>
+                        <Element cardinality="0..1">
+                            <Term>cbc:ElectronicMail</Term>
+                            <Name>Representative natural person e-mail address</Name>
+                            <Description>E-mail address to the natural person.</Description>
+                            <Value type="EXAMPLE">jens.jensen@test.no</Value>
+                        </Element>
+                    </Element>
+
+
+                    <Element cardinality="0..1">
+                        <Term>cac:ResidenceAddress</Term>
+                        <Name>Representative natural person address information</Name>
+
+                        <Element cardinality="0..1">
+                            <Term>cbc:Postbox</Term>
+                            <Name>Postbox</Name>
+                            <Description>A post office box number registered for postal delivery by a postal service provider.</Description>
+                        </Element>
+
+                        <Element cardinality="0..1">
+                            <Term>cbc:StreetName</Term>
+                            <Name>Representative natural person street address</Name>
+                            <Description>Street address to the natural person.</Description>
+                            <Value type="EXAMPLE">Storgata 1</Value>
+                        </Element>
+
+                        <Element cardinality="0..1">
+                            <Term>cbc:CityName</Term>
+                            <Name>Representative natural person city</Name>
+                            <Description>City of the natural person.</Description>
+                            <Value type="EXAMPLE">Bergen</Value>
+                        </Element>
+
+                        <Element cardinality="0..1">
+                            <Term>cbc:PostalZone</Term>
+                            <Name>Representative natural person postal zone</Name>
+                            <Description>Postal zone or zip code of the natural person.</Description>
+                            <Value type="EXAMPLE">5020</Value>
+                        </Element>
+
+                        <Element>
+                            <Term>cac:Country</Term>
+                            <Name>Representative natural person country</Name>
+                            <Description>Country of the natural person.</Description>
+
+
+                            <Element>
+                                <Term>cbc:IdentificationCode</Term>
+                                <Name>Representative natural person country code</Name>
+                                <Description>Country code of the natural person.</Description>
+                                <Reference type="CODE_LIST">CountryCodeIdentifier</Reference>
+
+                                <Attribute>
+                                    <Term>listID</Term>
+                                    <Value type="FIXED">CountryCodeIdentifier</Value>
+                                </Attribute>
+
+                                <Attribute>
+                                    <Term>listAgencyID</Term>
+                                    <Value type="FIXED">EU-COM-GROW</Value>
+                                </Attribute>
+
+                                <Attribute>
+                                    <Term>listName</Term>
+                                    <Value type="FIXED">CountryCodeIdentifier</Value>
+                                </Attribute>
+
+                                <Attribute>
+                                    <Term>listVersionID</Term>
+                                    <Value type="FIXED">1.0.2</Value>
+                                </Attribute>
+                                <Value type="EXAMPLE">NO</Value>
+
+                            </Element>
+
+
+                        </Element>
+                    </Element>
+                </Element>
+            </Element>
+        </Element>
+    </Element>
+
+    <Element>
+        <Term>cac:Party</Term>
+        <Name>Party</Name>
+
+        <Element cardinality="0..1">
+            <Term>cbc:WebsiteURI</Term>
+            <Name>Economic operator website</Name>
+            <Description>The website of the economic operator.</Description>
+            <Value type="EXAMPLE">https://www.difi.no/</Value>
+        </Element>
+
+        <Element cardinality="0..1">
+            <Term>cbc:EndpointID</Term>
+            <Name>Economic operator electronic address identifier</Name>
+
+            <Reference type="RULE">PEPPOLBIS-ESPD-R022</Reference>
+
+            <Attribute>
+                <Term>schemeID</Term>
+                <Reference type="CODE_LIST">ICD</Reference>
+                <Value type="EXAMPLE">NO:ORGNR</Value>
+            </Attribute>
+
+            <Value type="EXAMPLE">987654325</Value>
+        </Element>
+
+        <Element>
+            <Term>cac:PartyIdentification</Term>
+            <Description>Unique identification number for the Economic Operator</Description>
+
+            <Element>
+                <Term>cbc:ID</Term>
+                <Name>Economic operator identifier</Name>
+
+                <Reference type="RULE">PEPPOLBIS-ESPD-R022</Reference>
+
+                <Attribute>
+                    <Term>schemeID</Term>
+                    <Description>The schemeID attribute specifies if it is a VAT number or another national number. The possible values are: VAT_Number and National_Number.</Description>
+                    <Reference type="CODE_LIST">EconomicOperatorIdentifierType</Reference>
+
+                    <Value type="FIXED">National_Number</Value>
+                </Attribute>
+
+                <Value type="EXAMPLE">987654321</Value>
+            </Element>
+        </Element>
+
+        <Element>
+            <Term>cac:PartyName</Term>
+            <Name>Party name</Name>
+
+            <Element>
+                <Term>cbc:Name</Term>
+                <Name>Economic operator name</Name>
+                <Description>The official name of the Economic Operator, as registered in a Business Register</Description>
+            </Element>
+        </Element>
+
+        <Element>
+            <Term>cac:PostalAddress</Term>
+            <Name>Economic operator postal address</Name>
+            <Description>The address of the Economic Operator, as registered in a Business Register</Description>
+
+            <Element cardinality="0..1">
+                <Term>cbc:Postbox</Term>
+                <Name>Postbox</Name>
+                <Description>A post office box number registered for postal delivery by a postal service provider.</Description>
+            </Element>
+
+            <Element cardinality="0..1">
+                <Term>cbc:StreetName</Term>
+                <Name>Address line 1</Name>
+                <Description>The main address line in an address. Usually the street name and number or post office box.</Description>
+            </Element>
+
+            <Element cardinality="0..1">
+                <Term>cbc:CityName</Term>
+                <Name>City</Name>
+                <Description>The common name of a city where the address is located.</Description>
+            </Element>
+
+            <Element cardinality="0..1">
+                <Term>cbc:PostalZone</Term>
+                <Name>Post code</Name>
+                <Description>The identifier for an addressable group of properties according to the relevant postal service, such as a ZIP code or Post Code.</Description>
+            </Element>
+
+            <Element>
+                <Term>cac:Country</Term>
+                <Name>Country</Name>
+
+                <Element>
+                    <Term>cbc:IdentificationCode</Term>
+                    <Name>Country code</Name>
+                    <Description>A code that identifies the country.</Description>
+                    <Reference type="CODE_LIST">CountryCodeIdentifier</Reference>
+
+                    <Attribute>
+                        <Term>listID</Term>
+                        <Value type="FIXED">CountryCodeIdentifier</Value>
+                    </Attribute>
+
+                    <Attribute>
+                        <Term>listAgencyID</Term>
+                        <Value type="FIXED">EU-COM-GROW</Value>
+                    </Attribute>
+
+                    <Attribute>
+                        <Term>listName</Term>
+                        <Value type="FIXED">CountryCodeIdentifier</Value>
+                    </Attribute>
+
+                    <Attribute>
+                        <Term>listVersionID</Term>
+                        <Value type="FIXED">1.0.2</Value>
+                    </Attribute>
+
+                    <Value type="FIXED">NO</Value>
+                </Element>
+            </Element>
+        </Element>
+
+        <Element cardinality="0..1">
+            <Term>cac:Contact</Term>
+            <Name>Contacting details</Name>
+
+            <Element cardinality="0..1">
+                <Term>cbc:Name</Term>
+                <Name>Contact point</Name>
+                <Description>The name of the contact point.</Description>
+                <Value type="EXAMPLE">Ola Normann</Value>
+            </Element>
+
+            <Element cardinality="0..1">
+                <Term>cbc:Telephone</Term>
+                <Name>Contact telephone number</Name>
+                <Description>A phone number for the contact point.</Description>
+                <Value type="EXAMPLE">+4722774630</Value>
+            </Element>
+
+            <Element cardinality="0..1">
+                <Term>cbc:ElectronicMail</Term>
+                <Name>Contact email address</Name>
+                <Description>An e-mail address for the contact point.</Description>
+                <Value type="EXAMPLE">anskaffelser@example.kommune.no</Value>
+            </Element>
+        </Element>
+    </Element>
+</Element>

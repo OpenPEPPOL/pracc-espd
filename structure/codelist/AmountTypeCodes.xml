@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeList xmlns="urn:fdc:difi.no:2017:vefa:structure:CodeList-1">
+
+    <Title>Amount Type Codes</Title>
+    <Identifier>AmountTypeCodes</Identifier>
+    <Version>1.0.2</Version>
+    <Agency>DG GROW (European Commission)</Agency>
+
+    <Code>
+        <Id>GENERAL_YEARLY_TURNOVER</Id>
+        <Name>General yearly turnover</Name>
+    </Code>
+
+    <Code>
+        <Id>AVERAGE_YEARLY_TURNOVER</Id>
+        <Name>Average yearly turnover</Name>
+    </Code>
+
+    <Code>
+        <Id>YEARLY_SPECIFIC_TURNOVER_BUSINESS_AREA</Id>
+        <Name>Yearly Specific Turnover - Business Area</Name>
+    </Code>
+
+    <Code>
+        <Id>AVERAGE_YEARLY_TURNOVER_BUSINESS_AREA</Id>
+        <Name>Average yearly turnover in the specific area of the EO</Name>
+    </Code>
+
+    <Code>
+        <Id>FINANCIAL_RATIO</Id>
+        <Name>Financial ratio</Name>
+    </Code>
+
+    <Code>
+        <Id>INDEMNITY_INSURANCE_AMOUNT</Id>
+        <Name>Indemnity Insurance Amount</Name>
+    </Code>
+
+</CodeList>

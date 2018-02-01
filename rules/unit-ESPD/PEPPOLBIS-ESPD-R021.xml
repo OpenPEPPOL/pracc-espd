@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testSet xmlns="http://difi.no/xsd/vefa/validator/1.0" configuration="ehf-espd-request-1.0">
+    <assert>
+        <scope>PEPPOLBIS-ESPD-R021</scope>
+        <description>Verify formatting of time.</description>
+    </assert>
+    <test>
+        <assert>
+            <success>PEPPOLBIS-ESPD-R021</success>
+        </assert>
+        <ESPDResponse xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                      xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                      xmlns:ccv="urn:isa:names:specification:ubl:schema:xsd:CCV-CommonAggregateComponents-1"
+                      xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1">
+
+            <cbc:IssueTime>12:00:00</cbc:IssueTime>
+
+        </ESPDResponse>
+    </test>
+    <test>
+        <assert>
+            <error number="2">PEPPOLBIS-ESPD-R021</error>
+        </assert>
+        <ESPDResponse xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                      xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                      xmlns:ccv="urn:isa:names:specification:ubl:schema:xsd:CCV-CommonAggregateComponents-1"
+                      xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1">
+
+            <cbc:IssueTime>12:00:00+01:00</cbc:IssueTime>
+            <cbc:IssueTime>12:00:00Z</cbc:IssueTime>
+
+        </ESPDResponse>
+    </test>
+</testSet>

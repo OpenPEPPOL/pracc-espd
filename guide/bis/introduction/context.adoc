@@ -1,0 +1,22 @@
+
+
+= Context
+
+
+ESPD - the European Single Procurement Document is mandatory in public procurement procedures according to {link-anskaffelse}, part III and {link-forsyning}, part II from 1. January 2017.
+
+The European Single Procurement Document (ESPD) is a self-declaration document intended for preliminary evidence in a public procurement procedure. The requirements are first set by the Contracting Authority (CA), in an ESPD request which is part of the call for competition.
+
+The Economic Operator (EO) answers the requirements from the Contracting Authority in a corresponding ESPD Response, and sends this ESPD Response to the CA with the tendering documents.
+
+== The electronic and structured ESPD documents
+
+This EHF is based on the work done by {link-grow}. {link-grow} has developed a data model, XSD schemas and validation artefacts (schematron) for the exchange of the ESPD between any Procurement stakeholder's system. This document illustrates in detail how to use these artefacts in the Norwegian market and in compliance with the {link-anskaffelse} and {link-forsyning}.
+
+This EHF describes two transactions:
+====
+ESPDRequest:: Document that is sent by the Contracting Authorities to the Economic Operators
+
+ESPDResponse:: The document that is filled-in by the Economic Operators stating whether they fulfil or not the criteria required
+in the ESPD Request, and providing the sources where evidences can be obtained to prove that the criteria are met by this EO.
+====

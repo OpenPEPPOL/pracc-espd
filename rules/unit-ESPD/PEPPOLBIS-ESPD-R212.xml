@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testSet xmlns="http://difi.no/xsd/vefa/validator/1.0" configuration="ehf-espd-request-1.0">
+    <assert>
+        <scope>PEPPOLBIS-ESPD-R212</scope>
+        <description>Verify existence of ID element.</description>
+    </assert>
+    <test>
+        <assert>
+            <success>PEPPOLBIS-ESPD-R212</success>
+        </assert>
+        <ESPDResponse xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                           xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                           xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1">
+
+            <cac:AdditionalDocumentReference>
+                <cbc:ID/>
+                <cbc:DocumentTypeCode>TED_CN</cbc:DocumentTypeCode>
+            </cac:AdditionalDocumentReference>
+
+        </ESPDResponse>
+    </test>
+    <test>
+        <assert>
+            <error>PEPPOLBIS-ESPD-R212</error>
+        </assert>
+        <ESPDResponse xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                           xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                           xmlns="urn:grow:names:specification:ubl:schema:xsd:ESPDResponse-1">
+
+            <cac:AdditionalDocumentReference>
+                <!-- <cbc:ID/> -->
+                <cbc:DocumentTypeCode>TED_CN</cbc:DocumentTypeCode>
+            </cac:AdditionalDocumentReference>
+
+        </ESPDResponse>
+    </test>
+</testSet>

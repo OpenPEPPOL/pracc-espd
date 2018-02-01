@@ -1,0 +1,8 @@
+
+= Detailed ESPD data model
+
+
+Below is an overview of the ESPD data model, showing the business information content and cardinality. The classes marked in blue are not used by the ESPD Request, only by the ESPD Response transaction. The classes that are white, are used by both the ESPD Request and the ESPD Response.
+
+
+image::images/espd.png[]

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Namespace xmlns="urn:fdc:difi.no:2017:vefa:structure:Namespace-1">
+   <Identifier prefix="espd-cbc">urn:grow:names:specification:ubl:schema:xsd:ESPD-CommonBasicComponents-1</Identifier>
+   <Version>1.0.2</Version>
+   <Include prefix="cbc">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</Include>
+   <Include prefix="udt">urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2</Include>
+   <Element name="EconomicOperatorGroupName"/>
+   <Element name="EconomicOperatorRoleCode"/>
+   <Element name="EconomicOperatorRoleDescription"/>
+   <Element name="NationalDatabaseAccessCredentials"/>
+   <Element name="NaturalPersonRoleCode"/>
+   <Element name="NaturalPersonRoleDescription"/>
+   <Element name="NaturalPersonRegistrationCountryCode"/>
+   <Element name="NationalDataBaseURIID"/>
+   <Element name="SMEIndicator">
+      <DataType>udt:IndicatorType</DataType>
+   </Element>
+</Namespace>
