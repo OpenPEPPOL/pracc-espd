@@ -76,7 +76,7 @@ services:
      - ./target:/target
 
   validator:
-    image: "difi/vefa-validator"
+    image: "anskaffelser/validator:2.1.0"
     command: build -x -t /src -t -target target/validator -n no.difi.ehf.espd
     volumes:
      - .:/src
